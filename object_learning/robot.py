@@ -10,6 +10,10 @@ class Robot:
     def sayHi(self):
         print(self.name + ' say hello')
 
+    @classmethod
+    def howmany(cls):
+        print(cls.robotCount)
+
 rb1 = Robot('luozhixiang')
 rb1.sayHi()
 rb1.die()
