@@ -32,3 +32,103 @@
 >
 > 
 
+## 
+
+初始化参数 headers请求头  User-Agent 
+
+from lxml import etree找不到etree的办法，
+
+`from lxml import html`
+
+`etree = html.etree`
+
+****
+
+## [with 工作原理](https://blog.csdn.net/u012609509/article/details/72911564)
+
+（１）紧跟with后面的语句被求值后，返回对象的“–enter–()”方法被调用，这个方法的返回值将被赋值给as后面的变量； 
+（２）当with后面的代码块全部被执行完之后，将调用前面返回对象的“–exit–()”方法。 
+with工作原理代码示例：
+
+```
+class Sample:
+    def __enter__(self):
+        print "in __enter__"
+        return "Foo"
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        print "in __exit__"
+def get_sample():
+    return Sample()
+with get_sample() as sample:
+    print "Sample: ", sample12345678910
+```
+
+代码的运行结果如下：
+
+```
+in __enter__
+Sample:  Foo
+in __exit__123
+```
+
+可以看到，整个运行过程如下： 
+（１）**enter**()方法被执行； 
+（２）**enter**()方法的返回值，在这个例子中是”Foo”，赋值给变量sample； 
+（３）执行代码块，打印sample变量的值为”Foo”； 
+（４）**exit**()方法被调用；
+
+### 用request保存文本文件到本地
+
+在罕见的情况下，你可能想获取来自服务器的原始套接字响应，那么你可以访问 `r.raw`。 如果你确实想这么干，那请你确保在初始请求中设置了 `stream=True`。具体你可以这么做：
+
+```
+>>> r = requests.get('https://api.github.com/events', stream=True)
+>>> r.raw
+<requests.packages.urllib3.response.HTTPResponse object at 0x101194810>
+>>> r.raw.read(10)
+'\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x03'
+
+```
+
+但一般情况下，你应该以下面的模式将文本流保存到文件：
+
+```
+with open(filename, 'wb') as fd:
+    for chunk in r.iter_content(chunk_size):
+        fd.write(chunk)
+```
+
+request 参数 `cookies`` headers``timeout` 
+
+## 错误与异常
+
+遇到网络问题（如：DNS 查询失败、拒绝连接等）时，Requests 会抛出一个 `ConnectionError` 异常。
+
+如果 HTTP 请求返回了不成功的状态码， [`Response.raise_for_status()`](http://docs.python-requests.org/zh_CN/latest/api.html#requests.Response.raise_for_status) 会抛出一个 `HTTPError`异常。
+
+若请求超时，则抛出一个 `Timeout` 异常。
+
+若请求超过了设定的最大重定向次数，则会抛出一个 `TooManyRedirects` 异常。
+
+**第三方库chardet来检测网页编码**
+
+>pip3 install chardet
+>
+>chardet.detect(html)
+
+# Beautiful Soup笔记
+
+```python
+soup = BeautifulSoup(source_doc)
+#解析代码结构
+soup.prettify()
+#取tagname只能取到当前名字的第一个tag，取多个只能用find_all
+soup.tagname
+soup.tagname['attr']
+#返回数组
+soup.find_all('tagname')
+
+soup.find_all('a')[0].get('attr')
+
+```
+
