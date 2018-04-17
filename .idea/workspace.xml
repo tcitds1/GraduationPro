@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf91c08e-3c66-4242-8d02-19b344872005" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoldEra/novelSpider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newst/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newst/wallpaperSpider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonnote.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GraduationPro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GraduationPro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newst/wp_spider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note.MD" beforeDir="false" afterPath="$PROJECT_DIR$/note.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/csdn_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/csdn_spider.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,6 +18,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/GraduationPro$novelSpider.coverage" NAME="novelSpider Coverage Results" MODIFIED="1523584711952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GoldEra" />
     <SUITE FILE_PATH="coverage/GraduationPro$test.coverage" NAME="test Coverage Results" MODIFIED="1523496747072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newst" />
+    <SUITE FILE_PATH="coverage/GraduationPro$wp_spider.coverage" NAME="wp_spider Coverage Results" MODIFIED="1523951016276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newst" />
     <SUITE FILE_PATH="coverage/GraduationPro$wallpaperSpider.coverage" NAME="wallpaperSpider Coverage Results" MODIFIED="1523439025962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newst" />
     <SUITE FILE_PATH="coverage/GraduationPro$getcookie.coverage" NAME="getcookie Coverage Results" MODIFIED="1522660587875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
   </component>
@@ -53,7 +45,7 @@
       <file leaf-file-name="getcookie.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider/getcookie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
+            <state relative-caret-position="484">
               <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -74,10 +66,25 @@
       <file leaf-file-name="wallpaperSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newst/wallpaperSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+            <state relative-caret-position="375">
+              <caret line="80" column="37" selection-start-line="80" selection-end-line="81" />
               <folding>
                 <element signature="e#119#128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp_spider.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/newst/wp_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-265">
+              <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#238#524#0" />
+                <element signature="e#560#625#0" />
+                <element signature="e#673#1169#0" />
               </folding>
             </state>
           </provider>
@@ -86,8 +93,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newst/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="297">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding>
                 <element signature="e#22#37#0" expanded="true" />
               </folding>
@@ -95,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="novelSpider.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="novelSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoldEra/novelSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="162">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -116,6 +123,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>to_find_string</find>
+      <find>BeautifulSoup</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,6 +158,7 @@
         <option value="$PROJECT_DIR$/newst/wallpaperSpider.py" />
         <option value="$PROJECT_DIR$/newst/test.py" />
         <option value="$PROJECT_DIR$/GoldEra/novelSpider.py" />
+        <option value="$PROJECT_DIR$/newst/wp_spider.py" />
       </list>
     </option>
   </component>
@@ -160,9 +169,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="897" />
-    <option name="y" value="23" />
-    <option name="width" value="1066" />
+    <option name="x" value="648" />
+    <option name="y" value="25" />
+    <option name="width" value="1178" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -184,6 +193,11 @@
               <item name="GraduationPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraduationPro" type="462c0819:PsiDirectoryNode" />
               <item name="GoldEra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationPro" type="462c0819:PsiDirectoryNode" />
+              <item name="newst" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.novelSpider">
+  <component name="RunManager" selected="Python.wp_spider">
     <configuration name="getcookie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GraduationPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,25 +282,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test_IP_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GraduationPro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/test_IP_spider.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="wallpaperSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GraduationPro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -306,15 +301,35 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="wp_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GraduationPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newst" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newst/wp_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.getcookie" />
-      <item itemvalue="Python.test_IP_spider" />
       <item itemvalue="Python.wallpaperSpider" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.novelSpider" />
+      <item itemvalue="Python.wp_spider" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wp_spider" />
         <item itemvalue="Python.novelSpider" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.wallpaperSpider" />
@@ -352,16 +367,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1037" y="23" width="1063" height="1053" extended-state="0" />
+    <frame x="366" y="25" width="1460" height="1053" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978678" weight="0.32925472" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4644608" side_tool="true" weight="0.24559586" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4936034" weight="0.32925472" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49573562" weight="0.32925472" />
-      <window_info anchor="bottom" x="482" y="364" width="956" height="311" id="Run" order="2" sideWeight="0.77132195" visible="true" weight="0.24818276" />
+      <window_info active="true" anchor="bottom" x="482" y="364" width="956" height="311" id="Run" order="2" sideWeight="0.77132195" visible="true" weight="0.37383178" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5355392" weight="0.2845275" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25023517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16712329" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -379,25 +394,25 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" x="482" y="364" width="956" height="311" id="Run" order="2" sideWeight="0.77132195" visible="true" weight="0.3707165" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1629902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978678" weight="0.32925472" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4936034" weight="0.32925472" />
+      <window_info anchor="bottom" x="482" y="364" width="956" height="311" id="Run" order="2" sideWeight="0.77132195" visible="true" weight="0.3707165" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49573562" weight="0.32925472" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5355392" weight="0.32606438" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4644608" side_tool="true" weight="0.24559586" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4936034" weight="0.32925472" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49573562" weight="0.32925472" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,14 +427,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helloworld/str_format.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/helloworld.py" />
     <entry file="file://$PROJECT_DIR$/helloworld/duocanshu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -667,12 +674,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/getcookie.py">
+    <entry file="file://$PROJECT_DIR$/spider/csdn_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoldEra/novelSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newst/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#22#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -684,37 +705,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/csdn_spider.py">
+    <entry file="file://$PROJECT_DIR$/spider/getcookie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="484">
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/newst/wallpaperSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        <state relative-caret-position="375">
+          <caret line="80" column="37" selection-start-line="80" selection-end-line="81" />
           <folding>
             <element signature="e#119#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newst/test.py">
+    <entry file="file://$PROJECT_DIR$/newst/wp_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="-265">
+          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
           <folding>
-            <element signature="e#22#37#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#238#524#0" />
+            <element signature="e#560#625#0" />
+            <element signature="e#673#1169#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoldEra/novelSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>

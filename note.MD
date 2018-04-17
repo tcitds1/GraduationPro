@@ -130,5 +130,22 @@ soup.find_all('tagname')
 
 soup.find_all('a')[0].get('attr')
 
+tag.get_text() #获取文本
+tag.string() # 获取文本
+
+
 ```
 
+## 毕业设计爬虫设计
+
+**爬虫timeout**
+
+**爬虫连接异常**
+
+https://alpha.wallhaven.cc/wallpapers/thumb/small/th-644872.jpg 预览小图片
+
+https://alpha.wallhaven.cc/wallpaper/644872/thumbTags
+
+转变成如下链接
+
+https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-644872.png
