@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *,html,body{
+            margin:0;
+            padding:0;
+        }
+        .circle span {
+            position: absolute;
+            color: #fff;
+            box-shadow: 0 0 10px #44B6FB;
+            display: inline-block;
+            /*line-height:50px;*/
+            /*padding: 0 10px;*/
+            /*height: 50px;*/
+            text-align: center;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            border-radius: 50%;
+            font-size: 16px;
+            background-color: #44B6FB;
+        }
+        .circle {
+            width: 200px;
+            height: 200px;
+            border: 2px solid #ECEFF1;
+            border-radius: 100px;
+            text-align: center;
+            font-size: 0;
+            margin: 100px;
+            position: relative;
+        }
+        .index2 .nb1 {
+            top: 50%;
+            left: 0;
+            transform: translate(-50%,-50%);
+        }
+        .index2 .nb2 {
+            top:50%;
+            right: 0;
+            transform: translate(50%,-50%);
+        }
+        .index3 .nb1 {
+            top:0;
+            left:50%;
+            transform: translate(-50%,-50%);
+            /*transform: translate(50%,-50%);*/
+        }
+        .index3 .nb2 {
+            bottom:25%;
+            left:0;
+            transform: translate(-50%,50%);
+        }
+        .index3 .nb3 {
+            bottom: 25%;
+            right: 0;
+            transform: translate(50%,50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="circle index1">
+        <span>0019</span>
+    </div>
+
+    <div class="circle index2">
+        <span class="nb1">0018</span>
+        <span class="nb2">0017</span>
+    </div>
+
+    <div class="circle index3">
+        <span class="nb1">0018</span>
+        <span class="nb2">0011</span>
+        <span class="nb3">0011</span>
+    </div>
+
+</body>
+</html>
