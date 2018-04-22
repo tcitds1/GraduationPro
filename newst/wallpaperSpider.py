@@ -9,7 +9,7 @@ import random
 from lxml import html
 etree = html.etree
 
-keyWord = input(f"{'Please input the keywords that you want to download :'}")
+keyWord = input("{'Please input the keywords that you want to download :'}")
 class Spider():
     #初始化参数
     def __init__(self):

@@ -5,3 +5,4 @@ if __name__ == '__main__':
     print('geturl打印信息 {0} \n'.format(response.geturl()))
     print('getinfo打印信息 {}'.format(response.info()))
     print('getcode打印信息 {}'.format(response.getcode()))
+    # arr =

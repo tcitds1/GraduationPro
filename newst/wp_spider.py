@@ -10,7 +10,11 @@ etree = html.etree
 key = input('please enter key you want to download')
 class Spider():
     def __init__(self):
-        self.path = '/Users/justin_lee/Desktop/spiderimg'
+
+        # self.path = '/Users/justin_lee/Desktop/spiderimg'
+
+        self.path = 'C:/Users/深海里的猫/Desktop/spiderimg'
+
         self.url = 'https://alpha.wallhaven.cc/search?q={}&search_image='.format(key)
         self.headers = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3393.4 Safari/537.36'}
     def create_path(self):
@@ -48,13 +52,13 @@ class Spider():
         img_url2 = 'http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-' + imgid + '.png'
         rs = requests.get(img_url1, headers = self.headers)
         # imgpath = ''
-        imgpath = '/Users/justin_lee/Desktop/spiderimg/' + key + str(count) + '.jpg'
+        imgpath = 'C:/Users/深海里的猫/Desktop/spiderimg/' + key + str(count) + '.jpg'
         if(rs.status_code == 404):
             rs = requests.get(img_url2, headers = self.headers)
             if(rs.status_code == 404):
                 return
-            imgpath = '/Users/justin_lee/Desktop/spiderimg/' +  key + str(count) + '.png'
-        with open(imgpath, 'wb+') as stream:
+            imgpath = 'C:/Users/深海里的猫/Desktop/spiderimg/' +  key + str(count) + '.png'
+        with open(imgpath, 'wb') as stream:
             stream.write(rs.content)
             print('the {} img {} has been download'.format(key,count))
         time.sleep(random.uniform(0, 1))
