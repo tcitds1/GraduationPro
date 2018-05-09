@@ -1,0 +1,1274 @@
+
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="referrer" content="always">
+    <title>芳华 短评</title>
+
+    <meta name="baidu-site-verification" content="cZdR4xxR7RxmM4zE" />
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+
+    <meta name="keywords" content="芳华,影讯,排片,放映时间,电影票价,在线购票"/>
+    <meta name="description" content="芳华短评" />
+    <meta name="mobile-agent" content="format=html5; url=http://m.douban.com/movie/subject/26862829/comments"/>
+    <script type="text/javascript" src="https://img3.doubanio.com/f/shire/77323ae72a612bba8b65f845491513ff3329b1bb/js/do.js" data-cfg-autoload="false"></script>
+
+    <link rel="apple-touch-icon" href="https://img3.doubanio.com/f/movie/d59b2715fdea4968a450ee5f6c95c7d7a2030065/pics/movie/apple-touch-icon.png">
+    <link href="https://img3.doubanio.com/f/shire/bf61b1fa02f564a4a8f809da7c7179b883a56146/css/douban.css" rel="stylesheet" type="text/css">
+    <link href="https://img3.doubanio.com/f/shire/ae3f5a3e3085968370b1fc63afcecb22d3284848/css/separation/_all.css" rel="stylesheet" type="text/css">
+    <link href="https://img3.doubanio.com/f/movie/8864d3756094f5272d3c93e30ee2e324665855b0/css/movie/base/init.css" rel="stylesheet">
+    <script type="text/javascript">var _head_start = new Date();</script>
+    <script type="text/javascript" src="https://img3.doubanio.com/f/movie/0495cb173e298c28593766009c7b0a953246c5b5/js/movie/lib/jquery.js"></script>
+    <script type="text/javascript" src="https://img3.doubanio.com/f/shire/40e5fd47dadd542654d9421d954f5296266c2e25/js/douban.js"></script>
+    <script type="text/javascript" src="https://img3.doubanio.com/f/shire/0efdc63b77f895eaf85281fb0e44d435c6239a3f/js/separation/_all.js"></script>
+
+    <style type="text/css"></style>
+    <style type="text/css">img { max-width: 100%; }</style>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="https://img3.doubanio.com/misc/mixed_static/10c9876f2fa3fc9.css">
+
+    <link rel="shortcut icon" href="https://img3.doubanio.com/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <script type="text/javascript">var _body_start = new Date();</script>
+
+
+
+
+
+
+    <link href="//img3.doubanio.com/dae/accounts/resources/321e246/shire/bundle.css" rel="stylesheet" type="text/css">
+
+
+
+<div id="db-global-nav" class="global-nav">
+  <div class="bd">
+
+<div class="top-nav-info">
+  <ul>
+    <li>
+    <a id="top-nav-doumail-link" href="https://www.douban.com/doumail/">豆邮</a>
+    </li>
+    <li class="nav-user-account">
+      <a target="_blank" href="https://www.douban.com/accounts/" class="bn-more">
+        <span>深海里的猫的帐号</span><span class="arrow"></span>
+      </a>
+      <div class="more-items">
+        <table cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+              <td>
+                <a href="https://www.douban.com/mine/">个人主页</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a target="_blank" href="https://www.douban.com/mine/orders/">我的订单</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a target="_blank" href="https://www.douban.com/mine/wallet/">我的钱包</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a target="_blank" href="https://www.douban.com/accounts/">帐号管理</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://www.douban.com/accounts/logout?source=movie&ck=7M6r">退出</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </li>
+  </ul>
+</div>
+
+  <div class="top-nav-reminder">
+    <a href="https://www.douban.com/notification/" class="lnk-remind">提醒</a>
+    <div id="top-nav-notimenu" class="more-items">
+      <div class="bd">
+        <p>加载中...</p>
+      </div>
+    </div>
+  </div>
+
+
+<div class="top-nav-doubanapp">
+  <a href="https://www.douban.com/doubanapp/app?channel=top-nav" class="lnk-doubanapp">下载豆瓣客户端</a>
+  <div id="top-nav-appintro" class="more-items">
+    <p class="appintro-title">豆瓣</p>
+    <p class="qrcode">扫码直接下载</p>
+    <div class="download">
+      <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&direct_dl=1&download=iOS">iPhone</a>
+      <span>·</span>
+      <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&direct_dl=1&download=Android" class="download-android">Android</a>
+    </div>
+    <div id="doubanapp-tip">
+      <a href="https://www.douban.com/doubanapp/app?channel=qipao" class="tip-link">豆瓣 5.0 全新发布</a>
+      <a href="javascript: void 0;" class="tip-close">×</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="global-nav-items">
+  <ul>
+    <li class="">
+      <a href="https://www.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-main&quot;,&quot;uid&quot;:&quot;64250387&quot;}">豆瓣</a>
+    </li>
+    <li class="">
+      <a href="https://book.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-book&quot;,&quot;uid&quot;:&quot;64250387&quot;}">读书</a>
+    </li>
+    <li class="on">
+      <a href="https://movie.douban.com"  data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-movie&quot;,&quot;uid&quot;:&quot;64250387&quot;}">电影</a>
+    </li>
+    <li class="">
+      <a href="https://music.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-music&quot;,&quot;uid&quot;:&quot;64250387&quot;}">音乐</a>
+    </li>
+    <li class="">
+      <a href="https://www.douban.com/location" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-location&quot;,&quot;uid&quot;:&quot;64250387&quot;}">同城</a>
+    </li>
+    <li class="">
+      <a href="https://www.douban.com/group" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-group&quot;,&quot;uid&quot;:&quot;64250387&quot;}">小组</a>
+    </li>
+    <li class="">
+      <a href="https://read.douban.com&#47;?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-read&quot;,&quot;uid&quot;:&quot;64250387&quot;}">阅读</a>
+    </li>
+    <li class="">
+      <a href="https://douban.fm&#47;?from_=shire_top_nav" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-fm&quot;,&quot;uid&quot;:&quot;64250387&quot;}">FM</a>
+    </li>
+    <li class="">
+      <a href="https://time.douban.com&#47;?dt_time_source=douban-web_top_nav" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-time&quot;,&quot;uid&quot;:&quot;64250387&quot;}">时间</a>
+    </li>
+    <li class="">
+      <a href="https://market.douban.com&#47;?utm_campaign=douban_top_nav&amp;utm_source=douban&amp;utm_medium=pc_web" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-market&quot;,&quot;uid&quot;:&quot;64250387&quot;}">市集</a>
+    </li>
+    <li>
+      <a href="#more" class="bn-more"><span>更多</span></a>
+      <div class="more-items">
+        <table cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+              <td>
+                <a href="https://ypy.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-ypy&quot;,&quot;uid&quot;:&quot;64250387&quot;}">豆瓣摄影</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </li>
+  </ul>
+</div>
+
+  </div>
+</div>
+<script>
+  ;window._GLOBAL_NAV = {
+    USER_ID: "64250387",
+    UPLOAD_AUTH_TOKEN: "64250387:ec69aa1692002a57ebc0bc56079a0b171665e165",
+    SSE_TOKEN: "c775fdf3aca8adee565c9c2622f1fc1b17a4d2fc",
+    SSE_TIMESTAMP: "1525850213",
+    DOUBAN_URL: "https://www.douban.com",
+    N_NEW_NOTIS: 0,
+    N_NEW_DOUMAIL: 0
+  };
+</script>
+
+
+
+    <script src="//img3.doubanio.com/dae/accounts/resources/321e246/shire/bundle.js" defer="defer"></script>
+
+
+
+
+
+
+
+
+    <link href="//img3.doubanio.com/dae/accounts/resources/19507ad/movie/bundle.css" rel="stylesheet" type="text/css">
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="https:&#47;&#47;movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="https:&#47;&#47;movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">
+          </label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" placeholder="搜索电影、电视剧、综艺、影人" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+
+
+<div class="nav-items">
+  <ul>
+    <li    ><a href="https://movie.douban.com/mine"
+     >我看</a>
+    </li>
+    <li    ><a href="https://movie.douban.com/cinema/nowplaying/"
+     >影讯&购票</a>
+    </li>
+    <li    ><a href="https://movie.douban.com/explore"
+     >选电影</a>
+    </li>
+    <li    ><a href="https://movie.douban.com/tv/"
+     >电视剧</a>
+    </li>
+    <li    ><a href="https://movie.douban.com/chart"
+     >排行榜</a>
+    </li>
+    <li    ><a href="https://movie.douban.com/tag/"
+     >分类</a>
+    </li>
+    <li    ><a href="https://movie.douban.com/review/best/"
+     >影评</a>
+    </li>
+    <li    ><a href="https://movie.douban.com/annual/2017?source=navigation"
+     >2017年度榜单</a>
+    </li>
+    <li    ><a href="https://movie.douban.com/standbyme/2017?source=navigation"
+     >2017观影报告</a>
+    </li>
+  </ul>
+</div>
+
+  </div>
+</div>
+
+<script id="suggResult" type="text/x-jquery-tmpl">
+  <li data-link="{{= url}}">
+            <a href="{{= url}}" onclick="moreurl(this, {from:'movie_search_sugg', query:'{{= keyword }}', subject_id:'{{= id}}', i: '{{= index}}', type: '{{= type}}'})">
+            <img src="{{= img}}" width="40" />
+            <p>
+                <em>{{= title}}</em>
+                {{if year}}
+                    <span>{{= year}}</span>
+                {{/if}}
+                {{if sub_title}}
+                    <br /><span>{{= sub_title}}</span>
+                {{/if}}
+                {{if address}}
+                    <br /><span>{{= address}}</span>
+                {{/if}}
+                {{if episode}}
+                    {{if episode=="unknow"}}
+                        <br /><span>集数未知</span>
+                    {{else}}
+                        <br /><span>共{{= episode}}集</span>
+                    {{/if}}
+                {{/if}}
+            </p>
+        </a>
+        </li>
+  </script>
+
+
+
+
+    <script src="//img3.doubanio.com/dae/accounts/resources/19507ad/movie/bundle.js" defer="defer"></script>
+
+
+
+
+
+
+    <div id="wrapper">
+
+
+
+    <div id="content">
+
+    <h1>芳华 短评</h1>
+
+        <div class="grid-16-8 clearfix">
+
+
+            <div class="article">
+
+
+
+
+
+<div class="clearfix Comments-hd">
+    <ul class="fleft CommentTabs">
+            <li class="is-active">
+                <span>看过(157216)</span>
+            </li>
+
+            <li>
+                <a href="?status=F">想看(2714)</a>
+            </li>
+    </ul>
+    <div class="fright">
+        <a href="javascript:;" class="comment_btn j a_collect_btn" name="cbtn-26862829">我来写短评</a>
+    </div>
+</div>
+
+
+    <div class="title_line clearfix color_gray">
+        <div class="fleft Comments-sortby">
+                <span>热门</span>
+                <a href="?sort=time&status=P">最新</a>
+            <a href="follows_comments?status=P">好友</a>
+        </div>
+    </div>
+
+    <div class="comment-filter">
+        <label>
+            <input type="radio" name="sort" value=""  checked="checked"><span class="filter-name">全部</span><span class="comment-percent"></span>
+        </label>
+        <label>
+            <input type="radio" name="sort" value="h" ><span class="filter-name">好评</span><span class="comment-percent">0%</span>
+        </label>
+        <label>
+            <input type="radio" name="sort" value="m" ><span class="filter-name">一般</span><span class="comment-percent">0%</span>
+        </label>
+        <label>
+            <input type="radio" name="sort" value="l" ><span class="filter-name">差评</span><span class="comment-percent">0%</span>
+        </label>
+    </div>
+
+    <div class="mod-bd" id="comments">
+
+
+
+
+
+
+
+
+
+
+        <div class="comment-item" data-cid="1241835988">
+
+
+        <div class="avatar">
+            <a title="影志" href="https://www.douban.com/people/tjz230/">
+                <img src="https://img1.doubanio.com/icon/u1005928-127.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">21749</span>
+                <input value="1241835988" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/tjz230/" class="">影志</a>
+                    <span>看过</span>
+                    <span class="allstar40 rating" title="推荐"></span>
+                <span class="comment-time " title="2017-09-11 19:23:52">
+                    2017-09-11
+                </span>
+            </span>
+        </h3>
+        <p class=""> “没有被善待的人，最容易识别善良，也最珍惜善良。” 适合带长辈们看，或许多少年后，就没人再拍这样的电影了…后面半小时泪弹太足，我们在最好的年代虚度光阴，他们在最坏的年代洗尽铅华。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1240620487">
+
+
+        <div class="avatar">
+            <a title="法兰西胶片" href="https://www.douban.com/people/flxjp/">
+                <img src="https://img1.doubanio.com/icon/u2316731-67.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">11259</span>
+                <input value="1240620487" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/flxjp/" class="">法兰西胶片</a>
+                    <span>看过</span>
+                    <span class="allstar40 rating" title="推荐"></span>
+                <span class="comment-time " title="2017-09-08 22:43:59">
+                    2017-09-08
+                </span>
+            </span>
+        </h3>
+        <p class=""> 三星半，手松点也是可以四星的。全片最触动我的，就是那场独舞，关于信仰、对集体主义的控诉、青春之殇，一场戏都在里面了。冯小刚确实在做以前第五代导演才会做的事，他驾着他积累的20多年的名声，扭过头，凿一座碑。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1244294450">
+
+
+        <div class="avatar">
+            <a title="萨库拉" href="https://www.douban.com/people/iisakura/">
+                <img src="https://img1.doubanio.com/icon/u4193588-7.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">9067</span>
+                <input value="1244294450" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/iisakura/" class="">萨库拉</a>
+                    <span>看过</span>
+                    <span class="allstar30 rating" title="还行"></span>
+                <span class="comment-time " title="2017-09-17 23:49:10">
+                    2017-09-17
+                </span>
+            </span>
+        </h3>
+        <p class=""> 碎片式的情节，符号化的年代，流水账的青春。我能理解对于青春的执念和自我沉溺，所以给了三星。但一个功成名就的导演花几千万搭一个文工团的景，跟五岁的孩子用积木搭一个心爱的城堡，其实没有本质的区别。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1244419562">
+
+
+        <div class="avatar">
+            <a title="小心和小欣" href="https://www.douban.com/people/guanxin898/">
+                <img src="https://img1.doubanio.com/icon/u1376112-9.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">7449</span>
+                <input value="1244419562" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/guanxin898/" class="">小心和小欣</a>
+                    <span>看过</span>
+                    <span class="allstar40 rating" title="推荐"></span>
+                <span class="comment-time " title="2017-09-18 11:04:52">
+                    2017-09-18
+                </span>
+            </span>
+        </h3>
+        <p class=""> 严歌苓笔下有幻灭，但冯小刚镜头里只是一闪而过。严写的是“他触摸了我”，冯心里更多是芳华，如同张艺谋心里有“归来”，而不是“陆犯焉识”。无论是冯还是张，都从严歌苓笔下拿走了自己需要的东西，而将严那部分反思一带而过。他们终归是这个时代的主流，而严歌苓多是历史边缘人视角。也只能如此了。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1246121748">
+
+
+        <div class="avatar">
+            <a title="西楼尘" href="https://www.douban.com/people/xilouchen/">
+                <img src="https://img3.doubanio.com/icon/u49290419-23.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">6100</span>
+                <input value="1246121748" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/xilouchen/" class="">西楼尘</a>
+                    <span>看过</span>
+                    <span class="allstar40 rating" title="推荐"></span>
+                <span class="comment-time " title="2017-09-22 21:17:24">
+                    2017-09-22
+                </span>
+            </span>
+        </h3>
+        <p class=""> 这场战争活着不如死去，那个年代清醒不如疯魔。倘若这样牺牲，刘峰便能被写成歌，在心上人的歌喉里成为不朽；假如继续痴癫，小萍就能一直跳舞，在幻梦里领舞到老去。可惜文工团的台上没有不散的舞，滇缅的沼泽里唱不出永恒的歌。他们像熟透的番茄、将化的雪糕，在青春里一个趔趄，再回首已是面目全非。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1246049610">
+
+
+        <div class="avatar">
+            <a title="幼儿园最乖" href="https://www.douban.com/people/58708776/">
+                <img src="https://img3.doubanio.com/icon/u58708776-10.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">3894</span>
+                <input value="1246049610" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/58708776/" class="">幼儿园最乖</a>
+                    <span>看过</span>
+                    <span class="allstar20 rating" title="较差"></span>
+                <span class="comment-time " title="2017-09-22 17:21:39">
+                    2017-09-22
+                </span>
+            </span>
+        </h3>
+        <p class=""> 又臭又长，可能是我们这届观众不行
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1242046783">
+
+
+        <div class="avatar">
+            <a title="舒农" href="https://www.douban.com/people/shunong/">
+                <img src="https://img3.doubanio.com/icon/u1303086-62.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">3324</span>
+                <input value="1242046783" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/shunong/" class="">舒农</a>
+                    <span>看过</span>
+                    <span class="allstar20 rating" title="较差"></span>
+                <span class="comment-time " title="2017-09-12 10:56:43">
+                    2017-09-12
+                </span>
+            </span>
+        </h3>
+        <p class=""> 冯小刚现在的意义是“我这么牛逼我这些题材都敢拍。”但其实好题材都被他砸到了手里。调教演员比不过张艺谋的《归来》，人物悲欢比不过《军中乐园》。莫名其妙给女二加了旁白和爱情线，最终导致没有一个人物讲清楚。以及，黄轩真的很丑。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1246627475">
+
+
+        <div class="avatar">
+            <a title="之薰" href="https://www.douban.com/people/medusaY/">
+                <img src="https://img3.doubanio.com/icon/u36171574-13.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">2874</span>
+                <input value="1246627475" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/medusaY/" class="">之薰</a>
+                    <span>看过</span>
+                    <span class="allstar10 rating" title="很差"></span>
+                <span class="comment-time " title="2017-09-23 23:10:16">
+                    2017-09-23
+                </span>
+            </span>
+        </h3>
+        <p class=""> 或许是想与声之形竞争年度喂屎片的位置吧。从霸凌者的角度给你讲一场唯美的青春，就问问那些人生都被毁掉的人，你信不信，恶心不恶心，十年后向你伸出的那双施恩的手，你想不想砍了？
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1274242392">
+
+
+        <div class="avatar">
+            <a title="阿暖" href="https://www.douban.com/people/phoenix43/">
+                <img src="https://img1.doubanio.com/icon/u3771212-59.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">2541</span>
+                <input value="1274242392" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/phoenix43/" class="">阿暖</a>
+                    <span>看过</span>
+                    <span class="allstar20 rating" title="较差"></span>
+                <span class="comment-time " title="2017-11-20 23:47:13">
+                    2017-11-20
+                </span>
+            </span>
+        </h3>
+        <p class=""> 文工团解散的时候，我觉得自己好像参加完军训看同学们抱头痛哭时一样如坐针毡。一群在文革里估计就是红卫兵的人，在永远虚假的歌舞升平之后，终于活到了可以缅怀青春的年纪。从这个角度来说，这部电影还真是够残酷也够写实的了。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1275376599">
+
+
+        <div class="avatar">
+            <a title="桃桃淘电影" href="https://www.douban.com/people/qijiuzhiyue/">
+                <img src="https://img3.doubanio.com/icon/u1032989-50.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">2358</span>
+                <input value="1275376599" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/qijiuzhiyue/" class="">桃桃淘电影</a>
+                    <span>看过</span>
+                    <span class="allstar40 rating" title="推荐"></span>
+                <span class="comment-time " title="2017-11-23 16:05:50">
+                    2017-11-23
+                </span>
+            </span>
+        </h3>
+        <p class=""> 7，冯小刚这次应该是走心了，第一次能在他的电影里找到更真实的感情共鸣。故事可看性不错，从青春芳华到残酷战争再到一切的幻灭，颇有些伤感。美术、服装、摄影、配乐都非常出色，也成为主要加分项，片子拍得非常漂亮。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1287830569">
+
+
+        <div class="avatar">
+            <a title="熊阿姨" href="https://www.douban.com/people/auntbear/">
+                <img src="https://img3.doubanio.com/icon/u1005588-3.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">2327</span>
+                <input value="1287830569" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/auntbear/" class="">熊阿姨</a>
+                    <span>看过</span>
+                    <span class="allstar20 rating" title="较差"></span>
+                <span class="comment-time " title="2017-12-17 20:32:36">
+                    2017-12-17
+                </span>
+            </span>
+        </h3>
+        <p class=""> 原著里郝淑雯、林丁丁早早认识到金钱和权势的魅力，做的都是当代人的选择。刘峰和何小曼是时代的老实人，结果结结实实被时代碾压，这正是故事的悲剧之处。电影把所有复杂的人性全部拍扁，拍了一个文工团版的致青春，断手和重逢轻飘飘得像打胎一样，尤其文工团那场合唱送战友，真正的庸俗不堪。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1243245963">
+
+
+        <div class="avatar">
+            <a title="一口吃掉小蛋糕" href="https://www.douban.com/people/cheesecakehouse/">
+                <img src="https://img3.doubanio.com/icon/u2456828-185.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">3300</span>
+                <input value="1243245963" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/cheesecakehouse/" class="">一口吃掉小蛋糕</a>
+                    <span>看过</span>
+                    <span class="allstar50 rating" title="力荐"></span>
+                <span class="comment-time " title="2017-09-15 17:48:37">
+                    2017-09-15
+                </span>
+            </span>
+        </h3>
+        <p class=""> 【红颜弹指老，刹那芳华】“一个始终不被善待的人，最能识别善良，也最珍惜善良”练功房、成分、“解放”……太多感同身受的情节，心疼，数次落泪。看到何小萍最后的失常，战争的残酷，有些理解我那个参过军的怪脾气的爷爷了，恩怨全都释然。不得不佩服冯导选角的眼光，真实，个性鲜明，满屏的青春
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1284058517">
+
+
+        <div class="avatar">
+            <a title="亵渎电影" href="https://www.douban.com/people/zhangzongqian/">
+                <img src="https://img3.doubanio.com/icon/u3995080-211.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">1933</span>
+                <input value="1284058517" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/zhangzongqian/" class="">亵渎电影</a>
+                    <span>看过</span>
+                    <span class="allstar30 rating" title="还行"></span>
+                <span class="comment-time " title="2017-12-10 14:59:51">
+                    2017-12-10
+                </span>
+            </span>
+        </h3>
+        <p class=""> 虽然剧本是很严重的硬伤，用女二的第一人称讲别人的故事，导致最后没有哪个角色的形象足够立体。不过从情感上讲，我是非常喜欢这部电影，很有共鸣，让我们看到一个特殊的时代，看到那代人信仰的幻灭，故事里没有敌人，但敌人又无处不在，好坏善恶都只是一线之间。这部电影里，最好的肯定是配乐了。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1244151324">
+
+
+        <div class="avatar">
+            <a title="Mona Lishark" href="https://www.douban.com/people/run11run/">
+                <img src="https://img1.doubanio.com/icon/u1998052-279.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">1935</span>
+                <input value="1244151324" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/run11run/" class="">Mona Lishark</a>
+                    <span>看过</span>
+                    <span class="allstar20 rating" title="较差"></span>
+                <span class="comment-time " title="2017-09-17 19:14:52">
+                    2017-09-17
+                </span>
+            </span>
+        </h3>
+        <p class=""> 流水账，消费时代。开篇听到「上个世纪七十年代」这八个字我已经给它扣了八颗星。这个声音来自剧中人物，叙述时间是七十年代，企图用奥雷良诺上校式的口吻追忆，她到底是谁出现在哪个次元已经成了一个谜。希望冯导能尽快找出制造这个bug的人然后把这个人修改掉。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1263986861">
+
+
+        <div class="avatar">
+            <a title="木卫二" href="https://www.douban.com/people/MovieL/">
+                <img src="https://img1.doubanio.com/icon/u1128221-98.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">1445</span>
+                <input value="1263986861" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/MovieL/" class="">木卫二</a>
+                    <span>看过</span>
+                    <span class="allstar30 rating" title="还行"></span>
+                <span class="comment-time " title="2017-10-30 01:33:20">
+                    2017-10-30
+                </span>
+            </span>
+        </h3>
+        <p class=""> 精神病人聚众围观文工团的歌舞表演，是个很好的落脚点。但分裂的冯小刚，显然没有想好，如何去反思这场大型的疯人院精神虐待。你为所谓的情怀买单，为不再拥有电影记忆的父母辈落泪，你以为这是一壶好酒。实际上，更像是损伤大脑记忆的勾兑酒精——正如那场丑陋的散伙酗酒。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1284120226">
+
+
+        <div class="avatar">
+            <a title="老晃" href="https://www.douban.com/people/1019579/">
+                <img src="https://img3.doubanio.com/icon/u1019579-12.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">1583</span>
+                <input value="1284120226" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/1019579/" class="">老晃</a>
+                    <span>看过</span>
+                    <span class="allstar20 rating" title="较差"></span>
+                <span class="comment-time " title="2017-12-10 16:52:09">
+                    2017-12-10
+                </span>
+            </span>
+        </h3>
+        <p class=""> 不喜欢《芳华》，它的缅怀，它的怜悯，都让我恶心。当然，某个刹那，它唤醒了我的一些集体主义记忆，那个瞬间，我甚至觉得集体主义也有它的美。于是我更恶心了，连自己也一起恶心。
+
+                <a class="source-icon" href="https://www.douban.com/doubanapp/" target="_blank"><img src="https://img3.doubanio.com/f/shire/c541f3cbc321589b29d7c7b6d00e620243f224d9/pics/comment/iphone.png" title="发自iPhone" alt="iPhone" rel="v:image"/></a>
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1264433859">
+
+
+        <div class="avatar">
+            <a title="刘小黛" href="https://www.douban.com/people/darlingtudai/">
+                <img src="https://img3.doubanio.com/icon/u3571728-440.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">1541</span>
+                <input value="1264433859" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/darlingtudai/" class="">刘小黛</a>
+                    <span>看过</span>
+                    <span class="allstar20 rating" title="较差"></span>
+                <span class="comment-time " title="2017-10-31 00:16:20">
+                    2017-10-31
+                </span>
+            </span>
+        </h3>
+        <p class=""> 本来没有高期待，但还是比预想的差。大段样板戏，情感莫名，想讲大时代，涉及敏感又浅尝辄止，不深刻不入心，这点比潘金莲好不了多少。我是钢炮，但我还是不能钢，可你们要以为我钢着。尤其一段文工团解散戏，涂脂抹粉的脸和僵硬的表情，夸张矫情的歌唱，最难看的群戏。是不是唱《血染的风采》更合适？
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1247739955">
+
+
+        <div class="avatar">
+            <a title="符号" href="https://www.douban.com/people/ticojj123/">
+                <img src="https://img3.doubanio.com/icon/u2784961-572.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">1383</span>
+                <input value="1247739955" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/ticojj123/" class="">符号</a>
+                    <span>看过</span>
+                    <span class="allstar20 rating" title="较差"></span>
+                <span class="comment-time " title="2017-09-26 11:51:43">
+                    2017-09-26
+                </span>
+            </span>
+        </h3>
+        <p class=""> 声之形既视感太强了，凌霸者永远也意识不到自己的恶意，最后小郝大喝着你们怎么能这么对残疾军人，拿出1000块表示不用还了的时候被深深膈应到了。果然还是无法get严歌苓，非常不喜欢这个视角。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1244024883">
+
+
+        <div class="avatar">
+            <a title="GuessA" href="https://www.douban.com/people/GuessA/">
+                <img src="https://img1.doubanio.com/icon/u2632103-37.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">1396</span>
+                <input value="1244024883" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/GuessA/" class="">GuessA</a>
+                    <span>看过</span>
+                    <span class="allstar20 rating" title="较差"></span>
+                <span class="comment-time " title="2017-09-17 13:54:37">
+                    2017-09-17
+                </span>
+            </span>
+        </h3>
+        <p class=""> 可怕的剪辑，可怕的镜头，买一赠七的故事线……耗尽了由《1942》、《我不是潘金莲》而来的一点期待
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+        <div class="comment-item" data-cid="1244209762">
+
+
+        <div class="avatar">
+            <a title="把噗" href="https://www.douban.com/people/babulliu/">
+                <img src="https://img3.doubanio.com/icon/u42097517-13.jpg" class="" />
+            </a>
+        </div>
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                <span class="votes">1087</span>
+                <input value="1244209762" type="hidden"/>
+                <a href="javascript:;" class="j a_vote_comment" onclick="">有用</a>
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/babulliu/" class="">把噗</a>
+                    <span>看过</span>
+                    <span class="allstar30 rating" title="还行"></span>
+                <span class="comment-time " title="2017-09-17 21:23:03">
+                    2017-09-17
+                </span>
+            </span>
+        </h3>
+        <p class=""> 我建议：将战争和军医两场戏删掉，直接用画外音交代角色断手和精神失常；如此，可为佳作。
+        </p>
+            <a class="js-irrelevant irrelevant" href="javascript:;">这条短评跟影片无关</a>
+    </div>
+
+        </div>
+
+
+
+
+    <div class="comments-footer-tips">
+        * 影片上映之前的、与影片无关的或包含人身攻击等内容的短评都将有可能被折叠，且评分不计入豆瓣评分。<br/>
+        * 短评的排序是将豆瓣成员的投票加权平均计算后的结果，通过算法的调校，更好地反映短评内容的价值。<br/>
+    </div>
+
+
+        <div id="paginator" class="center">
+                <span class="first"><< 首页</span>
+                <span class="prev">< 前页</span>
+                <a href="?start=20&amp;limit=20&amp;sort=new_score&amp;status=P&amp;percent_type=" data-page="" class="next">后页 ></a>
+        </div>
+
+
+
+<script type="text/javascript" src="https://img3.doubanio.com/f/shire/012a532ac595cb9216408f941aae5e4c43a57c14/js/report_dialog.js"></script>
+<link rel="stylesheet" type="text/css" href="https://img3.doubanio.com/f/shire/b45aa277f8b8df40596b96582dafb1ed0a899a64/css/report_dialog.css" />
+
+
+
+
+
+
+    </div>
+
+            </div>
+            <div class="aside">
+
+
+
+<p class="pl2">&gt; <a href="https://movie.douban.com/subject/26862829/">去 芳华 的页面</a></p>
+
+    <div class="indent">
+
+
+
+
+
+
+
+
+
+
+<div class="movie-summary">
+        <div class="movie-pic"><a  href="https://movie.douban.com/subject/26862829/" ><img alt="芳华" title="芳华" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2507227732.webp" rel="v:image" width="100px"></a></div>
+    <span class="attrs">
+
+
+        <p>
+            <span class="pl">导演:</span>
+                <a  href="https://movie.douban.com/celebrity/1274255/">冯小刚</a>
+        </p>
+
+
+
+        <p>
+            <span class="pl">主演:</span>
+                <a  href="https://movie.douban.com/celebrity/1276105/">黄轩</a> / <a  href="https://movie.douban.com/celebrity/1366978/">苗苗</a> / <a  href="https://movie.douban.com/celebrity/1357009/">钟楚曦</a> / <a  href="https://movie.douban.com/celebrity/1320350/">杨采钰</a> / <a  href="https://movie.douban.com/celebrity/1317104/">李晓峰</a> / <a  href="https://movie.douban.com/celebrity/1366846/">王天辰</a> / <a  href="https://movie.douban.com/celebrity/1366845/">王可如</a> / <a  href="https://movie.douban.com/celebrity/1366847/">隋源</a> / <a  href="https://movie.douban.com/celebrity/1380587/">张仁博</a> / <a  href="https://movie.douban.com/celebrity/1309922/">苏岩</a> / <a  href="https://movie.douban.com/celebrity/1015115/">张国立</a> / <a  href="https://movie.douban.com/celebrity/1312817/">赵立新</a>
+        </p>
+
+
+
+        <p>
+            <span class="pl">类型:</span>
+                剧情, 历史, 战争
+        </p>
+
+
+
+        <p>
+            <span class="pl">地区:</span>
+                中国大陆
+        </p>
+
+
+
+        <p>
+            <span class="pl">片长:</span>
+                136分钟, 146分钟(多伦多电影节)
+        </p>
+
+
+
+        <p>
+            <span class="pl">上映:</span>
+                2017-09-07(多伦多电影节), 2017-12-15(中国大陆)
+        </p>
+
+        <a  class="trail_link" data-trailer-id="221510" href="https://movie.douban.com/trailer/221510/#content" >预告片</a>
+    </span>
+</div>
+
+
+
+    </div>
+    <div id="dale_movie_subject_comments_bottom_right"></div>
+    <a href="https://help.douban.com/blackroom">> 豆瓣违规公示</a>
+
+            </div>
+            <div class="extra">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer">
+            <div class="footer-extra"></div>
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2018 douban.com, all rights reserved 北京豆网科技有限公司
+</span>
+
+<a href="https://www.douban.com/hnypt/variformcyst.py" style="display: none;"></a>
+
+<span class="fright">
+    <a href="https://www.douban.com/about">关于豆瓣</a>
+    · <a href="https://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="https://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="https://www.douban.com/about?policy=disclaimer">免责声明</a>
+
+    · <a href="https://help.douban.com/?app=movie" target="_blank">帮助中心</a>
+    · <a href="https://www.douban.com/doubanapp/">移动应用</a>
+    · <a href="https://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="https://img3.doubanio.com/misc/mixed_static/797c7dddb98bac30.js"></script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = '//erebor.douban.com/',
+            userId = '64250387',
+            browserId = '2KsNEGhdRTM',
+            criteria = '3:/subject/26862829/comments?status=P',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_movie_subject_comments_bottom_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'https://img3.doubanio.com/f/adjs/cdc904d1376a43e44bbf399a0aff51973016cd77/ad.release.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+    var p=(('https:' == document.location.protocol) ? 'https' : 'http'), u=p+'://fundin.douban.com/';
+    _paq.push(['setTrackerUrl', u+'piwik']);
+    _paq.push(['setSiteId', '100001']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript';
+    g.defer=true;
+    g.async=true;
+    g.src=p+'://img3.doubanio.com/dae/fundin/piwik.js';
+    s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+<script type="text/javascript">
+var setMethodWithNs = function(namespace) {
+  var ns = namespace ? namespace + '.' : ''
+    , fn = function(string) {
+        if(!ns) {return string}
+        return ns + string
+      }
+  return fn
+}
+
+var gaWithNamespace = function(fn, namespace) {
+  var method = setMethodWithNs(namespace)
+  fn.call(this, method)
+}
+
+var _gaq = _gaq || []
+  , accounts = [
+      { id: 'UA-7019765-1', namespace: 'douban' }
+    , { id: 'UA-7019765-19', namespace: '' }
+    ]
+  , gaInit = function(account) {
+      gaWithNamespace(function(method) {
+        gaInitFn.call(this, method, account)
+      }, account.namespace)
+    }
+  , gaInitFn = function(method, account) {
+      _gaq.push([method('_setAccount'), account.id]);
+      _gaq.push([method('_setSampleRate'), '5']);
+
+
+  _gaq.push([method('_addOrganic'), 'google', 'q'])
+  _gaq.push([method('_addOrganic'), 'baidu', 'wd'])
+  _gaq.push([method('_addOrganic'), 'soso', 'w'])
+  _gaq.push([method('_addOrganic'), 'youdao', 'q'])
+  _gaq.push([method('_addOrganic'), 'so.360.cn', 'q'])
+  _gaq.push([method('_addOrganic'), 'sogou', 'query'])
+  if (account.namespace) {
+    _gaq.push([method('_addIgnoredOrganic'), '豆瓣'])
+    _gaq.push([method('_addIgnoredOrganic'), 'douban'])
+    _gaq.push([method('_addIgnoredOrganic'), '豆瓣网'])
+    _gaq.push([method('_addIgnoredOrganic'), 'www.douban.com'])
+  }
+
+      if (account.namespace === 'douban') {
+        _gaq.push([method('_setDomainName'), '.douban.com'])
+      }
+
+        _gaq.push([method('_setCustomVar'), 1, 'responsive_view_mode', 'desktop', 3])
+
+        _gaq.push([method('_setCustomVar'), 2, 'login_status', '1', 2]);
+
+      _gaq.push([method('_trackPageview')])
+    }
+
+for(var i = 0, l = accounts.length; i < l; i++) {
+  var account = accounts[i]
+  gaInit(account)
+}
+
+
+;(function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+})()
+</script>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- sindar19c-docker-->
+
+  <script>_SPLITTEST=''</script>
+</body>
+
+</html>
+
+
