@@ -2,12 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf91c08e-3c66-4242-8d02-19b344872005" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/newst/mongodb_test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spider_database/test.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/spider_database/test_proxy.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/Api/ProxyApi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/FreeProxy/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/FreeProxy/getFreeProxy.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/ProxyCheck.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/ProxyManager.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/ProxyRefreshSchedule.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/ProxyValidSchedule.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/database/MongoDbClient.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/database/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/log/LogHandler.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/log/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/main.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/utilFunction.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/webRequest/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Proxy/webRequest/webRequest.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/old_project/pythonnote.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/old_project/spider_database/test.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/spider_database/login.py" afterPath="$PROJECT_DIR$/spider_database/login.py" />
-      <change beforePath="$PROJECT_DIR$/spider_database/recent_login.py" afterPath="$PROJECT_DIR$/spider_database/recent_login.py" />
+      <change beforePath="$PROJECT_DIR$/GoldEra/novelSpider.py" afterPath="$PROJECT_DIR$/old_project/GoldEra/novelSpider.py" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/old_project/README.md" />
+      <change beforePath="$PROJECT_DIR$/decorator/decorator.py" afterPath="$PROJECT_DIR$/old_project/decorator/decorator.py" />
+      <change beforePath="$PROJECT_DIR$/file/poem.txt" afterPath="$PROJECT_DIR$/old_project/file/poem.txt" />
+      <change beforePath="$PROJECT_DIR$/file/readfile.py" afterPath="$PROJECT_DIR$/old_project/file/readfile.py" />
+      <change beforePath="$PROJECT_DIR$/helloworld/ds_refrence.py" afterPath="$PROJECT_DIR$/old_project/helloworld/ds_refrence.py" />
+      <change beforePath="$PROJECT_DIR$/helloworld/duocanshu.py" afterPath="$PROJECT_DIR$/old_project/helloworld/duocanshu.py" />
+      <change beforePath="$PROJECT_DIR$/helloworld/function_docstring.py" afterPath="$PROJECT_DIR$/old_project/helloworld/function_docstring.py" />
+      <change beforePath="$PROJECT_DIR$/helloworld/helloworld.py" afterPath="$PROJECT_DIR$/old_project/helloworld/helloworld.py" />
+      <change beforePath="$PROJECT_DIR$/helloworld/pornhub.py" afterPath="$PROJECT_DIR$/old_project/helloworld/pornhub.py" />
+      <change beforePath="$PROJECT_DIR$/helloworld/str_format.py" afterPath="$PROJECT_DIR$/old_project/helloworld/str_format.py" />
+      <change beforePath="$PROJECT_DIR$/newst/cytus.html" afterPath="$PROJECT_DIR$/old_project/newst/cytus.html" />
+      <change beforePath="$PROJECT_DIR$/newst/cytus2_spider.py" afterPath="$PROJECT_DIR$/old_project/newst/cytus2_spider.py" />
+      <change beforePath="$PROJECT_DIR$/newst/mongodb_test.py" afterPath="$PROJECT_DIR$/old_project/newst/mongodb_test.py" />
+      <change beforePath="$PROJECT_DIR$/newst/test.py" afterPath="$PROJECT_DIR$/old_project/newst/test.py" />
+      <change beforePath="$PROJECT_DIR$/newst/testConect.py" afterPath="$PROJECT_DIR$/old_project/newst/testConect.py" />
+      <change beforePath="$PROJECT_DIR$/newst/wallpaperSpider.py" afterPath="$PROJECT_DIR$/old_project/newst/wallpaperSpider.py" />
+      <change beforePath="$PROJECT_DIR$/newst/wp_spider.py" afterPath="$PROJECT_DIR$/old_project/newst/wp_spider.py" />
+      <change beforePath="$PROJECT_DIR$/note.MD" afterPath="$PROJECT_DIR$/note.MD" />
+      <change beforePath="$PROJECT_DIR$/object_learning/object_version.py" afterPath="$PROJECT_DIR$/old_project/object_learning/object_version.py" />
+      <change beforePath="$PROJECT_DIR$/object_learning/robot.py" afterPath="$PROJECT_DIR$/old_project/object_learning/robot.py" />
+      <change beforePath="$PROJECT_DIR$/pressfile_example/backup_ver1.py" afterPath="$PROJECT_DIR$/old_project/pressfile_example/backup_ver1.py" />
+      <change beforePath="$PROJECT_DIR$/python_slice.py" afterPath="$PROJECT_DIR$/old_project/python_slice.py" />
+      <change beforePath="$PROJECT_DIR$/pythonnote.md" afterPath="$PROJECT_DIR$/Proxy/Api/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/spider/csdn_spider.py" afterPath="$PROJECT_DIR$/old_project/spider/csdn_spider.py" />
+      <change beforePath="$PROJECT_DIR$/spider/getcookie.py" afterPath="$PROJECT_DIR$/old_project/spider/getcookie.py" />
+      <change beforePath="$PROJECT_DIR$/spider/spider1.py" afterPath="$PROJECT_DIR$/old_project/spider/spider1.py" />
+      <change beforePath="$PROJECT_DIR$/spider/spider2.py" afterPath="$PROJECT_DIR$/old_project/spider/spider2.py" />
+      <change beforePath="$PROJECT_DIR$/spider/spider3.py" afterPath="$PROJECT_DIR$/old_project/spider/spider3.py" />
+      <change beforePath="$PROJECT_DIR$/spider/spider_novel.py" afterPath="$PROJECT_DIR$/old_project/spider/spider_novel.py" />
+      <change beforePath="$PROJECT_DIR$/spider/spider_novel_1.py" afterPath="$PROJECT_DIR$/old_project/spider/spider_novel_1.py" />
+      <change beforePath="$PROJECT_DIR$/spider/spider_novel_2.py" afterPath="$PROJECT_DIR$/old_project/spider/spider_novel_2.py" />
+      <change beforePath="$PROJECT_DIR$/spider/test_IP_spider.py" afterPath="$PROJECT_DIR$/old_project/spider/test_IP_spider.py" />
+      <change beforePath="$PROJECT_DIR$/spider_database/cookie" afterPath="$PROJECT_DIR$/old_project/spider_database/cookie" />
+      <change beforePath="$PROJECT_DIR$/spider_database/etree.py" afterPath="$PROJECT_DIR$/old_project/spider_database/etree.py" />
+      <change beforePath="$PROJECT_DIR$/spider_database/login.py" afterPath="$PROJECT_DIR$/old_project/spider_database/login.py" />
+      <change beforePath="$PROJECT_DIR$/spider_database/recent_login.py" afterPath="$PROJECT_DIR$/old_project/spider_database/recent_login.py" />
+      <change beforePath="$PROJECT_DIR$/spider_database/spider_login.py" afterPath="$PROJECT_DIR$/old_project/spider_database/spider_login.py" />
+      <change beforePath="$PROJECT_DIR$/spider_database/test.txt" afterPath="$PROJECT_DIR$/old_project/spider_database/test.txt" />
+      <change beforePath="$PROJECT_DIR$/spider_database/test_proxy.py" afterPath="$PROJECT_DIR$/old_project/spider_database/test_proxy.py" />
+      <change beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
+      <change beforePath="$PROJECT_DIR$/windows所需组件/Scrapy-1.5.0-py2.py3-none-any.whl" afterPath="$PROJECT_DIR$/old_project/windows所需组件/Scrapy-1.5.0-py2.py3-none-any.whl" />
+      <change beforePath="$PROJECT_DIR$/windows所需组件/Twisted-17.9.0-cp36-cp36m-win32.whl" afterPath="$PROJECT_DIR$/old_project/windows所需组件/Twisted-17.9.0-cp36-cp36m-win32.whl" />
+      <change beforePath="$PROJECT_DIR$/windows所需组件/excute.py" afterPath="$PROJECT_DIR$/old_project/windows所需组件/excute.py" />
+      <change beforePath="$PROJECT_DIR$/windows所需组件/lxml-4.1.1-cp36-cp36m-win32.whl" afterPath="$PROJECT_DIR$/old_project/windows所需组件/lxml-4.1.1-cp36-cp36m-win32.whl" />
+      <change beforePath="$PROJECT_DIR$/zhengshidaima/douban_spider.py" afterPath="$PROJECT_DIR$/old_project/zhengshidaima/douban_spider.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,126 +80,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GraduationPro$testConect.coverage" NAME="testConect Coverage Results" MODIFIED="1524369334636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newst" />
-    <SUITE FILE_PATH="coverage/GraduationPro$recent_login.coverage" NAME="recent_login Coverage Results" MODIFIED="1525702912492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_database" />
+    <SUITE FILE_PATH="coverage/GraduationPro$ProxyManager.coverage" NAME="ProxyManager Coverage Results" MODIFIED="1526286621378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
+    <SUITE FILE_PATH="coverage/GraduationPro$test_flask.coverage" NAME="test_flask Coverage Results" MODIFIED="1526040197129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/proxy_api" />
+    <SUITE FILE_PATH="coverage/GraduationPro$getFreeProxy__1_.coverage" NAME="getFreeProxy (1) Coverage Results" MODIFIED="1526285554861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
     <SUITE FILE_PATH="coverage/GraduationPro$spider_login.coverage" NAME="spider_login Coverage Results" MODIFIED="1525703726080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_database" />
+    <SUITE FILE_PATH="coverage/GraduationPro$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1526099403914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GraduationPro$wallpaper.coverage" NAME="wallpaper Coverage Results" MODIFIED="1523881847418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GraduationPro$LogHandler.coverage" NAME="LogHandler Coverage Results" MODIFIED="1526284006265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
     <SUITE FILE_PATH="coverage/GraduationPro$douban_spider.coverage" NAME="douban_spider Coverage Results" MODIFIED="1524667512199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhengshidaima" />
     <SUITE FILE_PATH="coverage/GraduationPro$spidernovel.coverage" NAME="spidernovel Coverage Results" MODIFIED="1523878685307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/GraduationPro$wp_spider.coverage" NAME="wp_spider Coverage Results" MODIFIED="1524368078844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newst" />
-    <SUITE FILE_PATH="coverage/GraduationPro$test_proxy.coverage" NAME="test_proxy Coverage Results" MODIFIED="1525874410406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_database" />
     <SUITE FILE_PATH="coverage/GraduationPro$mongodb_test.coverage" NAME="mongodb_test Coverage Results" MODIFIED="1525872515222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newst" />
+    <SUITE FILE_PATH="coverage/GraduationPro$MongoDbClient.coverage" NAME="MongoDbClient Coverage Results" MODIFIED="1526285906976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
     <SUITE FILE_PATH="coverage/GraduationPro$cytus2_spider.coverage" NAME="cytus2_spider Coverage Results" MODIFIED="1524417435260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newst" />
     <SUITE FILE_PATH="coverage/GraduationPro$login.coverage" NAME="login Coverage Results" MODIFIED="1525878943162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_database" />
-    <SUITE FILE_PATH="coverage/GraduationPro$etree.coverage" NAME="etree Coverage Results" MODIFIED="1525678413323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_database" />
+    <SUITE FILE_PATH="coverage/GraduationPro$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1526183051252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy/getFreeProxy" />
     <SUITE FILE_PATH="coverage/GraduationPro$getcookie.coverage" NAME="getcookie Coverage Results" MODIFIED="1523777131967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/GraduationPro$getFreeProxy.coverage" NAME="getFreeProxy Coverage Results" MODIFIED="1526139461915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy/getFreeProxy" />
+    <SUITE FILE_PATH="coverage/GraduationPro$ProxyValidSchedule.coverage" NAME="ProxyValidSchedule Coverage Results" MODIFIED="1526298844821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
+    <SUITE FILE_PATH="coverage/GraduationPro$ProxyRefreshSchedule.coverage" NAME="ProxyRefreshSchedule Coverage Results" MODIFIED="1526299985905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Proxy" />
+    <SUITE FILE_PATH="coverage/GraduationPro$testConect.coverage" NAME="testConect Coverage Results" MODIFIED="1524369334636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newst" />
+    <SUITE FILE_PATH="coverage/GraduationPro$recent_login.coverage" NAME="recent_login Coverage Results" MODIFIED="1525702912492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_database" />
+    <SUITE FILE_PATH="coverage/GraduationPro$wp_spider.coverage" NAME="wp_spider Coverage Results" MODIFIED="1524368078844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newst" />
+    <SUITE FILE_PATH="coverage/GraduationPro$test_proxy.coverage" NAME="test_proxy Coverage Results" MODIFIED="1525874410406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_database" />
+    <SUITE FILE_PATH="coverage/GraduationPro$ProxyApi.coverage" NAME="ProxyApi Coverage Results" MODIFIED="1526304532087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Api" />
+    <SUITE FILE_PATH="coverage/GraduationPro$test.coverage" NAME="test Coverage Results" MODIFIED="1526132166725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_database" />
+    <SUITE FILE_PATH="coverage/GraduationPro$etree.coverage" NAME="etree Coverage Results" MODIFIED="1525678413323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_database" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="spider_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider_database/spider_login.py">
+      <file leaf-file-name="ProxyManager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proxy/ProxyManager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="66">
+              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="19" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#768#1884#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recent_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider_database/recent_login.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Proxy/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="75" column="60" lean-forward="true" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+            <state relative-caret-position="638">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="e#70#107#0" expanded="true" />
+                <element signature="e#1#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_proxy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider_database/test_proxy.py">
+      <file leaf-file-name="ProxyApi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proxy/Api/ProxyApi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="40" column="116" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="116" />
+            <state relative-caret-position="110">
+              <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <element signature="e#650#838#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mongodb_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newst/mongodb_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spider_database/login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="113" column="10" lean-forward="false" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <element signature="e#451#894#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp_spider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newst/wp_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="32" />
-              <folding>
-                <element signature="e#247#602#0" expanded="false" />
-                <element signature="e#638#703#0" expanded="false" />
-                <element signature="e#741#1237#0" expanded="false" />
-                <element signature="e#2790#3078#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider_database/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28028">
-              <caret line="1274" column="0" lean-forward="true" selection-start-line="1274" selection-start-column="0" selection-end-line="1274" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cookie" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider_database/cookie">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="48" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="730" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="etree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spider_database/etree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#26#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,6 +178,12 @@
       <find>check</find>
       <find>analysi</find>
       <find>add_coo</find>
+      <find>verify</find>
+      <find>change</find>
+      <find>compl</find>
+      <find>log</find>
+      <find>validProxy complete</find>
+      <find>getconfi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,21 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/helloworld/helloworld.py" />
-        <option value="$PROJECT_DIR$/helloworld/str_format.py" />
-        <option value="$PROJECT_DIR$/helloworld/duocanshu.py" />
-        <option value="$PROJECT_DIR$/helloworld/function_docstring.py" />
-        <option value="$PROJECT_DIR$/helloworld/ds_refrence.py" />
-        <option value="$PROJECT_DIR$/pressfile_example/backup_ver1.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/helloworld/pornhub.py" />
-        <option value="$PROJECT_DIR$/object_learning/object_version.py" />
-        <option value="$PROJECT_DIR$/object_learning/robot.py" />
-        <option value="$PROJECT_DIR$/python_slice.py" />
-        <option value="$PROJECT_DIR$/file/readfile.py" />
-        <option value="$PROJECT_DIR$/decorator/decorator.py" />
-        <option value="$PROJECT_DIR$/spider/spider3.py" />
-        <option value="$PROJECT_DIR$/spider/test_IP_spider.py" />
         <option value="$PROJECT_DIR$/spider/getcookie.py" />
         <option value="$PROJECT_DIR$/spider/spider_novel.py" />
         <option value="$PROJECT_DIR$/spider/spider_novel_1.py" />
@@ -226,6 +216,33 @@
         <option value="$PROJECT_DIR$/newst/mongodb_test.py" />
         <option value="$PROJECT_DIR$/spider_database/test_proxy.py" />
         <option value="$PROJECT_DIR$/spider_database/login.py" />
+        <option value="$PROJECT_DIR$/venv/proxy_api/test_flask.py" />
+        <option value="$PROJECT_DIR$/venv/test_flask.py" />
+        <option value="$PROJECT_DIR$/flask_venv/proxy_api/test.py" />
+        <option value="$PROJECT_DIR$/flask_venv/test.py" />
+        <option value="$PROJECT_DIR$/Api/__init__.py" />
+        <option value="$PROJECT_DIR$/spider_database/test.py" />
+        <option value="$PROJECT_DIR$/Proxy/webRequest.py" />
+        <option value="$PROJECT_DIR$/Proxy/webRequest/__init__.py" />
+        <option value="$PROJECT_DIR$/Proxy/getFreeProxy/webRequest/webRequest.py" />
+        <option value="$PROJECT_DIR$/Proxy/getFreeProxy/test.py" />
+        <option value="$PROJECT_DIR$/Proxy/getFreeProxy/UtilFunction.py" />
+        <option value="$PROJECT_DIR$/Proxy/getFreeProxy/getFreeProxy.py" />
+        <option value="$PROJECT_DIR$/Proxy/utilFunction.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Proxy/webRequest/webRequest.py" />
+        <option value="$PROJECT_DIR$/Proxy/LogHandler.py" />
+        <option value="$PROJECT_DIR$/Proxy/log/__init__.py" />
+        <option value="$PROJECT_DIR$/Proxy/getFreeProxy.py" />
+        <option value="$PROJECT_DIR$/Proxy/MongoDbClient.py" />
+        <option value="$PROJECT_DIR$/Proxy/log/proxy_manager.log" />
+        <option value="$PROJECT_DIR$/Proxy/ProxyValidSchedule.py" />
+        <option value="$PROJECT_DIR$/Proxy/ProxyCheck.py" />
+        <option value="$PROJECT_DIR$/Proxy/ProxyRefreshSchedule.py" />
+        <option value="$PROJECT_DIR$/Api/ProxyApi.py" />
+        <option value="$PROJECT_DIR$/Proxy/Api/ProxyApi.py" />
+        <option value="$PROJECT_DIR$/Proxy/ProxyManager.py" />
+        <option value="$PROJECT_DIR$/Proxy/main.py" />
       </list>
     </option>
   </component>
@@ -236,8 +253,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="35" />
-    <option name="width" value="1847" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -258,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -269,26 +287,33 @@
             <path>
               <item name="GraduationPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraduationPro" type="462c0819:PsiDirectoryNode" />
-              <item name="newst" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraduationPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraduationPro" type="462c0819:PsiDirectoryNode" />
-              <item name="spider_database" type="462c0819:PsiDirectoryNode" />
+              <item name="Proxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../douban_movie_comment_spider-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DoubanFilm_Collector-master" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\深海里的猫\Desktop\GraduationPro\Proxy" />
+      <recent name="C:\Users\深海里的猫\Desktop\GraduationPro\Proxy\webRequest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\深海里的猫\Desktop\GraduationPro\Proxy\getFreeProxy" />
+      <recent name="C:\Users\深海里的猫\Desktop\GraduationPro\Proxy\database" />
+      <recent name="C:\Users\深海里的猫\Desktop\GraduationPro\Proxy" />
+      <recent name="C:\Users\深海里的猫\Desktop\GraduationPro\Proxy\log" />
+      <recent name="C:\Users\深海里的猫\Desktop\GraduationPro\old_project" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -302,116 +327,116 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.login">
-    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ProxyApi">
+    <configuration name="MongoDbClient" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proxy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GraduationPro" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_database/login.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\深海里的猫\Desktop\GraduationPro\Proxy\database\MongoDbClient.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="mongodb_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ProxyApi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/newst" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GraduationPro" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newst/mongodb_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Api/ProxyApi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="recent_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ProxyManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proxy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GraduationPro" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_database/recent_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/ProxyManager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="spider_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ProxyRefreshSchedule" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proxy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GraduationPro" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_database/spider_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/ProxyRefreshSchedule.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test_proxy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ProxyValidSchedule" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proxy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GraduationPro" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_database/test_proxy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proxy/ProxyValidSchedule.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.spider_login" />
-      <item index="1" class="java.lang.String" itemvalue="Python.login" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test_proxy" />
-      <item index="3" class="java.lang.String" itemvalue="Python.recent_login" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mongodb_test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ProxyManager" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MongoDbClient" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ProxyValidSchedule" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ProxyRefreshSchedule" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ProxyApi" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.login" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_proxy" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mongodb_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.spider_login" />
-        <item index="4" class="java.lang.String" itemvalue="Python.recent_login" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ProxyApi" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ProxyRefreshSchedule" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ProxyValidSchedule" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ProxyManager" />
+        <item index="4" class="java.lang.String" itemvalue="Python.MongoDbClient" />
       </list>
     </recent_temporary>
   </component>
@@ -448,30 +473,53 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="0" width="1847" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30326945" sideWeight="0.22867803" order="8" side_tool="true" content_ui="tabs" x="0" y="380" width="1920" height="269" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3115124" sideWeight="0.36761487" order="8" side_tool="true" content_ui="tabs" x="0" y="380" width="1920" height="269" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29273742" sideWeight="0.58784163" order="3" side_tool="false" content_ui="tabs" x="482" y="364" width="956" height="311" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.4936034" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.49573562" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38487583" sideWeight="0.77132195" order="3" side_tool="false" content_ui="tabs" x="482" y="364" width="956" height="311" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29909706" sideWeight="0.5378465" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.193061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2916201" sideWeight="0.63238513" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18923241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3115124" sideWeight="0.36761487" order="8" side_tool="true" content_ui="tabs" x="0" y="380" width="1920" height="269" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29273742" sideWeight="0.58784163" order="3" side_tool="false" content_ui="tabs" x="482" y="364" width="956" height="311" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.4936034" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.49573562" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2916201" sideWeight="0.63238513" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18923241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -481,264 +529,78 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helloworld/ds_refrence.py" />
-    <entry file="file://$PROJECT_DIR$/helloworld/helloworld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/duocanshu.py" />
-    <entry file="file://$PROJECT_DIR$/helloworld/function_docstring.py" />
-    <entry file="file://$PROJECT_DIR$/helloworld/helloworld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/str_format.py" />
-    <entry file="file://$PROJECT_DIR$/helloworld/helloworld.py" />
-    <entry file="file://$PROJECT_DIR$/helloworld/str_format.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pressfile_example/backup_ver1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object_learning/object_version.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/pornhub.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="72" column="21" lean-forward="false" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object_learning/robot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_slice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/poem.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/spider_novel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pip/utils/outdated.py" />
-    <entry file="file://$PROJECT_DIR$/spider/spider_novel_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/spider_novel_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/test_IP_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/spider1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator/decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/readfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/csdn_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoldEra/novelSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newst/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/getcookie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="30" column="59" lean-forward="false" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/api.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/spider2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/spider3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newst/testConect.py">
+    <entry file="file://$PROJECT_DIR$/old_project/newst/testConect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newst/cytus2_spider.py">
+    <entry file="file://$PROJECT_DIR$/old_project/newst/cytus2_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/ds_refrence.py">
+    <entry file="file://$PROJECT_DIR$/old_project/helloworld/ds_refrence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/duocanshu.py">
+    <entry file="file://$PROJECT_DIR$/old_project/helloworld/duocanshu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/function_docstring.py">
+    <entry file="file://$PROJECT_DIR$/old_project/helloworld/function_docstring.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/helloworld.py">
+    <entry file="file://$PROJECT_DIR$/old_project/helloworld/helloworld.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newst/wallpaperSpider.py">
+    <entry file="file://$PROJECT_DIR$/old_project/newst/wallpaperSpider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="76" column="20" lean-forward="false" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhengshidaima/douban_spider.py">
+    <entry file="file://$PROJECT_DIR$/old_project/zhengshidaima/douban_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newst/cytus.html">
+    <entry file="file://$PROJECT_DIR$/old_project/newst/cytus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="250" column="20" lean-forward="false" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_database/etree.py">
+    <entry file="file://$PROJECT_DIR$/old_project/spider_database/etree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="198">
           <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,87 +608,306 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="380" column="4" lean-forward="false" selection-start-line="380" selection-start-column="4" selection-end-line="380" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_database/spider_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_database/test.txt">
+    <entry file="file://$PROJECT_DIR$/old_project/spider_database/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28028">
-          <caret line="1274" column="0" lean-forward="true" selection-start-line="1274" selection-start-column="0" selection-end-line="1274" selection-end-column="0" />
-          <folding />
+          <caret line="1274" column="0" lean-forward="false" selection-start-line="1274" selection-start-column="0" selection-end-line="1274" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_database/cookie">
+    <entry file="file://$PROJECT_DIR$/old_project/spider_database/cookie">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="48" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="730" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_project/newst/wp_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_project/spider_database/test_proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="40" column="116" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_project/newst/mongodb_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/proxy_api/test_flask.py" />
+    <entry file="file://$PROJECT_DIR$/venv/test_flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_venv/proxy_api/test.py" />
+    <entry file="file://$PROJECT_DIR$/flask_venv/test.py" />
+    <entry file="file://$PROJECT_DIR$/venv/pip-selfcheck.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_project/spider_database/recent_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="75" column="60" lean-forward="false" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/webRequest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/FreeProxy/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/old_project/spider_database/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_project/spider_database/spider_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/webRequest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_project/newst/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_project/python_slice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/webRequest/webRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newst/wp_spider.py">
+    <entry file="file://$PROJECT_DIR$/Proxy/log/test.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymongo/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1644">
+          <caret line="1241" column="0" lean-forward="true" selection-start-line="1241" selection-start-column="0" selection-end-line="1241" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/log/proxy_manager.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42130">
+          <caret line="1915" column="93" lean-forward="true" selection-start-line="1915" selection-start-column="93" selection-end-line="1915" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/log/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_project/spider_database/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2565">
+          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/log/LogHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="102" column="34" lean-forward="true" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
           <folding>
-            <element signature="e#247#602#0" expanded="false" />
-            <element signature="e#638#703#0" expanded="false" />
-            <element signature="e#741#1237#0" expanded="false" />
-            <element signature="e#2790#3078#0" expanded="false" />
+            <element signature="e#427#436#0" expanded="false" />
+            <element signature="e#809#2625#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_database/recent_login.py">
+    <entry file="file://$PROJECT_DIR$/Proxy/ProxyValidSchedule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="75" column="60" lean-forward="true" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+        <state relative-caret-position="364">
+          <caret line="51" column="32" lean-forward="false" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
           <folding>
-            <element signature="e#70#107#0" expanded="true" />
+            <element signature="e#420#430#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_database/test_proxy.py">
+    <entry file="file://$PROJECT_DIR$/Proxy/log/refresh_schedule.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="40" column="116" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="116" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/ProxyCheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/ProxyRefreshSchedule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="67" column="84" lean-forward="true" selection-start-line="67" selection-start-column="84" selection-end-line="67" selection-end-column="84" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#650#838#0" expanded="false" />
+            <element signature="e#511#521#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newst/mongodb_test.py">
+    <entry file="file://$PROJECT_DIR$/Proxy/FreeProxy/getFreeProxy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="78">
+          <caret line="193" column="37" lean-forward="true" selection-start-line="193" selection-start-column="37" selection-end-line="194" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#1169#1634#0" expanded="false" />
+            <element signature="e#1704#2388#0" expanded="false" />
+            <element signature="e#3482#4006#0" expanded="false" />
+            <element signature="e#4064#4748#0" expanded="false" />
+            <element signature="e#4807#5183#0" expanded="false" />
+            <element signature="e#5240#5853#0" expanded="false" />
+            <element signature="e#5912#6330#0" expanded="false" />
+            <element signature="e#6389#6836#0" expanded="false" />
+            <element signature="e#6895#7234#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_database/login.py">
+    <entry file="file://$PROJECT_DIR$/Proxy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="113" column="10" lean-forward="false" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/utilFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/database/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/database/MongoDbClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/Api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/Api/ProxyApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#451#894#0" expanded="false" />
+            <element signature="e#26#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/ProxyManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="e#768#1884#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
