@@ -1,19 +1,8 @@
 # -*- coding: utf-8 -*-
-"""
--------------------------------------------------
-   File Name：     ProxyValidSchedule.py
-   Description :  验证useful_proxy_queue中的代理,将不可用的移出
-   Author :       JHao
-   date：          2017/3/31
--------------------------------------------------
-   Change Activity:
-                   2017/3/31: 验证useful_proxy_queue中的代理
--------------------------------------------------
-"""
-__author__ = 'JHao'
 
 import sys
 import time
+import pickle
 
 from queue import Queue  # py2
 sys.path.append('../')
@@ -57,12 +46,14 @@ class ProxyValidSchedule(ProxyManager, object):
             if not self.queue.empty():
                 self.log.info("Start valid useful proxy")
                 self.__validProxy()
+
+                # useful_pool_status = self.getPoolStatus('useful_proxy')
+                # with open('../useful_pool_status', 'wb') as f:
+                #     pickle.dump(useful_pool_status, f)
             else:
                 self.log.info('Valid Complete! sleep 5 minutes.')
-                time.sleep(60 * 5)
+                time.sleep(60 * 7)
                 self.putQueue()
-
-
 
 
 def run():
@@ -71,4 +62,7 @@ def run():
 
 if __name__ == '__main__':
     p = ProxyValidSchedule()
-    p.main()
+    useful_pool_status = p.getPoolStatus('useful_proxy')
+    with open('../useful_pool_status', 'wb') as f:
+        pickle.dump(useful_pool_status, f)
+    # p.main()

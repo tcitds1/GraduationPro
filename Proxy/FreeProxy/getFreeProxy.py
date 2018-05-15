@@ -1,15 +1,47 @@
 import re
 import sys
 import requests
+sys.path.append('../')
 from webRequest.webRequest import WebRequest
 from utilFunction import getHtmlTree
 class GetFreeProxy(object):
     def __init__(self):
         pass
 
+
+
     @staticmethod
     def getProxyMethods():
-        return [ 'gbjProxy', 'sixProxy', 'fastProxy', 'cloudProxy', 'seaProxy']
+        # return [ 'gbjProxy',  'fastProxy', 'cloudProxy', 'seaProxy']
+        return {
+            # 'gbjProxy': 'http://www.goubanjia.com/',
+            'fastProxy': ' https://www.kuaidaili.com',
+            'cloudProxy': 'http://www.ip3366.net/free/',
+            'seaProxy': 'http://www.iphai.com/free/ng',
+            'sixProxy': 'http://www.66ip.cn/',
+            'mimiProxy': 'http://www.mimiip.com'
+        }
+
+    @staticmethod
+    def wuyouProxy(page=10):
+        """
+        无忧代理 http://www.data5u.com/
+        几乎没有能用的
+        :param page: 页数
+        :return:
+        """
+        url_list = [
+            'http://www.data5u.com/free/gwgn/index.shtml',
+            'http://www.data5u.com/free/gngn/index.shtml',
+        ]
+        for url in url_list:
+            html_tree = getHtmlTree(url)
+            ul_list = html_tree.xpath('//ul[@class="l2"]')
+            for ul in ul_list:
+                try:
+                    yield ':'.join(ul.xpath('.//li/text()')[0:2])
+                except Exception as e:
+                    print(e)
 
     # ok
     @staticmethod
@@ -128,9 +160,10 @@ class GetFreeProxy(object):
         估计没啥可用的，暂时不用了
         """
         url_gngao = ['http://www.mimiip.com/gngao/%s' % n for n in range(1, 10)]  # 国内高匿
-        url_gnpu = ['http://www.mimiip.com/gnpu/%s' % n for n in range(1, 10)]  # 国内普匿
-        url_gntou = ['http://www.mimiip.com/gntou/%s' % n for n in range(1, 10)]  # 国内透明
-        url_list = url_gngao + url_gnpu + url_gntou
+        # url_gnpu = ['http://www.mimiip.com/gnpu/%s' % n for n in range(1, 10)]  # 国内普匿
+        # url_gntou = ['http://www.mimiip.com/gntou/%s' % n for n in range(1, 10)]  # 国内透明
+        url_gw = ['http://www.mimiip.com/hw/%s' % n for n in range(1, 10)]  #国外
+        url_list = url_gngao + url_gw
 
         request = WebRequest()
         for url in url_list:
@@ -223,8 +256,15 @@ class GetFreeProxy(object):
 
 
 if __name__ == '__main__':
+
+    url = 'https://indienova.com/steam/mustbuy'
+    headers =  {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'}
     pp = GetFreeProxy()
-    for i in pp.gbjProxy():
+    for i in pp.wuyouProxy():
+        proxies = {
+            'http':i
+        }
         print(i)
+        print(requests.get(url=url, headers=headers, proxies=proxies).status_code)
 
 

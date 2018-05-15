@@ -1,6 +1,6 @@
-# import random
-# import requests
-# from lxml import html
+import random
+import requests
+from lxml import html
 # etree = html.etree
 # ua_list = [
 #             'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101',
@@ -64,3 +64,8 @@
 # # User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
 # k = ['a12312','b123124','c','d']
 # print(k[0:3])
+
+if __name__ == '__main__':
+    count = 0
+    if count:
+        print(count)

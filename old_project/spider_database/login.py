@@ -154,6 +154,7 @@ class Spider():
 
 
     def add_cookies(self):
+
         with open('cookie', 'rb') as f:
             self.cookies = pickle.load(f)
             self.session.cookies = self.cookies

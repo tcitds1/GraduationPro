@@ -1,23 +1,12 @@
 # -*- coding: utf-8 -*-
-# !/usr/bin/env python
-"""
--------------------------------------------------
-   File Name：     utilFunction.py
-   Description :  tool function
-   Author :       JHao
-   date：          2016/11/25
--------------------------------------------------
-   Change Activity:
-                   2016/11/25: 添加robustCrawl、verifyProxy、getHtmlTree
--------------------------------------------------
-"""
+
 import requests
 import time
 from lxml import etree
-
+from log.LogHandler import LogHandler
 from webRequest.webRequest import WebRequest
 
-# logger = LogHandler(__name__, stream=False)
+logger = LogHandler(__name__, stream=False)
 
 
 # noinspection PyPep8Naming
@@ -59,7 +48,7 @@ def getHtmlTree(url, **kwargs):
     html = wr.get(url=url, header=header).content
     return etree.HTML(html)
 
-# noinspection PyPep8Naming
+
 def validUsefulProxy(proxy):
     """
     检验代理是否可用
@@ -73,11 +62,12 @@ def validUsefulProxy(proxy):
         # 超过20秒的代理就不要了
         r = requests.get('http://httpbin.org/ip', proxies=proxies, timeout=10, verify=False)
         if r.status_code == 200:
-            # logger.info('%s is ok' % proxy)
+            logger.info('%s is ok' % proxy)
             return True
     except Exception as e:
-        # logger.error(str(e))
+        logger.error(str(e))
         return False
 
 def test():
-    print('this is utilfunction')
+    validUsefulProxy('123.122.22.77:1999')
+

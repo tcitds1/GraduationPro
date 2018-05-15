@@ -1,4 +1,11 @@
-from pymongo import  MongoClient
+import sys
+from pymongo import MongoClient
+try:
+    from FreeProxy.getFreeProxy import GetFreeProxy
+except ModuleNotFoundError as e:
+    sys.path.append('../')
+    from FreeProxy.getFreeProxy import GetFreeProxy
+
 class MongoDbClient(object):
 
     def __init__(self, host, port):
@@ -15,11 +22,16 @@ class MongoDbClient(object):
         return data['num'] if data != None else None
 
     # 存入ip
-    def put(self, proxy, num=1):
+    def put(self, proxy,from_method,num=1):
         if self.db[self.name].find_one({'proxy': proxy}):
             return None
         else:
-            self.db[self.name].insert({'proxy': proxy, 'num': num})
+            if from_method:
+                pass
+            else:
+               from_method = 'unknow'
+            self.db[self.name].insert({'proxy': proxy, 'from':from_method,'num': num})
+
 
     # 删除某个ip
     def delete(self, proxy):
@@ -32,7 +44,7 @@ class MongoDbClient(object):
             data = data[0]
             value = data['proxy']
             self.delete(value)
-            return {'proxy': value, 'value': data['num']}
+            return {'proxy': value, 'value': data['num'], 'from':data['from']}
         return None
 
     # 取所有
@@ -48,8 +60,8 @@ class MongoDbClient(object):
         self.db[self.name].remove()
 
 
-    def update(self, key, value):
-        self.db[self.name].update({'proxy': key}, {'$inc': {'num': value}})
+    def update(self, key, num=1):
+        self.db[self.name].update({'proxy': key}, {'$set': {'num': num}})
 
     # 看是否存在某数据
     def exists(self, key):
@@ -59,8 +71,17 @@ class MongoDbClient(object):
     def getNumber(self):
         return self.db[self.name].count()
 
-if __name__ == '__main__':
-    client = MongoClient('localhost', 27017)
-    db = client.proxy
-    db['useful_proxy'].insert_one({'proxy':'1.1.1.1:8888', 'num': 1})
+    def getProxyDbState(self, name):
+        methods_dic = GetFreeProxy.getProxyMethods()
+        dbStatus_dic = dict()
+        for key in methods_dic:
+            count = self.db[name].find({'from':key}).count()
+            dbStatus_dic[methods_dic[key]] = count
+            if(name=='raw_proxy' and count==0):
+                return None
+        return dbStatus_dic
 
+if __name__ == '__main__':
+    pass
+    # clientdb = MongoDbClient('localhost', 27017)
+    # print(clientdb.getProxyDbState('raw_proxy'))

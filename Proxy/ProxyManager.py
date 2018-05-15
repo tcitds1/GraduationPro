@@ -13,7 +13,7 @@ class ProxyManager(object):
         self.log = LogHandler('proxy_manager')
         self.useful_proxy_queue = 'useful_proxy'
         # 获取代理方法名
-        self.freeProxyMethods = GetFreeProxy.getProxyMethods()
+        self.freeProxyMethods = GetFreeProxy.getProxyMethods().keys()
     def refresh(self):
         """
         fetch proxy into Db by ProxyGetter
@@ -46,7 +46,7 @@ class ProxyManager(object):
                 if self.db.exists(proxy):
                     continue
                 self.db.changeTable(self.raw_proxy_queue)
-                self.db.put(proxy)
+                self.db.put(proxy,proxyGetter)
 
     def get(self):
         """
@@ -85,6 +85,10 @@ class ProxyManager(object):
         self.db.changeTable(self.useful_proxy_queue)
         total_useful_queue = self.db.getNumber()
         return {'raw_proxy': total_raw_proxy, 'useful_proxy': total_useful_queue}
+
+    def getPoolStatus(self, name):
+        return self.db.getProxyDbState(name)
+
 if __name__ == '__main__':
     k = ProxyManager()
     k.refresh()
