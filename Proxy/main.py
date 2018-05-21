@@ -26,9 +26,9 @@ def run():
 
 
 if __name__ == '__main__':
-    # run()
-    with open('raw_pool_status','rb') as f:
-        print(pickle.load(f))
-
-    with open('useful_pool_status', 'rb') as f:
-        print(pickle.load(f))
+    run()
+    # with open('raw_pool_status','rb') as f:
+    #     print(pickle.load(f))
+    #
+    # with open('useful_pool_status', 'rb') as f:
+    #     print(pickle.load(f))

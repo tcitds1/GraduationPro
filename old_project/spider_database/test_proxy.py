@@ -11,7 +11,7 @@ from pymongo import MongoClient
 proxies = {
     'http':'111.13.135.153'
 }
-url = "https://accounts.douban.com/login"
+url = "https://accounts.douban.com/dataSpider"
 headers = {
     'Accept': '*/*',
     'Accept-Encoding': 'gzip, deflate, br',
@@ -21,10 +21,10 @@ headers = {
     # 'X-Requested-With': 'XMLHttpRequest'
 }
 post_data = {
- 'Referer':'https://accounts.douban.com/login',
+ 'Referer':'https://accounts.douban.com/dataSpider',
  'form_email':'tcitds@163.com',
  'form_password':'miniyukou1997',
- 'login':'登录',
+ 'dataSpider':'登录',
  'redir':'https://movie.douban.com/',
  'source': 'None'
 }

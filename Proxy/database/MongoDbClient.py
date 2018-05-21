@@ -78,7 +78,7 @@ class MongoDbClient(object):
             count = self.db[name].find({'from':key}).count()
             dbStatus_dic[methods_dic[key]] = count
             if(name=='raw_proxy' and count==0):
-                return None
+                return 0
         return dbStatus_dic
 
 if __name__ == '__main__':

@@ -19,8 +19,27 @@ class GetFreeProxy(object):
             'cloudProxy': 'http://www.ip3366.net/free/',
             'seaProxy': 'http://www.iphai.com/free/ng',
             'sixProxy': 'http://www.66ip.cn/',
-            'mimiProxy': 'http://www.mimiip.com'
+            'mimiProxy': 'http://www.mimiip.com',
+            'moguProxy': 'http://mogumiao.com'
         }
+
+    @staticmethod
+    def moguProxy():
+        # a = {
+        #         "code": "0",
+        #          "msg":
+        #              [
+        #                 {"port": "37554", "ip": "218.73.128.104"},
+        #                 {"port": "35591", "ip": "115.215.48.233"},
+        #                 {"port": "20051", "ip": "218.66.146.184"},
+        #                 {"port": "30917", "ip": "115.215.56.150"},
+        #                 {"port": "28380", "ip": "117.69.97.134"}]
+        #     }
+        url = 'http://piping.mogumiao.com/proxy/api/get_ip_bs?appKey=fbfc504c469c4c669cbe57a8b220e64c&count=15&expiryDate=0&format=1&newLine=2'
+        data = requests.get(url=url).json()['msg']
+        for item in data:
+            proxy = item['ip']+':'+item['port']
+            yield proxy
 
     @staticmethod
     def wuyouProxy(page=10):

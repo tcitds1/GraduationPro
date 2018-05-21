@@ -22,7 +22,7 @@ def createDB():
 
 def login(email, password):
     # 登录豆瓣网
-    url = 'https://accounts.douban.com/login'
+    url = 'https://accounts.douban.com/dataSpider'
     headers = {
         # 在network获取
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
@@ -33,7 +33,7 @@ def login(email, password):
         'redir': 'https://www.douban.com',
         "form_email": email,
         "form_password": password,
-        "login": "登录",
+        "dataSpider": "登录",
     }
     captcha_html = session.get(url).html
     # 每次get(url)都会刷新验证码，所以只能get一次并同时获取验证码地址和验证码id !!!!!!!!!!!!!!!!

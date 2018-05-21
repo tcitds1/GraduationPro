@@ -2,7 +2,7 @@
 import requests
 
 
-login_url = 'https://accounts.douban.com/login'
+login_url = 'https://accounts.douban.com/dataSpider'
 movie_comments_url = 'https://movie.douban.com/subject/4920389/comments?start=0&limit=20&sort=new_score&status=P&percent_type='
 headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',

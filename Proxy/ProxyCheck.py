@@ -40,7 +40,8 @@ class ProxyCheck(ProxyManager, Thread):
             if validUsefulProxy(proxy):
                 # 验证通过计数器减1
                 if int(count) > 0:
-                    self.db.update(proxy, num=int(count) - 1)
+                    # self.db.update(proxy, num=int(count) - 1)
+                    pass
                 else:
                     pass
                 self.log.info('ProxyCheck: {} validation pass'.format(proxy))

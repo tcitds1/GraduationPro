@@ -6,7 +6,7 @@ from lxml import etree
 from log.LogHandler import LogHandler
 from webRequest.webRequest import WebRequest
 
-logger = LogHandler(__name__, stream=False)
+logger = LogHandler(__name__, file=False)
 
 
 # noinspection PyPep8Naming
@@ -62,7 +62,7 @@ def validUsefulProxy(proxy):
         # 超过20秒的代理就不要了
         r = requests.get('http://httpbin.org/ip', proxies=proxies, timeout=10, verify=False)
         if r.status_code == 200:
-            logger.info('%s is ok' % proxy)
+            # logger.info('%s is ok' % proxy)
             return True
     except Exception as e:
         logger.error(str(e))

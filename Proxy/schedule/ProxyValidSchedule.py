@@ -48,10 +48,10 @@ class ProxyValidSchedule(ProxyManager, object):
                 self.__validProxy()
 
                 # useful_pool_status = self.getPoolStatus('useful_proxy')
-                # with open('../useful_pool_status', 'wb') as f:
-                #     pickle.dump(useful_pool_status, f)
+                with open('../useful_pool_status', 'wb') as f:
+                    pickle.dump('useful_pool_status', f)
             else:
-                self.log.info('Valid Complete! sleep 5 minutes.')
+                self.log.info('Valid Complete! sleep 7 minutes.')
                 time.sleep(60 * 7)
                 self.putQueue()
 
@@ -62,7 +62,8 @@ def run():
 
 if __name__ == '__main__':
     p = ProxyValidSchedule()
-    useful_pool_status = p.getPoolStatus('useful_proxy')
-    with open('../useful_pool_status', 'wb') as f:
-        pickle.dump(useful_pool_status, f)
+    p.main()
+    # useful_pool_status = p.getPoolStatus('useful_proxy')
+    # with open('../useful_pool_status', 'wb') as f:
+    #     pickle.dump(useful_pool_status, f)
     # p.main()

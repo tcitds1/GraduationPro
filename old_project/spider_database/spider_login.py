@@ -5,7 +5,7 @@ from PIL import Image
 import pickle
 #import http.cookiejar as cookielib
 url = 'https://www.douban.com/'
-login_url='https://www.douban.com/login'
+login_url='https://www.douban.com/dataSpider'
 data={'source':None,
       'remember':'on'
     }

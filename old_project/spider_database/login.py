@@ -11,7 +11,7 @@ from pymongo import MongoClient
 
 class Spider():
     def __init__(self):
-        self.login_url = 'https://accounts.douban.com/login'
+        self.login_url = 'https://accounts.douban.com/dataSpider'
         self.movie_comments_url = 'https://movie.douban.com/subject/4920389/comments?start=0&limit=20&sort=new_score&status=P&percent_type='
         self.headers = {
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -22,10 +22,10 @@ class Spider():
             'Host': 'accounts.douban.com',
         }
         self.login_data = {
-         'Referer':'https://accounts.douban.com/login',
+         'Referer':'https://accounts.douban.com/dataSpider',
          'form_email':'tcitds@163.com',
          'form_password':'ywx199722',
-         'login':'登录',
+         'dataSpider':'登录',
          'redir':'https://movie.douban.com/',
          'source': 'None'
         }

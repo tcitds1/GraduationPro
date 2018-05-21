@@ -72,7 +72,6 @@ def main(process_num=30):
         with open('../raw_pool_status', 'wb') as f:
             pickle.dump(raw_pool_status, f)
     # 检验新代理
-    exit()
 
     pl = []
     for num in range(process_num):
