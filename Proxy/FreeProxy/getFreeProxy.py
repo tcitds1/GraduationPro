@@ -1,6 +1,7 @@
 import re
 import sys
 import requests
+import time
 sys.path.append('../')
 from webRequest.webRequest import WebRequest
 from utilFunction import getHtmlTree
@@ -15,11 +16,11 @@ class GetFreeProxy(object):
         # return [ 'gbjProxy',  'fastProxy', 'cloudProxy', 'seaProxy']
         return {
             # 'gbjProxy': 'http://www.goubanjia.com/',
-            'fastProxy': ' https://www.kuaidaili.com',
-            'cloudProxy': 'http://www.ip3366.net/free/',
-            'seaProxy': 'http://www.iphai.com/free/ng',
-            'sixProxy': 'http://www.66ip.cn/',
-            'mimiProxy': 'http://www.mimiip.com',
+            # 'fastProxy': ' https://www.kuaidaili.com',
+            # 'cloudProxy': 'http://www.ip3366.net/free/',
+            # 'seaProxy': 'http://www.iphai.com/free/ng',
+            # 'sixProxy': 'http://www.66ip.cn/',
+            # 'mimiProxy': 'http://www.mimiip.com',
             'moguProxy': 'http://mogumiao.com'
         }
 
@@ -35,8 +36,14 @@ class GetFreeProxy(object):
         #                 {"port": "30917", "ip": "115.215.56.150"},
         #                 {"port": "28380", "ip": "117.69.97.134"}]
         #     }
-        url = 'http://piping.mogumiao.com/proxy/api/get_ip_bs?appKey=fbfc504c469c4c669cbe57a8b220e64c&count=15&expiryDate=0&format=1&newLine=2'
-        data = requests.get(url=url).json()['msg']
+        url = 'http://piping.mogumiao.com/proxy/api/get_ip_bs?appKey=0d41dda6381e4cb5b1b4f81a01c6d36d&count=10&expiryDate=0&format=1&newLine=2'
+        data = requests.get(url=url).json()
+        while True:
+            if(data['code']=='3001'):
+                time.sleep(1)
+                data = requests.get(url=url).json()
+            break
+        data = data['msg']
         for item in data:
             proxy = item['ip']+':'+item['port']
             yield proxy
@@ -275,15 +282,16 @@ class GetFreeProxy(object):
 
 
 if __name__ == '__main__':
-
-    url = 'https://indienova.com/steam/mustbuy'
-    headers =  {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'}
-    pp = GetFreeProxy()
-    for i in pp.wuyouProxy():
-        proxies = {
-            'http':i
-        }
-        print(i)
-        print(requests.get(url=url, headers=headers, proxies=proxies).status_code)
+    getfree = GetFreeProxy()
+    getfree.moguProxy()
+    # url = 'https://indienova.com/steam/mustbuy'
+    # headers =  {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'}
+    # pp = GetFreeProxy()
+    # for i in pp.wuyouProxy():
+    #     proxies = {
+    #         'http':i
+    #     }
+    #     print(i)
+    #     print(requests.get(url=url, headers=headers, proxies=proxies).status_code)
 
 

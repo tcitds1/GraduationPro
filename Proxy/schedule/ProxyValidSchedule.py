@@ -51,8 +51,8 @@ class ProxyValidSchedule(ProxyManager, object):
                 with open('../useful_pool_status', 'wb') as f:
                     pickle.dump('useful_pool_status', f)
             else:
-                self.log.info('Valid Complete! sleep 7 minutes.')
-                time.sleep(60 * 7)
+                self.log.info('Valid Complete! sleep 40 seconds.')
+                time.sleep(40)
                 self.putQueue()
 
 

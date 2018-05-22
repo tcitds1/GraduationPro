@@ -1,5 +1,6 @@
 import random
 import requests
+import time
 from lxml import html
 etree = html.etree
 ua_list = [
@@ -89,7 +90,15 @@ ua_list = [
 '''
 def testpy(str):
     print(str.format("333"))
+
+def test(k):
+    if(k==5):
+        return
+    print(k)
+
 if __name__ == '__main__':
+    for i in range(8):
+        test(i)
     # proxies = {
     #     'http': 'http://192.155.185.239:80'
     # }
@@ -113,13 +122,17 @@ if __name__ == '__main__':
     #     proxy = item['ip'] + ':' + item['port']
     #     print(proxy)
 
-    tag_list = ['剧情', '喜剧', '动作', '爱情', '科幻', '悬疑', '惊悚', '恐怖', '犯罪', '同性', '音乐', '歌舞', '传记',
-                '历史', '战争', '西部', '奇幻', '冒险', '灾难', '武侠', '情色']
-    tag_url_list = list()
-    # 'https://movie.douban.com/j/new_search_subjects?sort=T&range=0,10&tags=&start=10000&genres=爱情'
-    tag_url = 'https://movie.douban.com/j/new_search_subjects?sort=T&range=0,10&tags=&start={}&genres={}'
-    for i in tag_list:
-        total_url = tag_url.format('{}', i)
-        tag_url_list.append(total_url)
-    for i in tag_url_list:
-        print(i)
+    # tag_list = ['剧情', '喜剧', '动作', '爱情', '科幻', '悬疑', '惊悚', '恐怖', '犯罪', '同性', '音乐', '歌舞', '传记',
+    #             '历史', '战争', '西部', '奇幻', '冒险', '灾难', '武侠', '情色']
+    # tag_url_list = list()
+    # # 'https://movie.douban.com/j/new_search_subjects?sort=T&range=0,10&tags=&start=10000&genres=爱情'
+    # tag_url = 'https://movie.douban.com/j/new_search_subjects?sort=T&range=0,10&tags=&start={}&genres={}'
+    # for i in tag_list:
+    #     total_url = tag_url.format('{}', i)
+    #     tag_url_list.append(total_url)
+    # for i in tag_url_list:
+    #     test = 'Movie Spider : {}----{} tag start----'.format(time.ctime(), i[-2::])
+    #     print(test)
+
+
+

@@ -3,8 +3,6 @@
 -------------------------------------------------
    File Name：     LogHandler.py
    Description :  日志操作模块
-   Author :       JHao
-   date：          2017/3/6
 -------------------------------------------------
    Change Activity:
                    2017/3/6: log handler
@@ -100,4 +98,4 @@ if __name__ == '__main__':
     print(ROOT_PATH)
     print(LOG_PATH)
     log = LogHandler('test')
-    log.info('this is a test msg')
+    log.info(u'中文this is a test msg')

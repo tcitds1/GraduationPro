@@ -23,37 +23,66 @@ class MovieSpider(object):
             'Referer': 'https://movie.douban.com/tag/',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
         }
-
+        self.db = MongoDbMovie('localhost', 27017)
+        self.log = LogHandler('MovieSpider',file=False)
         self.webRequests = WebRequests()
         self.get = self.webRequests.sendRequest
-        self.db = MongoDbMovie('localhost', 27017)
+        self.change_proxy = self.webRequests.change_proxy
 
-    def spider_movie(self, movie_tag_url):
-        start = 0
+    def getNowProxy(self):
+        return self.webRequests.proxy
+
+    def saveUrl(self, url, start):
+        data = dict()
+        tag = url[-2::]
+        data['tag'] = tag
+        data['start'] = start
+        with open('./load/'+tag, 'wb') as f:
+            pickle.dump(data, f)
+
+    def spider_movie(self, movie_tag_url, start):
+        if(start==''):
+            start = 0
+        self.log.info('Movie Spider : {}----{} tag from {} data start----'.format(time.ctime(), movie_tag_url[-2::],start))
+
+        start = int(start)
         url = movie_tag_url.format(start)
         while True:
+            self.saveUrl(movie_tag_url,start)
             while True:
                 response = self.get(url)
                 if(response):
                     break
-            print('get movie url links,access right')
+                self.change_proxy()
+
+            # 有个别网址重复访问404,需要更换网址
+            if(response == 'next'):
+                self.log.info('Movie Spider : {}----get {} 404 more times,get next url----'.format(time.ctime(), movie_tag_url))
+                start = start + 20
+                continue
+
             data_array = (response.json())['data']
-            if(len(data_array)==0)
+            if(len(data_array)==0):
                 break
             for data in data_array:
                 if self.db.exists(data['title']):
                     continue
-                self.analyse_page(data)
+                self.analyse_page(data, movie_tag_url[-2::])
             start = start + 20
             url = movie_tag_url.format(start)
+        self.log.info('Movie Spider : {}----{} tag ends----'.format(time.ctime(), movie_tag_url[-2::]))
 
-    def analyse_page(self, movie_page_data):
+    def analyse_page(self, movie_page_data, tag_name):
         data = dict()
         movie_page_url = movie_page_data['url']
         while True:
             response = self.get(movie_page_url)
             if (response):
                 break
+            self.change_proxy()
+        if(response=='next'):
+            self.log.info('Movie Spider : {}----get {} 404 more times,  next url----'.format(time.ctime(), movie_page_url))
+            return
         response = response.text
         movie_tree = etree.HTML(response)
         try:
@@ -79,7 +108,7 @@ class MovieSpider(object):
             data['movie_areas'] = re.findall(regex_area, response)[0].replace(' ', '').split('/')
             # 时长
             try:
-                movie_time = movie_tree.xpath('//span[@property="v:runtime"]/text()')[0].replace(' ','')
+                data['movie_time'] = movie_tree.xpath('//span[@property="v:runtime"]/text()')[0].replace(' ','')
             except:
                 data['movie_time'] = 'unknow'
             # 多少人标记看过
@@ -90,8 +119,12 @@ class MovieSpider(object):
             data['movie_tags'] = movie_tree.xpath('//div[@class="tags-body"]/a/text()')
         except Exception as e:
             print(e)
-        print(" {} 已存储".format(data['movie_title']))
+
+        proxy = self.getNowProxy()
+        self.log.info('Movie Spider : {}---proxy-[{}]---{}---{} has been saved----'.format(time.ctime(),proxy, tag_name, data['movie_title']))
         self.db.put(data)
+        # 暂时关闭
+        # time.sleep(random.uniform(1,2))
 
     def test(self):
         start = time.time()
@@ -117,35 +150,53 @@ class MovieSpider(object):
         end = time.time()
         print('spend {} times'.format(end-start))
 
-def main():
+def thread_run(url, start):
+    p = MovieSpider()
+    p.spider_movie(url, start)
 
+def loadUrl(tag_name):
+    start = ''
+    try:
+        with open('./load/'+tag_name, 'rb') as f:
+            start = pickle.load(f)['start']
+    except Exception as e:
+        pass
+    finally:
+        return start
+def main():
     tag_list = ['剧情', '喜剧', '动作', '爱情', '科幻', '悬疑', '惊悚', '恐怖', '犯罪', '同性', '音乐', '歌舞', '传记',
                 '历史', '战争', '西部', '奇幻', '冒险', '灾难', '武侠', '情色']
     tag_url_list = list()
-    # 'https://movie.douban.com/j/new_search_subjects?sort=T&range=0,10&tags=&start=10000&genres=爱情'
     tag_url = 'https://movie.douban.com/j/new_search_subjects?sort=T&range=0,10&tags=&start={}&genres={}'
+
+    pl = list()
+
     for i in tag_list:
         total_url = tag_url.format('{}', i)
-        tag_url_list.append(total_url)
-    pl = []
-
-
-    for num in range(process_num):
-        proc = Thread(target=refreshPool, args=())
+        start = loadUrl(i)
+        # tag_url_list.append(total_url)
+        proc = Thread(target=thread_run, args=(total_url,start))
         pl.append(proc)
 
-    for num in range(process_num):
-        pl[num].daemon = True
-        pl[num].start()
+    for item in pl:
+        item.daemon = True
+        item.start()
 
-    for num in range(process_num):
-        pl[num].join()
+    for item in pl:
+        item.join()
 
 
 if __name__ == "__main__":
-    spider = MovieSpider()
-    movie_tag_url = 'https://movie.douban.com/j/new_search_subjects?sort=T&range=0,10&tags=&start={}&genres=%E5%89%A7%E6%83%85'
-    spider.spider_movie(movie_tag_url)
+    main()
+
+    # spider = MovieSpider()
+    # movie_tag_url = 'https://movie.douban.com/j/new_search_subjects?sort=T&range=0,10&tags=&start={}&genres=剧情'
+    # # start = 40
+    # # spider.saveUrl(movie_tag_url, start)
+    # # spider.spider_movie(movie_tag_url)
+    # with open('./load/剧情', 'rb') as f:
+    #     print(pickle.load(f))
+
     example = '''
     1.如果不能访问，更换user-agent和proxy
     2.已经存在的数据： 导演 主演 分数 电影名字
