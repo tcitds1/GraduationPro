@@ -22,7 +22,6 @@ class JsonResponse(Response):
 
         return super(JsonResponse, cls).force_type(response, environ)
 
-
 app.response_class = JsonResponse
 
 api_list = {

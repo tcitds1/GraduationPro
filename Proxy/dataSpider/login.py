@@ -13,7 +13,7 @@ sys.path.append('../')
 from database.MongoDbUser import MongoDb
 class Spider():
     def __init__(self):
-        self.login_url = 'https://accounts.douban.com/dataSpider'
+        self.login_url = 'https://accounts.douban.com/login'
         self.movie_comments_url = 'https://movie.douban.com/subject/4920389/comments?start=0&limit=20&sort=new_score&status=P&percent_type='
         self.headers = {
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -98,62 +98,6 @@ class Spider():
         captcha_id = html.xpath('//input[@name="captcha-id"]/@value')[0]
         remove('captcha.jpg')
         return captcha_id, captcha_solution
-
-    def spider_comment(self, movie_id):
-        headers = {
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
-            'Host': 'movie.douban.com',
-            'Upgrade-Insecure-Requests': '1',
-        }
-        s = self.session
-        start = 0
-        page = 1
-        # 'https://movie.douban.com/subject/1291561/comments?start=0&limit=20&sort=new_score&status=P&percent_type='
-        url_hot = 'https://movie.douban.com/subject/{}/comments?start={}&limit=20&sort=new_score&status=P&percent_type='.format(movie_id, start)
-        url_new = 'https://movie.douban.com/subject/{}/comments?start={}&limit=20&sort=time&status=P&percent_type='.format(movie_id, start)
-        while(True):
-            response = s.get(url=url_hot, headers=headers)
-            if(response.status_code == 200):
-                self.analysis_page(response.text, page)
-                print('当前已访问第{}页  {}'.format(page, time.asctime(time.localtime(time.time()))))
-                time.sleep(random.uniform(5,6))
-                start = start + 20
-                page = page + 1
-                url_hot = 'https://movie.douban.com/subject/{}/comments?start={}&limit=20&sort=new_score&status=P&percent_type='.format(movie_id,start)
-                headers['Referer'] = url_hot
-                if(start == 500):
-                    print('热门评论已爬取完毕')
-                    break;
-            else:
-                print('访问电影第{}页失败'.format(page))
-                break
-
-    def analyse_page(self, text, page):
-        user_list = []
-        html = etree.HTML(text)
-        # 从哪部电影爬的
-        from_movie = html.xpath('//div[@id="content"]/h1/text()')[0].replace(' 短评', '')
-        comment_items = html.xpath('//div[@class="comment-item"]')
-        print(type(comment_items))
-        print(len(comment_items))
-        for item in comment_items:
-            user_dic = {}
-            item = copy.deepcopy(item)
-            user_name = item.xpath('//div[@class="comment-item"]/div[@class="avatar"]/a/@title')[0]
-            user_page = item.xpath('//div[@class="comment-item"]/div[@class="avatar"]/a/@href')[0]
-            user_avator = item.xpath('//div[@class="comment-item"]/div[@class="avatar"]/a/img/@src')[0].replace('/u','/ul')
-            from_movie = from_movie
-            user_dic['user_name'] = user_name
-            user_dic['user_page'] = user_page
-            user_dic['user_avator'] = user_avator
-            user_dic['page'] = page
-            user_dic['from_movie'] = from_movie
-            user_list.append(user_dic)
-        col = self.col
-        col.insert_many(user_list)
 
     def add_cookies(self):
         print('---正在使用添加cookie方式登录---')

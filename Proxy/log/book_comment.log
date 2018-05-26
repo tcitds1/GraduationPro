@@ -1,730 +1,551 @@
-2018-05-17 00:53:15,939 bookUser_Spider.py[line:34] INFO --------Get book_comment user Start--------
-2018-05-17 00:53:16,739 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第1页数据
-2018-05-17 00:53:20,782 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第2页数据
-2018-05-17 00:53:25,197 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第3页数据
-2018-05-17 00:58:41,937 bookUser_Spider.py[line:34] INFO --------Get book_comment user Start--------
-2018-05-17 00:58:42,731 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第1页数据
-2018-05-17 00:58:46,808 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第2页数据
-2018-05-17 00:58:51,121 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第3页数据
-2018-05-17 00:58:57,299 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第4页数据
-2018-05-17 00:59:04,161 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第5页数据
-2018-05-17 00:59:09,674 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第6页数据
-2018-05-17 00:59:13,704 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第7页数据
-2018-05-17 00:59:19,895 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第8页数据
-2018-05-17 00:59:25,261 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第9页数据
-2018-05-17 00:59:29,690 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第10页数据
-2018-05-17 00:59:34,691 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第11页数据
-2018-05-17 00:59:41,200 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第12页数据
-2018-05-17 00:59:47,414 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第13页数据
-2018-05-17 00:59:53,045 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第14页数据
-2018-05-17 00:59:57,016 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第15页数据
-2018-05-17 01:00:00,939 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第16页数据
-2018-05-17 01:00:16,087 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第17页数据
-2018-05-17 01:00:20,586 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第18页数据
-2018-05-17 01:00:24,467 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第19页数据
-2018-05-17 01:00:31,328 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第20页数据
-2018-05-17 01:00:36,999 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第21页数据
-2018-05-17 01:00:41,169 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第22页数据
-2018-05-17 01:00:46,443 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第23页数据
-2018-05-17 01:00:51,174 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第24页数据
-2018-05-17 01:00:55,051 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第25页数据
-2018-05-17 01:01:00,320 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第26页数据
-2018-05-17 01:01:06,693 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第27页数据
-2018-05-17 01:01:12,847 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第28页数据
-2018-05-17 01:01:18,114 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第29页数据
-2018-05-17 01:01:23,111 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第30页数据
-2018-05-17 01:01:28,164 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第31页数据
-2018-05-17 01:01:32,727 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第32页数据
-2018-05-17 01:01:38,081 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第33页数据
-2018-05-17 01:01:53,513 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第34页数据
-2018-05-17 01:01:57,503 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第35页数据
-2018-05-17 01:02:02,412 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第36页数据
-2018-05-17 01:02:06,367 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第37页数据
-2018-05-17 01:02:11,641 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第38页数据
-2018-05-17 01:02:18,039 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第39页数据
-2018-05-17 01:02:23,226 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第40页数据
-2018-05-17 01:02:28,122 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第41页数据
-2018-05-17 01:02:34,263 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第42页数据
-2018-05-17 01:02:38,358 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第43页数据
-2018-05-17 01:02:42,932 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第44页数据
-2018-05-17 01:02:47,596 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第45页数据
-2018-05-17 01:02:53,265 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第46页数据
-2018-05-17 01:02:58,565 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第47页数据
-2018-05-17 01:03:03,371 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第48页数据
-2018-05-17 01:03:09,919 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第49页数据
-2018-05-17 01:03:13,534 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第50页数据
-2018-05-17 01:03:30,071 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第51页数据
-2018-05-17 01:03:33,887 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第52页数据
-2018-05-17 01:03:38,276 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第53页数据
-2018-05-17 01:03:44,597 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第54页数据
-2018-05-17 01:03:50,182 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第55页数据
-2018-05-17 01:03:56,579 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第56页数据
-2018-05-17 01:04:02,248 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第57页数据
-2018-05-17 01:04:08,124 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第58页数据
-2018-05-17 01:04:11,902 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第59页数据
-2018-05-17 01:04:15,928 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第60页数据
-2018-05-17 01:04:22,164 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第61页数据
-2018-05-17 01:04:27,276 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第62页数据
-2018-05-17 01:04:31,993 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第63页数据
-2018-05-17 01:04:37,608 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第64页数据
-2018-05-17 01:04:41,440 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第65页数据
-2018-05-17 01:04:45,345 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第66页数据
-2018-05-17 01:04:50,842 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第67页数据
-2018-05-17 01:05:05,157 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第68页数据
-2018-05-17 01:05:10,097 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第69页数据
-2018-05-17 01:05:16,610 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第70页数据
-2018-05-17 01:05:20,423 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第71页数据
-2018-05-17 01:05:26,331 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第72页数据
-2018-05-17 01:05:30,322 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第73页数据
-2018-05-17 01:05:34,176 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第74页数据
-2018-05-17 01:05:40,443 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第75页数据
-2018-05-17 01:05:45,719 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第76页数据
-2018-05-17 01:05:50,998 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第77页数据
-2018-05-17 01:05:55,741 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第78页数据
-2018-05-17 01:06:01,559 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第79页数据
-2018-05-17 01:06:08,186 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第80页数据
-2018-05-17 01:06:14,693 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第81页数据
-2018-05-17 01:06:20,009 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第82页数据
-2018-05-17 01:06:26,253 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第83页数据
-2018-05-17 01:06:31,450 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第84页数据
-2018-05-17 01:06:45,540 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第85页数据
-2018-05-17 01:06:50,950 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第86页数据
-2018-05-17 01:06:56,382 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第87页数据
-2018-05-17 01:07:03,089 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第88页数据
-2018-05-17 01:07:08,921 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第89页数据
-2018-05-17 01:07:15,522 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第90页数据
-2018-05-17 01:07:20,715 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第91页数据
-2018-05-17 01:07:25,764 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第92页数据
-2018-05-17 01:07:30,470 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第93页数据
-2018-05-17 01:07:35,721 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第94页数据
-2018-05-17 01:07:40,613 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第95页数据
-2018-05-17 01:07:45,314 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第96页数据
-2018-05-17 01:07:50,513 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第97页数据
-2018-05-17 01:07:56,936 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第98页数据
-2018-05-17 01:08:02,119 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第99页数据
-2018-05-17 01:08:05,895 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第100页数据
-2018-05-17 01:08:09,731 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第101页数据
-2018-05-17 01:08:24,398 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第102页数据
-2018-05-17 01:08:29,223 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第103页数据
-2018-05-17 01:08:33,979 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第104页数据
-2018-05-17 01:08:37,893 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第105页数据
-2018-05-17 01:08:44,171 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第106页数据
-2018-05-17 01:08:50,341 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第107页数据
-2018-05-17 01:08:56,605 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第108页数据
-2018-05-17 01:09:00,958 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第109页数据
-2018-05-17 01:09:04,752 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第110页数据
-2018-05-17 01:09:08,959 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第111页数据
-2018-05-17 01:09:14,430 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第112页数据
-2018-05-17 01:09:20,005 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第113页数据
-2018-05-17 01:09:24,351 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第114页数据
-2018-05-17 01:09:30,688 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第115页数据
-2018-05-17 01:09:36,175 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第116页数据
-2018-05-17 01:09:41,834 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第117页数据
-2018-05-17 01:09:47,302 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第118页数据
-2018-05-17 01:10:03,238 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第119页数据
-2018-05-17 01:10:08,042 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第120页数据
-2018-05-17 01:10:13,821 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第121页数据
-2018-05-17 01:10:18,005 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第122页数据
-2018-05-17 01:10:22,178 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第123页数据
-2018-05-17 01:10:29,080 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第124页数据
-2018-05-17 01:10:34,136 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第125页数据
-2018-05-17 01:10:38,143 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第126页数据
-2018-05-17 01:10:41,779 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第127页数据
-2018-05-17 01:10:47,229 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第128页数据
-2018-05-17 01:10:53,323 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第129页数据
-2018-05-17 01:10:57,231 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第130页数据
-2018-05-17 01:11:02,822 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第131页数据
-2018-05-17 01:11:08,113 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第132页数据
-2018-05-17 01:11:13,262 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第133页数据
-2018-05-17 01:11:18,863 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第134页数据
-2018-05-17 01:11:22,514 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第135页数据
-2018-05-17 01:11:36,240 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第136页数据
-2018-05-17 01:11:42,128 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第137页数据
-2018-05-17 01:11:46,592 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第138页数据
-2018-05-17 01:11:50,799 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第139页数据
-2018-05-17 01:11:55,464 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第140页数据
-2018-05-17 01:12:00,198 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第141页数据
-2018-05-17 01:12:06,051 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第142页数据
-2018-05-17 01:12:09,690 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第143页数据
-2018-05-17 01:12:15,416 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第144页数据
-2018-05-17 01:12:21,040 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第145页数据
-2018-05-17 01:12:26,798 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第146页数据
-2018-05-17 01:12:32,391 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第147页数据
-2018-05-17 01:12:38,220 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第148页数据
-2018-05-17 01:12:42,265 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第149页数据
-2018-05-17 01:12:48,255 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第150页数据
-2018-05-17 01:12:52,677 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第151页数据
-2018-05-17 01:12:57,005 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第152页数据
-2018-05-17 01:13:12,253 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第153页数据
-2018-05-17 01:13:18,789 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第154页数据
-2018-05-17 01:13:25,076 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第155页数据
-2018-05-17 01:13:29,369 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第156页数据
-2018-05-17 01:13:33,648 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第157页数据
-2018-05-17 01:13:39,638 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第158页数据
-2018-05-17 01:13:44,622 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第159页数据
-2018-05-17 01:13:49,579 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第160页数据
-2018-05-17 01:13:54,535 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第161页数据
-2018-05-17 01:14:00,357 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第162页数据
-2018-05-17 01:14:04,440 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第163页数据
-2018-05-17 01:14:09,053 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第164页数据
-2018-05-17 01:14:14,669 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第165页数据
-2018-05-17 01:14:18,551 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第166页数据
-2018-05-17 01:14:22,630 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第167页数据
-2018-05-17 01:14:27,147 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第168页数据
-2018-05-17 01:14:33,199 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第169页数据
-2018-05-17 01:14:47,091 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第170页数据
-2018-05-17 01:14:52,088 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第171页数据
-2018-05-17 01:14:58,525 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第172页数据
-2018-05-17 01:15:02,950 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第173页数据
-2018-05-17 01:15:07,939 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第174页数据
-2018-05-17 01:15:12,019 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第175页数据
-2018-05-17 01:15:15,839 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第176页数据
-2018-05-17 01:15:21,947 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第177页数据
-2018-05-17 01:15:26,777 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第178页数据
-2018-05-17 01:17:58,766 bookUser_Spider.py[line:34] INFO --------Get book_comment user Start--------
-2018-05-17 01:17:59,550 bookUser_Spider.py[line:38] INFO bookUser_Spider: 正在获取第1页数据
-2018-05-17 01:23:00,964 bookUser_Spider.py[line:34] INFO --------Get book_comment user Start--------
-2018-05-17 01:23:01,663 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 178 page data
-2018-05-17 01:23:08,133 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 179 page data
-2018-05-17 01:23:13,301 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 180 page data
-2018-05-17 01:23:18,487 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 181 page data
-2018-05-17 01:23:22,889 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 182 page data
-2018-05-17 01:23:28,425 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 183 page data
-2018-05-17 01:23:34,906 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 184 page data
-2018-05-17 01:23:41,003 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 185 page data
-2018-05-17 01:23:44,927 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 186 page data
-2018-05-17 01:24:00,903 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 187 page data
-2018-05-17 01:24:06,865 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 188 page data
-2018-05-17 01:24:13,189 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 189 page data
-2018-05-17 01:24:18,606 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 190 page data
-2018-05-17 01:24:24,651 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 191 page data
-2018-05-17 01:24:30,293 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 192 page data
-2018-05-17 01:24:37,145 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 193 page data
-2018-05-17 01:24:42,562 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 194 page data
-2018-05-17 01:24:48,186 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 195 page data
-2018-05-17 01:24:52,044 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 196 page data
-2018-05-17 01:24:57,617 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 197 page data
-2018-05-17 01:25:01,511 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 198 page data
-2018-05-17 01:25:06,840 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 199 page data
-2018-05-17 01:25:12,419 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 200 page data
-2018-05-17 01:25:16,351 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 201 page data
-2018-05-17 01:25:21,874 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 202 page data
-2018-05-17 01:25:26,611 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 203 page data
-2018-05-17 01:25:42,381 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 204 page data
-2018-05-17 01:25:48,144 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 205 page data
-2018-05-17 01:25:54,387 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 206 page data
-2018-05-17 01:25:59,907 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 207 page data
-2018-05-17 01:26:05,625 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 208 page data
-2018-05-17 01:26:10,045 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 209 page data
-2018-05-17 01:26:14,756 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 210 page data
-2018-05-17 01:26:19,488 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 211 page data
-2018-05-17 01:26:25,875 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 212 page data
-2018-05-17 01:26:30,832 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 213 page data
-2018-05-17 01:26:35,124 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 214 page data
-2018-05-17 01:26:39,576 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 215 page data
-2018-05-17 01:26:43,898 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 216 page data
-2018-05-17 01:26:47,815 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 217 page data
-2018-05-17 01:26:53,045 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 218 page data
-2018-05-17 01:26:56,998 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 219 page data
-2018-05-17 01:27:03,659 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 220 page data
-2018-05-17 01:27:18,304 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 221 page data
-2018-05-17 01:27:22,320 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 222 page data
-2018-05-17 01:27:26,311 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 223 page data
-2018-05-17 01:27:31,220 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 224 page data
-2018-05-17 01:27:37,566 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 225 page data
-2018-05-17 01:27:43,811 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 226 page data
-2018-05-17 01:27:48,223 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 227 page data
-2018-05-17 01:27:51,982 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 228 page data
-2018-05-17 01:27:58,042 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 229 page data
-2018-05-17 01:28:04,095 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 230 page data
-2018-05-17 01:28:09,843 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 231 page data
-2018-05-17 01:28:15,716 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 232 page data
-2018-05-17 01:28:19,888 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 233 page data
-2018-05-17 01:28:24,406 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 234 page data
-2018-05-17 01:28:29,991 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 235 page data
-2018-05-17 01:28:35,218 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 236 page data
-2018-05-17 01:28:41,268 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 237 page data
-2018-05-17 01:28:55,787 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 238 page data
-2018-05-17 01:29:00,792 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 239 page data
-2018-05-17 01:29:06,632 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 240 page data
-2018-05-17 01:29:11,552 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 241 page data
-2018-05-17 01:29:17,072 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 242 page data
-2018-05-17 01:29:21,726 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 243 page data
-2018-05-17 01:29:25,740 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 244 page data
-2018-05-17 01:29:30,841 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 245 page data
-2018-05-17 01:29:35,855 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 246 page data
-2018-05-17 01:29:40,330 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 247 page data
-2018-05-17 01:29:45,041 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 248 page data
-2018-05-17 01:29:50,130 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 249 page data
-2018-05-17 01:29:55,351 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 250 page data
-2018-05-17 01:29:59,018 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 251 page data
-2018-05-17 01:30:04,311 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 252 page data
-2018-05-17 01:30:09,406 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 253 page data
-2018-05-17 01:30:15,399 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 254 page data
-2018-05-17 01:30:30,619 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 255 page data
-2018-05-17 01:30:34,911 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 256 page data
-2018-05-17 01:30:38,864 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 257 page data
-2018-05-17 01:30:42,940 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 258 page data
-2018-05-17 01:30:49,435 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 259 page data
-2018-05-17 01:30:52,961 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 260 page data
-2018-05-17 01:30:58,413 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 261 page data
-2018-05-17 01:31:02,423 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 262 page data
-2018-05-17 01:31:06,769 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 263 page data
-2018-05-17 01:31:10,742 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 264 page data
-2018-05-17 01:31:17,656 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 265 page data
-2018-05-17 01:31:23,188 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 266 page data
-2018-05-17 01:31:28,139 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 267 page data
-2018-05-17 01:31:33,334 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 268 page data
-2018-05-17 01:31:40,226 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 269 page data
-2018-05-17 01:31:45,687 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 270 page data
-2018-05-17 01:31:50,020 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 271 page data
-2018-05-17 01:32:05,112 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 272 page data
-2018-05-17 01:32:11,922 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 273 page data
-2018-05-17 01:32:18,699 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 274 page data
-2018-05-17 01:32:24,876 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 275 page data
-2018-05-17 01:32:30,648 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 276 page data
-2018-05-17 01:32:37,457 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 277 page data
-2018-05-17 01:32:43,391 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 278 page data
-2018-05-17 01:32:47,675 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 279 page data
-2018-05-17 01:32:52,533 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 280 page data
-2018-05-17 01:32:57,984 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 281 page data
-2018-05-17 01:33:01,816 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 282 page data
-2018-05-17 01:33:07,800 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 283 page data
-2018-05-17 01:33:12,784 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 284 page data
-2018-05-17 01:33:17,853 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 285 page data
-2018-05-17 01:33:21,835 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 286 page data
-2018-05-17 01:33:27,105 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 287 page data
-2018-05-17 01:33:31,921 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 288 page data
-2018-05-17 01:33:48,247 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 289 page data
-2018-05-17 01:33:52,355 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 290 page data
-2018-05-17 01:33:56,191 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 291 page data
-2018-05-17 01:34:02,006 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 292 page data
-2018-05-17 01:34:08,571 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 293 page data
-2018-05-17 01:34:12,837 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 294 page data
-2018-05-17 01:34:17,664 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 295 page data
-2018-05-17 01:34:22,235 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 296 page data
-2018-05-17 01:34:27,322 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 297 page data
-2018-05-17 01:34:34,103 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 298 page data
-2018-05-17 01:34:38,205 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 299 page data
-2018-05-17 01:34:44,859 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 300 page data
-2018-05-17 01:34:51,467 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 301 page data
-2018-05-17 01:34:57,214 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 302 page data
-2018-05-17 01:35:03,860 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 303 page data
-2018-05-17 01:35:08,122 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 304 page data
-2018-05-17 01:35:14,151 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 305 page data
-2018-05-17 01:35:31,027 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 306 page data
-2018-05-17 01:35:35,562 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 307 page data
-2018-05-17 01:35:41,080 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 308 page data
-2018-05-17 01:35:45,263 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 309 page data
-2018-05-17 01:35:51,995 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 310 page data
-2018-05-17 01:35:56,694 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 311 page data
-2018-05-17 01:36:03,144 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 312 page data
-2018-05-17 01:36:09,462 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 313 page data
-2018-05-17 01:36:14,563 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 314 page data
-2018-05-17 01:36:18,516 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 315 page data
-2018-05-17 01:36:23,681 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 316 page data
-2018-05-17 01:36:27,508 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 317 page data
-2018-05-17 01:36:32,928 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 318 page data
-2018-05-17 01:36:39,266 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 319 page data
-2018-05-17 01:36:44,394 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 320 page data
-2018-05-17 01:36:48,819 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 321 page data
-2018-05-17 01:36:53,345 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 322 page data
-2018-05-17 01:37:09,765 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 323 page data
-2018-05-17 01:37:16,495 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 324 page data
-2018-05-17 01:37:20,393 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 325 page data
-2018-05-17 01:37:25,895 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 326 page data
-2018-05-17 01:37:30,535 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 327 page data
-2018-05-17 01:37:35,057 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 328 page data
-2018-05-17 01:37:39,772 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 329 page data
-2018-05-17 01:37:44,642 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 330 page data
-2018-05-17 01:37:49,528 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 331 page data
-2018-05-17 01:37:54,701 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 332 page data
-2018-05-17 01:38:00,508 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 333 page data
-2018-05-17 01:38:06,088 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 334 page data
-2018-05-17 01:38:10,375 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 335 page data
-2018-05-17 01:38:16,028 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 336 page data
-2018-05-17 01:38:21,673 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 337 page data
-2018-05-17 01:38:25,818 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 338 page data
-2018-05-17 01:38:31,170 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 339 page data
-2018-05-17 01:38:47,004 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 340 page data
-2018-05-17 01:38:51,909 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 341 page data
-2018-05-17 01:38:57,663 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 342 page data
-2018-05-17 01:39:03,934 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 343 page data
-2018-05-17 01:39:10,010 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 344 page data
-2018-05-17 01:39:14,540 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 345 page data
-2018-05-17 01:39:19,022 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 346 page data
-2018-05-17 01:39:25,087 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 347 page data
-2018-05-17 01:39:30,200 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 348 page data
-2018-05-17 01:39:34,282 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 349 page data
-2018-05-17 01:39:39,116 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 350 page data
-2018-05-17 01:39:45,010 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 351 page data
-2018-05-17 01:39:50,423 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 352 page data
-2018-05-17 01:39:55,823 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 353 page data
-2018-05-17 01:40:02,532 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 354 page data
-2018-05-17 01:40:10,062 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 355 page data
-2018-05-17 01:40:16,269 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 356 page data
-2018-05-17 01:40:32,962 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 357 page data
-2018-05-17 01:40:38,950 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 358 page data
-2018-05-17 01:40:42,787 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 359 page data
-2018-05-17 01:40:47,982 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 360 page data
-2018-05-17 01:40:52,444 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 361 page data
-2018-05-17 01:40:57,365 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 362 page data
-2018-05-17 01:41:02,906 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 363 page data
-2018-05-17 01:41:08,049 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 364 page data
-2018-05-17 01:41:13,194 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 365 page data
-2018-05-17 01:41:19,361 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 366 page data
-2018-05-17 01:41:25,773 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 367 page data
-2018-05-17 01:41:32,327 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 368 page data
-2018-05-17 01:41:37,936 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 369 page data
-2018-05-17 01:41:44,149 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 370 page data
-2018-05-17 01:41:50,593 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 371 page data
-2018-05-17 01:41:56,714 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 372 page data
-2018-05-17 01:42:02,101 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 373 page data
-2018-05-17 01:42:18,431 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 374 page data
-2018-05-17 01:42:24,186 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 375 page data
-2018-05-17 01:42:29,108 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 376 page data
-2018-05-17 01:42:35,726 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 377 page data
-2018-05-17 01:42:40,920 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 378 page data
-2018-05-17 01:42:45,787 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 379 page data
-2018-05-17 01:42:50,249 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 380 page data
-2018-05-17 01:42:55,351 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 381 page data
-2018-05-17 01:42:59,179 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 382 page data
-2018-05-17 01:43:04,564 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 383 page data
-2018-05-17 01:43:09,785 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 384 page data
-2018-05-17 01:43:15,778 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 385 page data
-2018-05-17 01:43:20,773 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 386 page data
-2018-05-17 01:43:25,008 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 387 page data
-2018-05-17 01:43:28,986 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 388 page data
-2018-05-17 01:43:33,041 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 389 page data
-2018-05-17 01:43:39,383 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 390 page data
-2018-05-17 01:43:54,231 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 391 page data
-2018-05-17 01:43:59,038 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 392 page data
-2018-05-17 01:44:04,232 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 393 page data
-2018-05-17 01:44:10,366 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 394 page data
-2018-05-17 01:44:16,663 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 395 page data
-2018-05-17 01:44:21,163 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 396 page data
-2018-05-17 01:44:27,789 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 397 page data
-2018-05-17 01:44:31,831 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 398 page data
-2018-05-17 01:44:38,297 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 399 page data
-2018-05-17 01:44:43,884 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 400 page data
-2018-05-17 01:44:48,077 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 401 page data
-2018-05-17 01:44:54,677 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 402 page data
-2018-05-17 01:44:58,835 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 403 page data
-2018-05-17 01:45:04,737 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 404 page data
-2018-05-17 01:45:11,595 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 405 page data
-2018-05-17 01:45:15,975 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 406 page data
-2018-05-17 01:45:22,882 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 407 page data
-2018-05-17 01:45:39,099 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 408 page data
-2018-05-17 01:45:44,782 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 409 page data
-2018-05-17 01:45:51,274 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 410 page data
-2018-05-17 01:45:55,463 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 411 page data
-2018-05-17 01:46:02,051 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 412 page data
-2018-05-17 01:46:07,606 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 413 page data
-2018-05-17 01:46:13,229 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 414 page data
-2018-05-17 01:46:18,886 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 415 page data
-2018-05-17 01:46:24,383 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 416 page data
-2018-05-17 01:46:30,758 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 417 page data
-2018-05-17 01:46:35,421 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 418 page data
-2018-05-17 01:46:41,361 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 419 page data
-2018-05-17 01:46:45,605 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 420 page data
-2018-05-17 01:46:51,265 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 421 page data
-2018-05-17 01:46:57,087 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 422 page data
-2018-05-17 01:47:03,652 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 423 page data
-2018-05-17 01:47:09,817 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 424 page data
-2018-05-17 01:47:24,562 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 425 page data
-2018-05-17 01:47:30,155 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 426 page data
-2018-05-17 01:47:34,475 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 427 page data
-2018-05-17 01:47:39,941 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 428 page data
-2018-05-17 01:47:45,032 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 429 page data
-2018-05-17 01:47:51,833 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 430 page data
-2018-05-17 01:47:57,416 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 431 page data
-2018-05-17 01:48:02,666 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 432 page data
-2018-05-17 01:48:09,225 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 433 page data
-2018-05-17 01:48:15,740 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 434 page data
-2018-05-17 01:48:20,608 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 435 page data
-2018-05-17 01:48:27,330 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 436 page data
-2018-05-17 01:48:33,735 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 437 page data
-2018-05-17 01:48:39,910 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 438 page data
-2018-05-17 01:48:46,717 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 439 page data
-2018-05-17 01:48:53,167 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 440 page data
-2018-05-17 01:48:57,620 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 441 page data
-2018-05-17 01:49:11,777 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 442 page data
-2018-05-17 01:49:16,133 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 443 page data
-2018-05-17 01:49:20,439 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 444 page data
-2018-05-17 01:49:24,742 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 445 page data
-2018-05-17 01:49:31,536 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 446 page data
-2018-05-17 01:49:35,530 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 447 page data
-2018-05-17 01:49:39,468 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 448 page data
-2018-05-17 01:49:45,303 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 449 page data
-2018-05-17 01:49:51,109 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 450 page data
-2018-05-17 01:49:55,879 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 451 page data
-2018-05-17 01:50:01,345 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 452 page data
-2018-05-17 01:50:06,608 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 453 page data
-2018-05-17 01:50:13,232 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 454 page data
-2018-05-17 01:50:19,065 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 455 page data
-2018-05-17 01:50:25,608 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 456 page data
-2018-05-17 01:50:30,814 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 457 page data
-2018-05-17 01:50:35,471 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 458 page data
-2018-05-17 01:50:52,405 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 459 page data
-2018-05-17 01:50:56,921 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 460 page data
-2018-05-17 01:51:02,932 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 461 page data
-2018-05-17 01:51:09,221 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 462 page data
-2018-05-17 01:51:15,278 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 463 page data
-2018-05-17 01:51:20,120 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 464 page data
-2018-05-17 01:51:26,013 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 465 page data
-2018-05-17 01:51:31,238 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 466 page data
-2018-05-17 01:51:36,168 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 467 page data
-2018-05-17 01:51:40,929 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 468 page data
-2018-05-17 01:51:46,914 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 469 page data
-2018-05-17 01:51:51,160 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 470 page data
-2018-05-17 01:51:57,146 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 471 page data
-2018-05-17 01:52:01,268 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 472 page data
-2018-05-17 01:52:06,434 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 473 page data
-2018-05-17 01:52:12,678 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 474 page data
-2018-05-17 01:52:19,303 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 475 page data
-2018-05-17 01:52:34,474 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 476 page data
-2018-05-17 01:52:39,902 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 477 page data
-2018-05-17 01:52:44,932 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 478 page data
-2018-05-17 01:52:48,912 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 479 page data
-2018-05-17 01:52:53,848 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 480 page data
-2018-05-17 01:52:58,407 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 481 page data
-2018-05-17 01:53:02,403 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 482 page data
-2018-05-17 01:53:06,631 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 483 page data
-2018-05-17 01:53:12,090 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 484 page data
-2018-05-17 01:53:16,109 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 485 page data
-2018-05-17 01:53:21,859 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 486 page data
-2018-05-17 01:53:26,596 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 487 page data
-2018-05-17 01:53:32,619 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 488 page data
-2018-05-17 01:53:36,655 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 489 page data
-2018-05-17 01:53:41,346 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 490 page data
-2018-05-17 01:53:47,649 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 491 page data
-2018-05-17 01:53:52,943 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 492 page data
-2018-05-17 01:54:06,982 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 493 page data
-2018-05-17 01:54:10,878 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 494 page data
-2018-05-17 01:54:16,019 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 495 page data
-2018-05-17 01:54:20,479 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 496 page data
-2018-05-17 01:54:25,648 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 497 page data
-2018-05-17 01:54:31,659 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 498 page data
-2018-05-17 01:54:36,792 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 499 page data
-2018-05-17 01:54:40,959 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 500 page data
-2018-05-17 01:54:44,810 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 501 page data
-2018-05-17 01:54:49,306 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 502 page data
-2018-05-17 01:54:55,531 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 503 page data
-2018-05-17 01:55:02,140 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 504 page data
-2018-05-17 01:55:08,894 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 505 page data
-2018-05-17 01:55:14,851 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 506 page data
-2018-05-17 01:55:19,497 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 507 page data
-2018-05-17 01:55:25,244 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 508 page data
-2018-05-17 01:55:29,082 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 509 page data
-2018-05-17 01:55:44,377 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 510 page data
-2018-05-17 01:55:50,384 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 511 page data
-2018-05-17 01:55:56,683 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 512 page data
-2018-05-17 01:56:02,922 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 513 page data
-2018-05-17 01:56:09,365 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 514 page data
-2018-05-17 01:56:14,224 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 515 page data
-2018-05-17 01:56:18,584 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 516 page data
-2018-05-17 01:56:22,870 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 517 page data
-2018-05-17 01:56:27,703 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 518 page data
-2018-05-17 01:56:33,100 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 519 page data
-2018-05-17 01:56:39,814 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 520 page data
-2018-05-17 01:56:46,518 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 521 page data
-2018-05-17 01:56:51,741 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 522 page data
-2018-05-17 01:56:57,322 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 523 page data
-2018-05-17 01:57:02,040 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 524 page data
-2018-05-17 01:57:07,905 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 525 page data
-2018-05-17 01:57:13,339 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 526 page data
-2018-05-17 01:57:29,381 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 527 page data
-2018-05-17 01:57:33,320 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 528 page data
-2018-05-17 01:57:38,149 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 529 page data
-2018-05-17 01:57:43,834 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 530 page data
-2018-05-17 01:57:47,598 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 531 page data
-2018-05-17 01:57:51,403 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 532 page data
-2018-05-17 01:57:57,973 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 533 page data
-2018-05-17 01:58:04,687 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 534 page data
-2018-05-17 01:58:09,904 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 535 page data
-2018-05-17 01:58:16,610 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 536 page data
-2018-05-17 01:58:21,828 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 537 page data
-2018-05-17 01:58:27,609 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 538 page data
-2018-05-17 01:58:33,129 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 539 page data
-2018-05-17 01:58:37,868 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 540 page data
-2018-05-17 01:58:44,315 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 541 page data
-2018-05-17 01:58:50,365 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 542 page data
-2018-05-17 01:58:55,962 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 543 page data
-2018-05-17 01:59:11,668 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 544 page data
-2018-05-17 01:59:17,892 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 545 page data
-2018-05-17 01:59:24,360 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 546 page data
-2018-05-17 01:59:30,965 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 547 page data
-2018-05-17 01:59:36,107 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 548 page data
-2018-05-17 01:59:41,365 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 549 page data
-2018-05-17 01:59:45,481 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 550 page data
-2018-05-17 01:59:49,640 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 551 page data
-2018-05-17 01:59:53,886 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 552 page data
-2018-05-17 01:59:57,754 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 553 page data
-2018-05-17 02:00:04,452 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 554 page data
-2018-05-17 02:00:08,476 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 555 page data
-2018-05-17 02:00:15,012 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 556 page data
-2018-05-17 02:00:21,736 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 557 page data
-2018-05-17 02:00:26,439 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 558 page data
-2018-05-17 02:00:31,807 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 559 page data
-2018-05-17 02:00:36,389 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 560 page data
-2018-05-17 02:00:53,045 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 561 page data
-2018-05-17 02:00:58,942 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 562 page data
-2018-05-17 02:01:05,352 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 563 page data
-2018-05-17 02:01:10,203 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 564 page data
-2018-05-17 02:01:14,954 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 565 page data
-2018-05-17 02:01:20,056 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 566 page data
-2018-05-17 02:01:24,155 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 567 page data
-2018-05-17 02:01:29,115 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 568 page data
-2018-05-17 02:01:34,450 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 569 page data
-2018-05-17 02:01:40,467 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 570 page data
-2018-05-17 02:01:45,577 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 571 page data
-2018-05-17 02:01:50,601 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 572 page data
-2018-05-17 02:01:55,009 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 573 page data
-2018-05-17 02:02:01,076 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 574 page data
-2018-05-17 02:02:07,186 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 575 page data
-2018-05-17 02:02:12,842 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 576 page data
-2018-05-17 02:02:19,598 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 577 page data
-2018-05-17 02:02:36,320 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 578 page data
-2018-05-17 02:02:42,553 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 579 page data
-2018-05-17 02:02:48,124 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 580 page data
-2018-05-17 02:02:53,769 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 581 page data
-2018-05-17 02:03:00,387 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 582 page data
-2018-05-17 02:03:05,654 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 583 page data
-2018-05-17 02:03:11,224 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 584 page data
-2018-05-17 02:03:15,917 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 585 page data
-2018-05-17 02:03:21,840 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 586 page data
-2018-05-17 02:03:28,249 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 587 page data
-2018-05-17 02:03:33,435 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 588 page data
-2018-05-17 02:03:39,846 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 589 page data
-2018-05-17 02:03:45,970 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 590 page data
-2018-05-17 02:03:52,311 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 591 page data
-2018-05-17 02:03:58,602 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 592 page data
-2018-05-17 02:04:04,915 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 593 page data
-2018-05-17 02:04:10,776 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 594 page data
-2018-05-17 02:04:27,682 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 595 page data
-2018-05-17 02:04:32,637 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 596 page data
-2018-05-17 02:04:39,178 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 597 page data
-2018-05-17 02:04:45,829 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 598 page data
-2018-05-17 02:04:52,393 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 599 page data
-2018-05-17 02:04:58,098 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 600 page data
-2018-05-17 02:05:04,442 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 601 page data
-2018-05-17 02:05:08,341 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 602 page data
-2018-05-17 02:05:13,487 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 603 page data
-2018-05-17 02:05:19,169 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 604 page data
-2018-05-17 02:05:23,010 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 605 page data
-2018-05-17 02:05:29,212 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 606 page data
-2018-05-17 02:05:33,354 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 607 page data
-2018-05-17 02:05:39,024 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 608 page data
-2018-05-17 02:05:45,142 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 609 page data
-2018-05-17 02:05:49,826 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 610 page data
-2018-05-17 02:05:56,630 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 611 page data
-2018-05-17 02:06:11,535 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 612 page data
-2018-05-17 02:06:16,452 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 613 page data
-2018-05-17 02:06:21,110 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 614 page data
-2018-05-17 02:06:26,115 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 615 page data
-2018-05-17 02:06:31,400 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 616 page data
-2018-05-17 02:06:35,606 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 617 page data
-2018-05-17 02:06:40,607 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 618 page data
-2018-05-17 02:06:44,526 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 619 page data
-2018-05-17 02:06:49,211 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 620 page data
-2018-05-17 02:06:53,794 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 621 page data
-2018-05-17 02:06:58,378 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 622 page data
-2018-05-17 02:07:02,898 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 623 page data
-2018-05-17 02:07:07,538 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 624 page data
-2018-05-17 02:07:13,191 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 625 page data
-2018-05-17 02:07:17,202 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 626 page data
-2018-05-17 02:07:23,465 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 627 page data
-2018-05-17 02:07:28,887 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 628 page data
-2018-05-17 02:07:43,213 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 629 page data
-2018-05-17 02:07:49,777 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 630 page data
-2018-05-17 02:07:54,779 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 631 page data
-2018-05-17 02:08:01,295 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 632 page data
-2018-05-17 02:08:06,129 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 633 page data
-2018-05-17 02:08:11,022 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 634 page data
-2018-05-17 02:08:15,860 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 635 page data
-2018-05-17 02:08:20,284 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 636 page data
-2018-05-17 02:08:24,279 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 637 page data
-2018-05-17 02:08:29,163 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 638 page data
-2018-05-17 02:08:33,790 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 639 page data
-2018-05-17 02:08:40,461 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 640 page data
-2018-05-17 02:08:47,069 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 641 page data
-2018-05-17 02:08:52,374 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 642 page data
-2018-05-17 02:08:56,976 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 643 page data
-2018-05-17 02:09:01,401 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 644 page data
-2018-05-17 02:09:07,117 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 645 page data
-2018-05-17 02:09:20,964 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 646 page data
-2018-05-17 02:09:26,726 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 647 page data
-2018-05-17 02:09:32,092 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 648 page data
-2018-05-17 02:09:36,952 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 649 page data
-2018-05-17 02:09:41,334 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 650 page data
-2018-05-17 02:09:47,902 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 651 page data
-2018-05-17 02:09:54,273 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 652 page data
-2018-05-17 02:09:58,976 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 653 page data
-2018-05-17 02:10:04,067 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 654 page data
-2018-05-17 02:10:08,944 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 655 page data
-2018-05-17 02:10:14,013 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 656 page data
-2018-05-17 02:10:19,705 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 657 page data
-2018-05-17 02:10:25,569 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 658 page data
-2018-05-17 02:10:30,275 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 659 page data
-2018-05-17 02:10:36,767 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 660 page data
-2018-05-17 02:10:43,402 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 661 page data
-2018-05-17 02:10:47,590 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 662 page data
-2018-05-17 02:11:02,819 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 663 page data
-2018-05-17 02:11:08,126 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 664 page data
-2018-05-17 02:11:12,824 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 665 page data
-2018-05-17 02:11:19,415 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 666 page data
-2018-05-17 02:11:24,094 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 667 page data
-2018-05-17 02:11:29,159 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 668 page data
-2018-05-17 02:11:34,368 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 669 page data
-2018-05-17 02:11:41,018 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 670 page data
-2018-05-17 02:11:46,982 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 671 page data
-2018-05-17 02:11:53,437 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 672 page data
-2018-05-17 02:11:58,639 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 673 page data
-2018-05-17 02:12:04,695 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 674 page data
-2018-05-17 02:12:10,021 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 675 page data
-2018-05-17 02:12:14,670 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 676 page data
-2018-05-17 02:12:19,253 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 677 page data
-2018-05-17 02:12:23,545 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 678 page data
-2018-05-17 02:12:29,524 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 679 page data
-2018-05-17 02:12:45,360 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 680 page data
-2018-05-17 02:12:49,303 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 681 page data
-2018-05-17 02:12:55,438 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 682 page data
-2018-05-17 02:13:00,729 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 683 page data
-2018-05-17 02:13:05,278 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 684 page data
-2018-05-17 02:13:11,524 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 685 page data
-2018-05-17 02:13:17,634 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 686 page data
-2018-05-17 02:13:22,892 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 687 page data
-2018-05-17 02:13:28,749 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 688 page data
-2018-05-17 02:13:34,891 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 689 page data
-2018-05-17 02:13:41,343 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 690 page data
-2018-05-17 02:13:47,822 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 691 page data
-2018-05-17 02:13:53,553 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 692 page data
-2018-05-17 02:13:58,622 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 693 page data
-2018-05-17 02:14:03,014 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 694 page data
-2018-05-17 02:14:07,306 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 695 page data
-2018-05-17 02:14:11,518 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 696 page data
-2018-05-17 02:14:26,860 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 697 page data
-2018-05-17 02:14:32,341 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 698 page data
-2018-05-17 02:14:37,221 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 699 page data
-2018-05-17 02:14:43,806 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 700 page data
-2018-05-17 02:14:49,865 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 701 page data
-2018-05-17 02:14:54,221 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 702 page data
-2018-05-17 02:15:00,828 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 703 page data
-2018-05-17 02:15:07,847 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 704 page data
-2018-05-17 02:15:14,291 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 705 page data
-2018-05-17 02:15:19,100 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 706 page data
-2018-05-17 02:15:24,103 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 707 page data
-2018-05-17 02:15:29,383 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 708 page data
-2018-05-17 02:15:34,087 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 709 page data
-2018-05-17 02:15:38,206 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 710 page data
-2018-05-17 02:15:43,943 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 711 page data
-2018-05-17 02:15:50,200 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 712 page data
-2018-05-17 02:15:55,442 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 713 page data
-2018-05-17 02:16:10,722 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 714 page data
-2018-05-17 02:16:16,054 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 715 page data
-2018-05-17 02:16:22,178 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 716 page data
-2018-05-17 02:16:26,018 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 717 page data
-2018-05-17 02:16:30,440 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 718 page data
-2018-05-17 02:16:36,534 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 719 page data
-2018-05-17 02:16:41,706 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 720 page data
-2018-05-17 02:16:46,777 bookUser_Spider.py[line:42] INFO bookUser_Spider: now spidering 721 page data
+2018-05-22 23:54:09,412 bookUser_Spider.py[line:35] INFO --------Get book_comment user Start--------
+2018-05-22 23:54:10,723 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 722 page data
+2018-05-22 23:54:16,695 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 723 page data
+2018-05-22 23:54:24,477 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 724 page data
+2018-05-22 23:54:31,126 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 725 page data
+2018-05-22 23:54:37,856 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 726 page data
+2018-05-22 23:54:43,995 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 727 page data
+2018-05-22 23:54:51,004 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 728 page data
+2018-05-22 23:54:57,479 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 729 page data
+2018-05-22 23:55:04,228 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 730 page data
+2018-05-22 23:55:22,074 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 731 page data
+2018-05-22 23:55:29,996 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 732 page data
+2018-05-22 23:55:36,476 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 733 page data
+2018-05-22 23:55:44,141 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 734 page data
+2018-05-22 23:55:50,554 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 735 page data
+2018-05-22 23:55:58,147 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 736 page data
+2018-05-22 23:56:04,312 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 737 page data
+2018-05-22 23:56:11,194 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 738 page data
+2018-05-22 23:56:17,607 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 739 page data
+2018-05-22 23:56:23,931 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 740 page data
+2018-05-22 23:56:30,115 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 741 page data
+2018-05-22 23:56:36,704 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 742 page data
+2018-05-22 23:56:43,265 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 743 page data
+2018-05-22 23:56:50,190 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 744 page data
+2018-05-22 23:56:56,599 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 745 page data
+2018-05-22 23:57:03,143 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 746 page data
+2018-05-22 23:57:10,609 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 747 page data
+2018-05-22 23:57:27,326 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 748 page data
+2018-05-22 23:57:34,574 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 749 page data
+2018-05-22 23:57:42,319 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 750 page data
+2018-05-22 23:57:49,595 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 751 page data
+2018-05-22 23:57:57,107 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 752 page data
+2018-05-22 23:58:04,803 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 753 page data
+2018-05-22 23:58:12,073 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 754 page data
+2018-05-22 23:58:18,490 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 755 page data
+2018-05-22 23:58:25,641 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 756 page data
+2018-05-22 23:58:32,717 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 757 page data
+2018-05-22 23:58:39,984 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 758 page data
+2018-05-22 23:58:46,238 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 759 page data
+2018-05-22 23:58:52,749 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 760 page data
+2018-05-22 23:58:59,056 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 761 page data
+2018-05-22 23:59:07,480 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 762 page data
+2018-05-22 23:59:14,822 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 763 page data
+2018-05-22 23:59:21,382 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 764 page data
+2018-05-22 23:59:37,614 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 765 page data
+2018-05-22 23:59:44,213 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 766 page data
+2018-05-22 23:59:52,376 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 767 page data
+2018-05-23 00:00:00,400 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 768 page data
+2018-05-23 00:00:07,137 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 769 page data
+2018-05-23 00:00:15,273 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 770 page data
+2018-05-23 00:00:23,867 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 771 page data
+2018-05-23 00:00:31,456 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 772 page data
+2018-05-23 00:00:38,328 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 773 page data
+2018-05-23 00:00:45,482 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 774 page data
+2018-05-23 00:00:52,748 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 775 page data
+2018-05-23 00:00:58,903 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 776 page data
+2018-05-23 00:01:05,791 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 777 page data
+2018-05-23 00:01:12,602 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 778 page data
+2018-05-23 00:01:20,128 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 779 page data
+2018-05-23 00:01:27,896 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 780 page data
+2018-05-23 00:01:36,015 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 781 page data
+2018-05-23 00:01:53,057 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 782 page data
+2018-05-23 00:01:59,645 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 783 page data
+2018-05-23 00:02:06,237 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 784 page data
+2018-05-23 00:02:14,202 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 785 page data
+2018-05-23 00:02:21,228 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 786 page data
+2018-05-23 00:02:28,045 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 787 page data
+2018-05-23 00:02:35,045 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 788 page data
+2018-05-23 00:02:41,249 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 789 page data
+2018-05-23 00:02:48,336 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 790 page data
+2018-05-23 00:02:55,260 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 791 page data
+2018-05-23 00:03:02,012 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 792 page data
+2018-05-23 00:03:09,803 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 793 page data
+2018-05-23 00:03:17,711 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 794 page data
+2018-05-23 00:03:24,431 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 795 page data
+2018-05-23 00:03:31,244 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 796 page data
+2018-05-23 00:03:38,439 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 797 page data
+2018-05-23 00:03:45,156 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 798 page data
+2018-05-23 00:04:03,063 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 799 page data
+2018-05-23 00:04:11,103 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 800 page data
+2018-05-23 00:04:19,227 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 801 page data
+2018-05-23 00:04:26,825 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 802 page data
+2018-05-23 00:04:33,337 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 803 page data
+2018-05-23 00:04:39,733 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 804 page data
+2018-05-23 00:04:46,550 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 805 page data
+2018-05-23 00:04:53,580 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 806 page data
+2018-05-23 00:05:01,090 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 807 page data
+2018-05-23 00:05:09,176 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 808 page data
+2018-05-23 00:05:15,637 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 809 page data
+2018-05-23 00:05:22,937 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 810 page data
+2018-05-23 00:05:30,901 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 811 page data
+2018-05-23 00:05:38,704 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 812 page data
+2018-05-23 00:05:45,666 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 813 page data
+2018-05-23 00:05:53,443 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 814 page data
+2018-05-23 00:06:01,146 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 815 page data
+2018-05-23 00:06:18,645 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 816 page data
+2018-05-23 00:06:26,276 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 817 page data
+2018-05-23 00:06:34,319 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 818 page data
+2018-05-23 00:06:40,696 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 819 page data
+2018-05-23 00:06:47,819 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 820 page data
+2018-05-23 00:06:54,436 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 821 page data
+2018-05-23 00:07:01,981 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 822 page data
+2018-05-23 00:07:08,816 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 823 page data
+2018-05-23 00:07:15,034 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 824 page data
+2018-05-23 00:07:22,257 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 825 page data
+2018-05-23 00:07:29,733 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 826 page data
+2018-05-23 00:07:36,251 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 827 page data
+2018-05-23 00:07:44,145 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 828 page data
+2018-05-23 00:07:51,817 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 829 page data
+2018-05-23 00:07:59,128 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 830 page data
+2018-05-23 00:08:05,479 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 831 page data
+2018-05-23 00:08:12,302 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 832 page data
+2018-05-23 00:08:29,212 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 833 page data
+2018-05-23 00:08:36,572 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 834 page data
+2018-05-23 00:08:44,137 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 835 page data
+2018-05-23 00:08:50,539 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 836 page data
+2018-05-23 00:08:57,233 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 837 page data
+2018-05-23 00:09:04,971 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 838 page data
+2018-05-23 00:09:12,753 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 839 page data
+2018-05-23 00:09:20,846 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 840 page data
+2018-05-23 00:09:28,849 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 841 page data
+2018-05-23 00:09:35,729 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 842 page data
+2018-05-23 00:09:42,223 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 843 page data
+2018-05-23 00:09:50,260 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 844 page data
+2018-05-23 00:09:56,465 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 845 page data
+2018-05-23 00:10:03,377 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 846 page data
+2018-05-23 00:10:09,764 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 847 page data
+2018-05-23 00:10:16,365 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 848 page data
+2018-05-23 00:10:24,087 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 849 page data
+2018-05-23 00:10:41,585 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 850 page data
+2018-05-23 00:10:47,640 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 851 page data
+2018-05-23 00:10:55,294 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 852 page data
+2018-05-23 00:11:01,887 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 853 page data
+2018-05-23 00:11:08,535 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 854 page data
+2018-05-23 00:11:15,681 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 855 page data
+2018-05-23 00:11:22,746 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 856 page data
+2018-05-23 00:11:29,958 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 857 page data
+2018-05-23 00:11:36,370 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 858 page data
+2018-05-23 00:11:42,735 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 859 page data
+2018-05-23 00:11:50,510 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 860 page data
+2018-05-23 00:11:58,016 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 861 page data
+2018-05-23 00:12:05,705 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 862 page data
+2018-05-23 00:12:13,073 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 863 page data
+2018-05-23 00:12:21,186 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 864 page data
+2018-05-23 00:12:28,114 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 865 page data
+2018-05-23 00:12:35,440 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 866 page data
+2018-05-23 00:12:51,350 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 867 page data
+2018-05-23 00:12:58,128 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 868 page data
+2018-05-23 00:13:05,137 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 869 page data
+2018-05-23 00:13:11,284 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 870 page data
+2018-05-23 00:13:17,309 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 871 page data
+2018-05-23 00:13:23,936 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 872 page data
+2018-05-23 00:13:30,828 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 873 page data
+2018-05-23 00:13:38,153 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 874 page data
+2018-05-23 00:13:46,192 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 875 page data
+2018-05-23 00:13:54,093 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 876 page data
+2018-05-23 00:14:02,037 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 877 page data
+2018-05-23 00:14:09,542 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 878 page data
+2018-05-23 00:14:15,814 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 879 page data
+2018-05-23 00:14:22,366 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 880 page data
+2018-05-23 00:14:30,622 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 881 page data
+2018-05-23 00:14:38,321 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 882 page data
+2018-05-23 00:14:45,316 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 883 page data
+2018-05-23 00:15:01,759 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 884 page data
+2018-05-23 00:15:08,365 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 885 page data
+2018-05-23 00:15:15,892 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 886 page data
+2018-05-23 00:15:22,853 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 887 page data
+2018-05-23 00:15:28,980 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 888 page data
+2018-05-23 00:15:35,979 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 889 page data
+2018-05-23 00:15:43,732 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 890 page data
+2018-05-23 00:15:51,483 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 891 page data
+2018-05-23 00:15:59,048 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 892 page data
+2018-05-23 00:16:05,684 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 893 page data
+2018-05-23 00:16:11,917 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 894 page data
+2018-05-23 00:16:19,153 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 895 page data
+2018-05-23 00:16:26,685 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 896 page data
+2018-05-23 00:16:33,567 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 897 page data
+2018-05-23 00:16:39,763 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 898 page data
+2018-05-23 00:16:46,268 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 899 page data
+2018-05-23 00:16:54,163 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 900 page data
+2018-05-23 00:17:12,569 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 901 page data
+2018-05-23 00:17:18,899 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 902 page data
+2018-05-23 00:17:24,903 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 903 page data
+2018-05-23 00:17:32,245 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 904 page data
+2018-05-23 00:17:38,556 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 905 page data
+2018-05-23 00:17:45,761 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 906 page data
+2018-05-23 00:17:53,183 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 907 page data
+2018-05-23 00:18:00,434 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 908 page data
+2018-05-23 00:18:07,077 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 909 page data
+2018-05-23 00:18:14,261 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 910 page data
+2018-05-23 00:18:20,520 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 911 page data
+2018-05-23 00:18:27,160 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 912 page data
+2018-05-23 00:18:34,642 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 913 page data
+2018-05-23 00:18:41,832 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 914 page data
+2018-05-23 00:18:48,694 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 915 page data
+2018-05-23 00:18:55,194 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 916 page data
+2018-05-23 00:19:01,476 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 917 page data
+2018-05-23 00:19:18,023 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 918 page data
+2018-05-23 00:19:24,879 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 919 page data
+2018-05-23 00:19:31,790 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 920 page data
+2018-05-23 00:19:39,842 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 921 page data
+2018-05-23 00:19:47,683 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 922 page data
+2018-05-23 00:19:54,770 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 923 page data
+2018-05-23 00:20:02,545 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 924 page data
+2018-05-23 00:20:09,194 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 925 page data
+2018-05-23 00:20:17,183 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 926 page data
+2018-05-23 00:20:23,735 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 927 page data
+2018-05-23 00:20:30,641 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 928 page data
+2018-05-23 00:20:38,745 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 929 page data
+2018-05-23 00:20:45,444 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 930 page data
+2018-05-23 00:20:51,695 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 931 page data
+2018-05-23 00:20:59,224 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 932 page data
+2018-05-23 00:21:06,620 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 933 page data
+2018-05-23 00:21:14,514 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 934 page data
+2018-05-23 00:21:32,084 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 935 page data
+2018-05-23 00:21:39,725 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 936 page data
+2018-05-23 00:21:46,505 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 937 page data
+2018-05-23 00:21:53,580 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 938 page data
+2018-05-23 00:22:00,439 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 939 page data
+2018-05-23 00:22:08,415 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 940 page data
+2018-05-23 00:22:14,864 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 941 page data
+2018-05-23 00:22:22,517 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 942 page data
+2018-05-23 00:22:30,065 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 943 page data
+2018-05-23 00:22:37,979 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 944 page data
+2018-05-23 00:22:45,483 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 945 page data
+2018-05-23 00:22:52,093 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 946 page data
+2018-05-23 00:22:59,312 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 947 page data
+2018-05-23 00:23:07,545 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 948 page data
+2018-05-23 00:23:15,173 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 949 page data
+2018-05-23 00:23:23,127 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 950 page data
+2018-05-23 00:23:30,231 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 951 page data
+2018-05-23 00:23:47,666 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 952 page data
+2018-05-23 00:23:54,075 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 953 page data
+2018-05-23 00:24:02,096 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 954 page data
+2018-05-23 00:24:09,318 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 955 page data
+2018-05-23 00:24:16,392 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 956 page data
+2018-05-23 00:24:24,324 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 957 page data
+2018-05-23 00:24:31,606 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 958 page data
+2018-05-23 00:24:39,147 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 959 page data
+2018-05-23 00:24:45,620 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 960 page data
+2018-05-23 00:24:52,785 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 961 page data
+2018-05-23 00:24:59,539 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 962 page data
+2018-05-23 00:25:06,867 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 963 page data
+2018-05-23 00:25:13,992 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 964 page data
+2018-05-23 00:25:22,441 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 965 page data
+2018-05-23 00:25:29,368 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 966 page data
+2018-05-23 00:25:36,767 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 967 page data
+2018-05-23 00:25:43,126 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 968 page data
+2018-05-23 00:26:00,972 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 969 page data
+2018-05-23 00:26:07,090 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 970 page data
+2018-05-23 00:26:14,209 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 971 page data
+2018-05-23 00:26:20,617 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 972 page data
+2018-05-23 00:26:28,613 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 973 page data
+2018-05-23 00:26:36,224 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 974 page data
+2018-05-23 00:26:42,651 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 975 page data
+2018-05-23 00:26:50,205 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 976 page data
+2018-05-23 00:26:57,068 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 977 page data
+2018-05-23 00:27:04,341 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 978 page data
+2018-05-23 00:27:10,969 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 979 page data
+2018-05-23 00:27:17,920 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 980 page data
+2018-05-23 00:27:25,674 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 981 page data
+2018-05-23 00:27:32,806 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 982 page data
+2018-05-23 00:27:40,876 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 983 page data
+2018-05-23 00:27:47,608 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 984 page data
+2018-05-23 00:27:55,629 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 985 page data
+2018-05-23 00:28:13,282 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 986 page data
+2018-05-23 00:28:21,256 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 987 page data
+2018-05-23 00:28:29,007 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 988 page data
+2018-05-23 00:28:35,958 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 989 page data
+2018-05-23 00:28:43,325 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 990 page data
+2018-05-23 00:28:50,994 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 991 page data
+2018-05-23 00:28:57,544 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 992 page data
+2018-05-23 00:29:04,603 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 993 page data
+2018-05-23 00:29:11,344 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 994 page data
+2018-05-23 00:29:17,647 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 995 page data
+2018-05-23 00:29:24,990 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 996 page data
+2018-05-23 00:29:32,044 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 997 page data
+2018-05-23 00:29:38,680 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 998 page data
+2018-05-23 00:29:45,652 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 999 page data
+2018-05-23 00:29:53,472 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1000 page data
+2018-05-23 00:30:00,891 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1001 page data
+2018-05-23 00:30:09,226 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1002 page data
+2018-05-23 00:30:27,184 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1003 page data
+2018-05-23 00:30:34,644 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1004 page data
+2018-05-23 00:30:41,588 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1005 page data
+2018-05-23 00:30:49,495 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1006 page data
+2018-05-23 00:30:56,239 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1007 page data
+2018-05-23 00:31:03,429 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1008 page data
+2018-05-23 00:31:11,826 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1009 page data
+2018-05-23 00:31:19,971 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1010 page data
+2018-05-23 00:31:27,424 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1011 page data
+2018-05-23 00:31:35,041 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1012 page data
+2018-05-23 00:31:42,850 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1013 page data
+2018-05-23 00:31:50,880 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1014 page data
+2018-05-23 00:31:56,737 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1015 page data
+2018-05-23 00:32:04,920 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1016 page data
+2018-05-23 00:32:11,900 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1017 page data
+2018-05-23 00:32:19,310 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1018 page data
+2018-05-23 00:32:26,144 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1019 page data
+2018-05-23 00:32:44,033 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1020 page data
+2018-05-23 00:32:50,862 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1021 page data
+2018-05-23 00:32:58,195 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1022 page data
+2018-05-23 00:33:05,499 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1023 page data
+2018-05-23 00:33:13,398 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1024 page data
+2018-05-23 00:33:21,108 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1025 page data
+2018-05-23 00:33:28,327 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1026 page data
+2018-05-23 00:33:36,190 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1027 page data
+2018-05-23 00:33:42,833 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1028 page data
+2018-05-23 00:33:49,145 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1029 page data
+2018-05-23 00:33:55,183 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1030 page data
+2018-05-23 00:34:01,161 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1031 page data
+2018-05-23 00:34:08,625 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1032 page data
+2018-05-23 00:34:15,909 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1033 page data
+2018-05-23 00:34:22,338 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1034 page data
+2018-05-23 00:34:29,888 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1035 page data
+2018-05-23 00:34:37,496 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1036 page data
+2018-05-23 00:34:53,741 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1037 page data
+2018-05-23 00:35:00,729 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1038 page data
+2018-05-23 00:35:08,819 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1039 page data
+2018-05-23 00:35:16,082 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1040 page data
+2018-05-23 00:35:24,506 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1041 page data
+2018-05-23 00:35:31,547 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1042 page data
+2018-05-23 00:35:37,915 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1043 page data
+2018-05-23 00:35:45,836 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1044 page data
+2018-05-23 00:35:53,230 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1045 page data
+2018-05-23 00:36:01,185 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1046 page data
+2018-05-23 00:36:08,574 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1047 page data
+2018-05-23 00:36:16,061 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1048 page data
+2018-05-23 00:36:23,368 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1049 page data
+2018-05-23 00:36:31,367 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1050 page data
+2018-05-23 00:36:39,042 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1051 page data
+2018-05-23 00:36:46,950 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1052 page data
+2018-05-23 00:36:54,852 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1053 page data
+2018-05-23 00:37:11,735 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1054 page data
+2018-05-23 00:37:17,963 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1055 page data
+2018-05-23 00:37:24,967 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1056 page data
+2018-05-23 00:37:31,420 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1057 page data
+2018-05-23 00:37:37,683 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1058 page data
+2018-05-23 00:37:45,537 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1059 page data
+2018-05-23 00:37:52,506 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1060 page data
+2018-05-23 00:37:59,975 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1061 page data
+2018-05-23 00:38:06,770 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1062 page data
+2018-05-23 00:38:14,062 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1063 page data
+2018-05-23 00:38:20,389 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1064 page data
+2018-05-23 00:38:27,134 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1065 page data
+2018-05-23 00:38:34,868 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1066 page data
+2018-05-23 00:38:42,152 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1067 page data
+2018-05-23 00:38:48,874 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1068 page data
+2018-05-23 00:38:55,840 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1069 page data
+2018-05-23 00:39:03,560 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1070 page data
+2018-05-23 00:39:20,815 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1071 page data
+2018-05-23 00:39:28,229 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1072 page data
+2018-05-23 00:39:35,755 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1073 page data
+2018-05-23 00:39:43,973 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1074 page data
+2018-05-23 00:39:51,416 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1075 page data
+2018-05-23 00:39:59,733 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1076 page data
+2018-05-23 00:40:06,030 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1077 page data
+2018-05-23 00:40:13,388 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1078 page data
+2018-05-23 00:40:21,001 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1079 page data
+2018-05-23 00:40:29,227 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1080 page data
+2018-05-23 00:40:37,063 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1081 page data
+2018-05-23 00:40:46,688 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1082 page data
+2018-05-23 00:40:53,911 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1083 page data
+2018-05-23 00:41:01,961 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1084 page data
+2018-05-23 00:41:08,962 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1085 page data
+2018-05-23 00:41:16,389 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1086 page data
+2018-05-23 00:41:24,416 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1087 page data
+2018-05-23 00:41:41,365 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1088 page data
+2018-05-23 00:41:47,800 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1089 page data
+2018-05-23 00:41:56,155 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1090 page data
+2018-05-23 00:42:03,801 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1091 page data
+2018-05-23 00:42:10,821 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1092 page data
+2018-05-23 00:42:17,500 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1093 page data
+2018-05-23 00:42:23,615 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1094 page data
+2018-05-23 00:42:31,447 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1095 page data
+2018-05-23 00:42:38,010 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1096 page data
+2018-05-23 00:42:44,967 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1097 page data
+2018-05-23 00:42:52,234 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1098 page data
+2018-05-23 00:42:58,836 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1099 page data
+2018-05-23 00:43:06,662 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1100 page data
+2018-05-23 00:43:13,722 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1101 page data
+2018-05-23 00:43:21,391 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1102 page data
+2018-05-23 00:43:28,934 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1103 page data
+2018-05-23 00:43:35,664 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1104 page data
+2018-05-23 00:43:52,037 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1105 page data
+2018-05-23 00:43:59,502 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1106 page data
+2018-05-23 00:44:06,436 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1107 page data
+2018-05-23 00:44:13,328 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1108 page data
+2018-05-23 00:44:20,625 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1109 page data
+2018-05-23 00:44:28,068 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1110 page data
+2018-05-23 00:44:34,990 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1111 page data
+2018-05-23 00:44:42,537 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1112 page data
+2018-05-23 00:44:48,997 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1113 page data
+2018-05-23 00:44:56,238 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1114 page data
+2018-05-23 00:45:03,816 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1115 page data
+2018-05-23 00:45:11,231 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1116 page data
+2018-05-23 00:45:18,705 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1117 page data
+2018-05-23 00:45:24,767 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1118 page data
+2018-05-23 00:45:31,078 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1119 page data
+2018-05-23 00:45:38,557 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1120 page data
+2018-05-23 00:45:46,284 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1121 page data
+2018-05-23 00:46:03,839 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1122 page data
+2018-05-23 00:46:10,322 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1123 page data
+2018-05-23 00:46:16,708 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1124 page data
+2018-05-23 00:46:23,717 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1125 page data
+2018-05-23 00:46:31,042 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1126 page data
+2018-05-23 00:46:37,946 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1127 page data
+2018-05-23 00:46:44,244 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1128 page data
+2018-05-23 00:46:52,031 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1129 page data
+2018-05-23 00:46:59,460 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1130 page data
+2018-05-23 00:47:06,015 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1131 page data
+2018-05-23 00:47:13,907 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1132 page data
+2018-05-23 00:47:21,926 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1133 page data
+2018-05-23 00:47:28,175 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1134 page data
+2018-05-23 00:47:35,623 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1135 page data
+2018-05-23 00:47:41,820 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1136 page data
+2018-05-23 00:47:49,073 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1137 page data
+2018-05-23 00:47:56,922 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1138 page data
+2018-05-23 00:48:14,584 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1139 page data
+2018-05-23 00:48:22,078 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1140 page data
+2018-05-23 00:48:29,396 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1141 page data
+2018-05-23 00:48:36,825 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1142 page data
+2018-05-23 00:48:44,155 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1143 page data
+2018-05-23 00:48:51,332 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1144 page data
+2018-05-23 00:48:58,582 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1145 page data
+2018-05-23 00:49:05,294 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1146 page data
+2018-05-23 00:49:11,613 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1147 page data
+2018-05-23 00:49:17,819 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1148 page data
+2018-05-23 00:49:25,446 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1149 page data
+2018-05-23 00:49:32,408 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1150 page data
+2018-05-23 00:49:40,232 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1151 page data
+2018-05-23 00:49:47,121 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1152 page data
+2018-05-23 00:49:53,458 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1153 page data
+2018-05-23 00:49:59,863 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1154 page data
+2018-05-23 00:50:12,158 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1155 page data
+2018-05-23 00:50:29,080 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1156 page data
+2018-05-23 00:50:36,819 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1157 page data
+2018-05-23 00:50:44,910 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1158 page data
+2018-05-23 00:50:53,465 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1159 page data
+2018-05-23 00:51:00,775 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1160 page data
+2018-05-23 00:51:06,959 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1161 page data
+2018-05-23 00:51:14,312 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1162 page data
+2018-05-23 00:51:20,684 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1163 page data
+2018-05-23 00:51:28,699 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1164 page data
+2018-05-23 00:51:35,404 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1165 page data
+2018-05-23 00:51:41,845 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1166 page data
+2018-05-23 00:51:48,256 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1167 page data
+2018-05-23 00:51:55,938 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1168 page data
+2018-05-23 00:52:01,957 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1169 page data
+2018-05-23 00:52:08,566 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1170 page data
+2018-05-23 00:52:15,339 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1171 page data
+2018-05-23 00:52:21,846 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1172 page data
+2018-05-23 00:52:38,554 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1173 page data
+2018-05-23 00:52:45,899 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1174 page data
+2018-05-23 00:52:52,567 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1175 page data
+2018-05-23 00:52:59,701 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1176 page data
+2018-05-23 00:53:06,278 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1177 page data
+2018-05-23 00:53:12,155 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1178 page data
+2018-05-23 00:53:19,503 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1179 page data
+2018-05-23 00:53:25,941 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1180 page data
+2018-05-23 00:53:32,420 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1181 page data
+2018-05-23 00:53:39,507 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1182 page data
+2018-05-23 00:53:46,247 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1183 page data
+2018-05-23 00:53:52,308 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1184 page data
+2018-05-23 00:53:58,433 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1185 page data
+2018-05-23 00:54:05,491 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1186 page data
+2018-05-23 00:54:12,359 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1187 page data
+2018-05-23 00:54:19,555 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1188 page data
+2018-05-23 00:54:27,259 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1189 page data
+2018-05-23 00:54:45,172 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1190 page data
+2018-05-23 00:54:52,212 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1191 page data
+2018-05-23 00:54:59,907 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1192 page data
+2018-05-23 00:55:06,760 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1193 page data
+2018-05-23 00:55:13,557 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1194 page data
+2018-05-23 00:55:20,654 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1195 page data
+2018-05-23 00:55:28,551 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1196 page data
+2018-05-23 00:55:36,169 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1197 page data
+2018-05-23 00:55:42,440 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1198 page data
+2018-05-23 00:55:50,625 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1199 page data
+2018-05-23 00:55:57,310 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1200 page data
+2018-05-23 00:56:04,073 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1201 page data
+2018-05-23 00:56:11,757 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1202 page data
+2018-05-23 00:56:18,506 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1203 page data
+2018-05-23 00:56:25,692 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1204 page data
+2018-05-23 00:56:33,465 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1205 page data
+2018-05-23 00:56:41,454 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1206 page data
+2018-05-23 00:56:58,568 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1207 page data
+2018-05-23 00:57:05,162 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1208 page data
+2018-05-23 00:57:11,909 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1209 page data
+2018-05-23 00:57:18,043 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1210 page data
+2018-05-23 00:57:25,873 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1211 page data
+2018-05-23 00:57:33,325 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1212 page data
+2018-05-23 00:57:40,336 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1213 page data
+2018-05-23 00:57:48,042 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1214 page data
+2018-05-23 00:57:54,268 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1215 page data
+2018-05-23 00:58:01,233 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1216 page data
+2018-05-23 00:58:08,614 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1217 page data
+2018-05-23 00:58:15,350 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1218 page data
+2018-05-23 00:58:22,944 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1219 page data
+2018-05-23 00:58:30,660 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1220 page data
+2018-05-23 00:58:37,669 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1221 page data
+2018-05-23 00:58:44,704 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1222 page data
+2018-05-23 00:58:52,094 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1223 page data
+2018-05-23 00:59:08,728 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1224 page data
+2018-05-23 00:59:15,901 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1225 page data
+2018-05-23 00:59:23,592 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1226 page data
+2018-05-23 00:59:29,739 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1227 page data
+2018-05-23 00:59:37,035 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1228 page data
+2018-05-23 00:59:43,875 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1229 page data
+2018-05-23 00:59:50,509 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1230 page data
+2018-05-23 00:59:57,066 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1231 page data
+2018-05-23 01:00:03,505 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1232 page data
+2018-05-23 01:00:10,870 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1233 page data
+2018-05-23 01:00:18,008 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1234 page data
+2018-05-23 01:00:26,167 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1235 page data
+2018-05-23 01:00:33,547 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1236 page data
+2018-05-23 01:00:40,708 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1237 page data
+2018-05-23 01:00:47,560 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1238 page data
+2018-05-23 01:00:53,805 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1239 page data
+2018-05-23 01:01:01,408 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1240 page data
+2018-05-23 01:01:19,667 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1241 page data
+2018-05-23 01:01:26,484 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1242 page data
+2018-05-23 01:01:33,817 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1243 page data
+2018-05-23 01:01:41,129 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1244 page data
+2018-05-23 01:01:47,855 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1245 page data
+2018-05-23 01:01:54,403 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1246 page data
+2018-05-23 01:02:02,703 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1247 page data
+2018-05-23 01:02:10,086 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1248 page data
+2018-05-23 01:02:17,836 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1249 page data
+2018-05-23 01:02:24,789 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1250 page data
+2018-05-23 01:02:32,255 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1251 page data
+2018-05-23 01:02:38,994 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1252 page data
+2018-05-23 01:02:45,327 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1253 page data
+2018-05-23 01:02:53,127 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1254 page data
+2018-05-23 01:03:01,413 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1255 page data
+2018-05-23 01:03:09,134 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1256 page data
+2018-05-23 01:03:15,676 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1257 page data
+2018-05-23 01:03:32,942 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1258 page data
+2018-05-23 01:03:39,248 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1259 page data
+2018-05-23 01:03:47,193 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1260 page data
+2018-05-23 01:03:53,507 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1261 page data
+2018-05-23 01:03:59,751 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1262 page data
+2018-05-23 01:04:06,657 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1263 page data
+2018-05-23 01:04:12,999 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1264 page data
+2018-05-23 01:04:19,729 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1265 page data
+2018-05-23 01:04:25,878 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1266 page data
+2018-05-23 01:04:32,863 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1267 page data
+2018-05-23 01:04:40,675 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1268 page data
+2018-05-23 01:04:48,293 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1269 page data
+2018-05-23 01:04:55,742 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1270 page data
+2018-05-23 01:05:02,581 bookUser_Spider.py[line:44] INFO bookUser_Spider: now spidering 1271 page data

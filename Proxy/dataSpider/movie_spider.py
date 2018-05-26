@@ -65,7 +65,7 @@ class MovieSpider(object):
             if(len(data_array)==0):
                 break
             for data in data_array:
-                if self.db.exists(data['title']):
+                if self.db.exists(data['url']):
                     continue
                 self.analyse_page(data, movie_tag_url[-2::])
             start = start + 20
@@ -101,6 +101,7 @@ class MovieSpider(object):
             # 编剧
             data['movie_sw'] = movie_tree.xpath('//div[@id="info"]/span[position()=2]/span[@class="attrs"]/a/text()')
             # 语言
+            # '语言:</span> 英语<br/>'
             regex_lang = r"(?<=语言:<\/span>).*?(?=<br\/>)"
             data['movie_langs'] = re.findall(regex_lang, response)[0].replace(' ', '').split('/')
             # 制片国家
@@ -146,7 +147,7 @@ class MovieSpider(object):
                 break
             start = start + 20
             url = 'https://movie.douban.com/j/new_search_subjects?sort=T&range=0,10&tags=&start={}&genres=%E5%89%A7%E6%83%85'.format(start)
-            time.sleep(5)
+            time.sleep(2)
         end = time.time()
         print('spend {} times'.format(end-start))
 

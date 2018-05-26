@@ -1,7 +1,9 @@
 import random
 import requests
 import time
+import re
 from lxml import html
+import time
 etree = html.etree
 ua_list = [
             'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101',
@@ -97,8 +99,37 @@ def test(k):
     print(k)
 
 if __name__ == '__main__':
-    for i in range(8):
-        test(i)
+
+    a = [4]
+    print(a[-1::])
+
+    # headers = {
+    #     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    #     'Accept-Encoding': 'gzip, deflate, br',
+    #     'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+    #     'Cache-Control': 'max-age=0',
+    #     'Connection': 'keep-alive',
+    #     'Host': 'www.douban.com',
+    #     'Referer': 'https://www.douban.com/group/changsha/',
+    #     'Upgrade-Insecure-Requests': '1',
+    #     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    # }
+    # url = 'https://www.douban.com/people/142752729/'
+    # rs = requests.get(url=url, headers=headers)
+    # print(rs.text)
+
+
+
+
+    # print(inter)
+    # url = "https://movie.douban.com/subject/1292052/comments?start=20&limit=20&sort=new_score&status=P&percent_type="
+    #
+    # d = re.findall('comments\?start', url)
+    # # print(d)
+    # if(d):
+    #     print('ik')
+    # for i in range(8):
+    #     test(i)
     # proxies = {
     #     'http': 'http://192.155.185.239:80'
     # }
