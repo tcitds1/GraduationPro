@@ -99,9 +99,33 @@ def test(k):
     print(k)
 
 if __name__ == '__main__':
+    item = {
+        'user_name': '123wersa',
+        'user_fans': 123566,
+        'user_page': 'wwrasf.wefwsafa.aaa'
+    }
 
-    a = [4]
-    print(a[-1::])
+    user_name = item['user_name']
+    user_page = item['user_page']
+    user_fans = item['user_fans']
+    # regular_v7 = re.findall(r"\D", "https://docs.python.org/3/whatsnew/3.6.html")
+    if (re.findall(r"\d", user_name)):
+        user_count = '^' + re.sub('\D', '', user_name)
+        user_fans = re.sub(user_count, '', str(user_fans))
+        print(user_fans)
+
+    # fans_url = url + 'rev_contacts'
+    # user_fans = html_tree.xpath('//a[@href="{}"]/text()'.format(fans_url))[0]
+    # user_fans = '> kiki204629被1288人关注'
+    #
+    # remove_number = re.sub('\D', '', 'kiki204629')
+    # user_fans = re.sub(remove_number, '', user_fans)
+    # user_fans = re.sub('\D', '', user_fans)
+    # user_fans = int(user_fans)
+    # print(user_fans)
+
+    # a = [4]
+    # print(a[-1::])
 
     # headers = {
     #     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',

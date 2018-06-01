@@ -1,0 +1,2 @@
+2018-05-27 20:42:41,825 LogHandler.py[line:101] WARNING 中文this is a test msg
+2018-05-27 20:44:07,722 LogHandler.py[line:101] ERROR 中文this is a test msg

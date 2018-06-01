@@ -263,3 +263,14 @@ printarr(l[::-2])
 
 ```
 
+
+
+在vue项目中使用scsshttps://www.imooc.com/article/28195?block_id=tuijian_wz	
+
+### MongoDb
+
+$nin 不在里面
+
+sort
+
+$ne 不等于
