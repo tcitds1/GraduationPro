@@ -25,7 +25,8 @@ class MovieSpider(object):
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
         }
         self.db = MongoDbMovie('localhost', 27017)
-        self.log = LogHandler('MovieSpider',file=False)
+        self.db.changeTable('movie_test')
+        self.log = LogHandler('movie_spider',file=False)
         self.webRequests = WebRequests('movie')
         self.get = self.webRequests.sendRequest
         self.change_proxy = self.webRequests.change_proxy

@@ -94,23 +94,63 @@ class MongoDbMovie(object):
         for item in list(data):
             self.put(item)
 
-    def dataHandle(self):
-        data = self.db[self.name].find(
-            {'$and':
-                 [
-                     {'movie_types':'科幻'},
-                     {'movie_types':{'$ne':'动画'}},
-                     {'movie_tags':'科幻'},
-                     {'movie_tags':{'$nin':['英剧','美剧', '韩剧', '电视剧', '短片']}},
-                     {'movie_watched':{'$gt':150000}}]}).sort('movie_rate',pymongo.DESCENDING).limit(20)
-        data = list(data)
+    def data_floating(self, skip, limit):
+        count = 0
+        data = self.db[self.name].find().skip(skip).limit(limit)
         for item in data:
-            print(item)
+            rate = item['movie_rate']
+            try:
+                movie_rate = float(rate)
+                self.update_one(item['movie_url'], {'movie_rate': movie_rate})
+            except:
+                print(item['movie_title'])
+            finally:
+                count += 1
+                if(count%500==0):
+                    print(count)
+
+    def filterMovie(self):
+        data = self.db[self.name].find({'year': None})
+        data = list(data)
+        print(len(data))
+        for item in data:
+            self.delete(item['movie_url'])
+            # self.changeTable('fail_movie')
+            # self.put(item)
+
+
+    def dataHandle(self, name):
+        if (name!='动画'):
+            data = self.db[self.name].find(
+                {'$and':
+                     [
+                         {'movie_types':name},
+                         {'movie_types':{'$ne':'动画'}},
+                         # {'movie_tags':'科幻'},
+                         {'movie_tags':{'$nin':['英剧','美剧', '韩剧', '电视剧', '短片']}},
+                         {'movie_watched':{'$gt':200000}}]}).sort('movie_rate',pymongo.DESCENDING).limit(20)
+            data = list(data)
+            for item in data:
+                del item['_id']
+                print(item)
+        else:
+            data = self.db[self.name].find(
+                {'$and':
+                    [
+                        {'movie_types': name},
+                        # {'movie_tags': '科幻'},
+                        {'movie_tags': {'$nin': ['英剧', '美剧', '韩剧', '电视剧', '短片']}},
+                        {'movie_watched': {'$gt': 150000}}]}).sort('movie_rate', pymongo.DESCENDING).limit(20)
+            data = list(data)
+            for item in data:
+                del item['_id']
+                print(item)
+
 
     def dataHandle_year(self):
         pipeline = [
             {'$group':{'_id':'$year', "count":{'$sum':1}}},
-            {'$sort':{'_id':-1}}
+            {'$sort':{'_id':1}}
         ]
         data = self.db[self.name].aggregate(pipeline)
         for item in list(data):
@@ -151,30 +191,77 @@ class MongoDbMovie(object):
 
     def dataHandle_shit(self):
         pipeline = [
-            {'$match':{'movie_areas': {'$in':['中国大陆', '台湾']},'movie_watched':{'$gt':200000}, 'movie_tags':{'$ne':'电视剧'}}},
-            {'$sort': {'movie_rate': -1}},
+            {'$match':{'movie_areas': {'$in':['中国大陆', '台湾']},'movie_watched':{'$gt':40000}, 'movie_tags':{'$ne':'电视剧'}}},
+            {'$sort': {'movie_rate': 1}},
             {'$limit': 20}
+        ]
+        data = self.db[self.name].aggregate(pipeline)
+        for item in list(data):
+            del item['_id']
+            print(item)
+
+    def dataHandle_type(self):
+        pipeline = [
+            {'$unwind': '$movie_types'},
+            {'$group': {'_id': '$movie_types', "count": {'$sum': 1}}},
+            {'$sort': {'count': -1}},
         ]
         data = self.db[self.name].aggregate(pipeline)
         for item in list(data):
             print(item)
 
-    def data_floating(self, skip, limit):
-        count = 0
-        data = self.db[self.name].find().skip(skip).limit(limit)
+    def dataHandle_rate(self):
+        pipeline = [
+            {'$unwind': '$movie_directors'},
+            {'$match':{'movie_watched':{'$gt':50000}}},
+            {'$group': {'_id': '$movie_directors', "count": {'$sum': 1}}},
+            {'$match':{'count':{'$gt':5}}},
+            {'$sort': {'count': -1}},
+        ]
+        data = self.db[self.name].aggregate(pipeline)
+        data = list(data)
+        arry = list()
+        print(len(data))
         for item in data:
-            rate = item['movie_rate']
-            movie_rate = float(rate)
-            self.update_one(item['movie_url'], {'movie_rate': movie_rate})
-            count += 1
-            if(count%500==0):
-                print(count)
+            arry.append(item['_id'])
 
-    def filterMovie(self):
-        data = self.db[self.name].find({'year': None})
-        for item in list(data):
-            self.delete()
-            self.changeTable('wait_movie')
+        pipeline = [
+            {'$unwind': '$movie_directors'},
+            {'$match': {'movie_directors': {'$in': arry}}},
+            {'$group': {'_id': '$movie_directors', "pingjun": {'$avg': '$movie_rate'}}},
+            {'$sort': {'pingjun': -1}},
+            {'$limit': 20}
+        ]
+        data = self.db[self.name].aggregate(pipeline)
+        data = list(data)
+        # print(len(data))
+        arry1 = list()
+        for item in data:
+            arry.append(item['_id'])
+
+        pipeline = [
+            {'$unwind': '$movie_directors'},
+            {'$match': {'movie_directors': {'$in': arry}}},
+            {'$group': {'_id': '$movie_directors', "count": {'$sum': 1}}},
+        ]
+        data = self.db[self.name].aggregate(pipeline)
+        data = list(data)
+        for item in data:
+            print(item)
+
+    def dataHandle_people(self):
+        data = self.db[self.name].find().sort('movie_watched',pymongo.DESCENDING).limit(20)
+        data = self.db[self.name].find({'movie_watched':{'$gt':500000}}).sort('movie_rate',pymongo.DESCENDING).limit(20)
+
+        data = list(data)
+        for item in data:
+            del item['_id']
+            print(item)
+
+    def testhander(self):
+        data = self.db[self.name].find({'year':{'$lt':'2000'}})
+        print(data.count())
+
 
 
 def run(skip, limit):
@@ -199,21 +286,33 @@ def main(run_name):
         item.join()
 
 
+# 检查初始化数据表，很重要
 if __name__ == '__main__':
-    main(run)
+    # main(run)
 
-    # 检查初始化数据表，很重要
     #
     #
     # db = client.test_database
     client = MongoDbMovie('localhost', 27017)
-    client.update_one('https://movie.douban.com/subject/1292402/', {'movie_rate':8.7})
+    # client.dataHandle_people()
 
+    # client.dataHandle_shit()
+
+    # client.testhander()
+    # client.filterMovie()
+    # client.update_one('https://movie.douban.com/subject/1292402/', {'movie_rate':8.7})
+
+    # client.dataHandle_country()
+    # client.dataHandle('喜剧')
+    # client.dataHandle_year()
     # 数据分析
-    # client.dataHandle_shit() wait
+    client.dataHandle_shit()
+
     # client.dataHandle_country()
 
     # client.dataHandle_directors()
+
+    # client.dataHandle_rate()
 
     # client.dataHandle_casts()
     # client.dataHandle_year()

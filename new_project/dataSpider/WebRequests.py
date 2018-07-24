@@ -86,9 +86,9 @@ class WebRequests:
         self.cookies = cookie
         # 代理不够用 先睡个5分钟再说
 
-        if(self.getProxyCount()<20):
-            self.log.info('WebRequest :--{}--proxypool is not enough, send Request after sleeping 300seconds---'.format(time.ctime()))
-            time.sleep(300)
+        # if(self.getProxyCount()<20):
+        #     self.log.info('WebRequest :--{}--proxypool is not enough, send Request after sleeping 300seconds---'.format(time.ctime()))
+        #     time.sleep(300)
 
     def sendRequest(self, url):
         # 单纯为爬取电影评论用户设置的header['Referer']

@@ -105,14 +105,32 @@ if __name__ == '__main__':
         'user_page': 'wwrasf.wefwsafa.aaa'
     }
 
-    user_name = item['user_name']
-    user_page = item['user_page']
-    user_fans = item['user_fans']
-    # regular_v7 = re.findall(r"\D", "https://docs.python.org/3/whatsnew/3.6.html")
-    if (re.findall(r"\d", user_name)):
-        user_count = '^' + re.sub('\D', '', user_name)
-        user_fans = re.sub(user_count, '', str(user_fans))
-        print(user_fans)
+    # arry = [{"code":"11","name":"北京市"},{"code":"12","name":"天津市"},{"code":"13","name":"河北省"},{"code":"14","name":"山西省"},{"code":"15","name":"内蒙古自治区"},{"code":"21","name":"辽宁省"},{"code":"22","name":"吉林省"},{"code":"23","name":"黑龙江省"},{"code":"31","name":"上海市"},{"code":"32","name":"江苏省"},{"code":"33","name":"浙江省"},{"code":"34","name":"安徽省"},{"code":"35","name":"福建省"},{"code":"36","name":"江西省"},{"code":"37","name":"山东省"},{"code":"41","name":"河南省"},{"code":"42","name":"湖北省"},{"code":"43","name":"湖南省"},{"code":"44","name":"广东省"},{"code":"45","name":"广西壮族自治区"},{"code":"46","name":"海南省"},{"code":"50","name":"重庆市"},{"code":"51","name":"四川省"},{"code":"52","name":"贵州省"},{"code":"53","name":"云南省"},{"code":"54","name":"西藏自治区"},{"code":"61","name":"陕西省"},{"code":"62","name":"甘肃省"},{"code":"63","name":"青海省"},{"code":"64","name":"宁夏回族自治区"},{"code":"65","name":"新疆维吾尔自治区"}]
+    # dic = dict()
+    # for item in arry:
+    #     dic[item['name']] = '1'
+    #
+    # print(dic)
+    item = "河北山西内蒙古辽宁吉林黑龙江江苏浙江安徽福建江西山东河南湖北湖南广东广西海南四川贵州云南西藏陕西甘肃青海宁夏新疆"
+    dic = "'河北':'1','山西':'1','内蒙古':'1','辽宁':'1','吉林':'1','黑龙江':'1','江苏':'1','浙江':'1','安徽':'1','福建':'1','江西':'1','山东':'1','河南':'1','湖北':'1','湖南':'1','广东':'1','广西':'1','海南':'1','四川':'1','贵州':'1','云南':'1','西藏':'1','陕西':'1','甘肃':'1','青海':'1','宁夏':'1','新疆':'1'"
+    test = 'Australia'
+    dic = {'北京': '1', '天津': '1', '河北': '1', '山西': '1', '内蒙古': '1', '辽宁': '1',
+           '吉林': '1', '黑龙江': '1', '上海': '1', '江苏': '1', '浙江': '1', '安徽': '1',
+           '福建': '1', '江西': '1', '山东': '1', '河南': '1', '湖北': '1', '湖南': '1',
+           '广东': '1', '广西': '1', '海南': '1', '重庆': '1', '四川': '1', '贵州': '1',
+           '云南': '1', '西藏': '1', '陕西': '1', '甘肃': '1', '青海': '1', '宁夏': '1', '新疆': '1'}
+    print(dic['xxx'])
+
+
+    #
+    # user_name = item['user_name']
+    # user_page = item['user_page']
+    # user_fans = item['user_fans']
+    # # regular_v7 = re.findall(r"\D", "https://docs.python.org/3/whatsnew/3.6.html")
+    # if (re.findall(r"\d", user_name)):
+    #     user_count = '^' + re.sub('\D', '', user_name)
+    #     user_fans = re.sub(user_count, '', str(user_fans))
+    #     print(user_fans)
 
     # fans_url = url + 'rev_contacts'
     # user_fans = html_tree.xpath('//a[@href="{}"]/text()'.format(fans_url))[0]

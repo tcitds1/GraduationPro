@@ -2,6 +2,7 @@
 from pymongo import MongoClient
 from multiprocessing import Process,Manager,Queue
 import re
+import pymongo
 import time
 class MongoDb(object):
     def __init__(self, host, port, col_name):
@@ -98,15 +99,22 @@ class MongoDb(object):
     def fixBug(self):
         self.changeTable('douban_user')
         count = 0
-        for item in list(self.db[self.name].find()):
+        data = list(self.db[self.name].find())
+        for item in data:
             user_name = item['user_name']
             user_page = item['user_page']
             user_fans = item['user_fans']
             # regular_v7 = re.findall(r"\D", "https://docs.python.org/3/whatsnew/3.6.html")
             if(re.findall(r"\d", user_name)):
-                user_count ='^' + re.sub('\D', '', user_name)
+                try:
+                    user_count ='^' + str(int(re.sub('\D', '', user_name)))
+                except:
+                    continue
                 user_fans = re.sub(user_count, '', str(user_fans))
-                user_fans = int(user_fans)
+                try:
+                    user_fans = int(user_fans)
+                except:
+                    continue
                 self.update_one(user_page, {'user_fans':user_fans})
                 count = count + 1
                 if(count%50==0):
@@ -124,8 +132,72 @@ class MongoDb(object):
                 print(count)
         print(time.time()-start)
 
-    def remove_failuser(self):
-        data = list
+    def minifyUser(self, skip, limit):
+        dic = "河北山西内蒙古辽宁吉林黑龙江江苏浙江安徽福建江西山东河南湖北湖南广东广西海南四川贵州云南西藏陕西甘肃青海宁夏新疆"
+        # dic = {'河北': '1', '山西': '1', '内蒙古': '1', '辽宁': '1',
+        #         '吉林': '1', '黑龙江': '1', '江苏': '1', '浙江': '1', '安徽': '1',
+        #         '福建': '1', '江西': '1', '山东': '1', '河南': '1', '湖北': '1', '湖南': '1',
+        #         '广东': '1', '广西': '1', '海南': '1', '四川': '1', '贵州': '1',
+        #          '云南': '1', '西藏': '1', '陕西': '1', '甘肃': '1', '青海': '1', '宁夏': '1', '新疆': '1'}
+
+        data = self.db[self.name].find().skip(skip).limit(limit)
+        data = list(data)
+        count = skip
+
+        for item in data:
+            area1 = ''
+            area2 = ''
+            area = item['user_location']
+            count += 1
+            if (count % 500 == 0):
+                print(count)
+            if(re.findall('[a-z]',area)):
+                continue
+            area1 = area[:2]
+            area2 = area[:3]
+
+            if(dic.find(area1)):
+                self.update_one(item['user_page'],{'user_location':area1})
+                continue
+            if(dic.find(area2)):
+                self.update_one(item['user_page'],{'user_location':area2})
+                continue
+
+
+
+
+    def dataHandle(self):
+        self.changeTable('douban_user')
+        data = self.db[self.name].find().sort('user_fans',pymongo.DESCENDING).limit(20)
+        data = list(data)
+        for item in data:
+            print(item)
+
+    def datahandle_area(self):
+        pipeline = [
+            {'$group': {'_id': '$user_location', "count": {'$sum': 1}}},
+            {'$sort': {'count': -1}},
+            {'$limit': 40}
+        ]
+        data = self.db[self.name].aggregate(pipeline)
+        data = list(data)
+        for item in data:
+            print(item)
+
+    def datahandle_waiguo(self):
+        arry = ['北京', '上海','重庆','天津','香港','河北', '山西', '内蒙古', '辽宁', '吉林', '黑龙江', '江苏', '浙江', '安徽', '福建', '江西', '山东', '河南', '湖北', '湖南', '广东', '广西',
+               '海南', '四川', '贵州', '云南', '西藏', '陕西', '甘肃', '青海', '宁夏', '新疆']
+        pipeline = [
+            {'$match':{'user_location':{'$nin':arry}}},
+            {'$group': {'_id': '$user_location', "count": {'$sum': 1}}},
+            {'$sort': {'count': -1}},
+            {'$limit': 40}
+        ]
+        data = self.db[self.name].aggregate(pipeline)
+        data = list(data)
+        for item in data:
+            print(item)
+
 
 def run(colname, skip, limit):
     client = MongoDb('localhost', 27017, 'douban_user')
@@ -135,6 +207,10 @@ def run1(skip, limit):
     client = MongoDb('localhost', 27017, 'douban_user')
     client.filter_withcount(skip, limit)
 
+def run2(skip, limit):
+    client = MongoDb('localhost', 27017, 'douban_user')
+    client.minifyUser(skip, limit)
+
 
 def main(run_name):
     # 需要修改的三个参数
@@ -143,7 +219,7 @@ def main(run_name):
     # 未成功爬取的存到哪里
     skip = 0
     pl = []
-    for i in range(4):
+    for i in range(5):
         skipcount = skip + 10000*i
         limit = 10000
         Proc = Process(target=run_name, args=(skipcount, limit))
@@ -158,11 +234,18 @@ def main(run_name):
 
 if __name__ == '__main__':
     # main(run)
-    main(run1)
-
+    # main(run2)
     client = MongoDb('localhost', 27017, 'douban_user')
+    client.backUp('user_test')
+    # data = client.db[client.name].find({'user_location':'黑龙'})
+    # data = list(data)
+    # for item in data:
+    #     client.update_one(item['user_page'], {'user_location':'黑龙江'})
+    # # client.datahandle_area()
+    # client.dataHandle()
+    # client.fixBug()
     # client.filter_withcount(0,1)
-    client.fixBug()
+    # client.fixBug()
     # for i in range(5):
     #     print (i)
     # client.changeTable('unvisited_user')

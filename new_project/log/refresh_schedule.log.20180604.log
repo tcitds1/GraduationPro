@@ -1,0 +1,347 @@
+2018-06-04 09:03:39,269 ProxyManager.py[line:29] INFO -------------seaProxy: fetch proxy start --------
+2018-06-04 09:03:40,504 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 124.238.235.135:8000
+2018-06-04 09:03:40,504 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 118.114.77.47:8080
+2018-06-04 09:03:40,504 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 211.159.171.58:80
+2018-06-04 09:03:40,504 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 111.3.108.44:8118
+2018-06-04 09:03:40,505 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 61.234.123.16:82
+2018-06-04 09:03:40,505 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 121.10.1.181:8080
+2018-06-04 09:03:40,505 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 222.33.192.238:8118
+2018-06-04 09:03:40,505 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 124.42.7.103:80
+2018-06-04 09:03:40,505 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 121.10.1.180:8080
+2018-06-04 09:03:40,505 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 121.10.1.179:8080
+2018-06-04 09:03:40,506 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 113.140.25.4:81
+2018-06-04 09:03:40,506 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 153.35.185.71:80
+2018-06-04 09:03:40,506 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 101.53.101.172:9999
+2018-06-04 09:03:40,506 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 124.133.230.254:80
+2018-06-04 09:03:40,506 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 221.10.159.234:1337
+2018-06-04 09:03:40,506 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 117.127.0.196:80
+2018-06-04 09:03:40,506 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 117.127.0.205:8080
+2018-06-04 09:03:40,506 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 96.80.89.69:8080
+2018-06-04 09:03:40,506 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 82.209.219.118:3128
+2018-06-04 09:03:40,506 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 119.28.50.37:82
+2018-06-04 09:03:40,507 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 42.104.84.107:8080
+2018-06-04 09:03:40,507 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 139.59.152.254:3128
+2018-06-04 09:03:40,507 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 61.67.233.103:443
+2018-06-04 09:03:40,507 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 96.9.79.216:62225
+2018-06-04 09:03:40,507 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 185.85.21.6:53281
+2018-06-04 09:03:40,507 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 187.32.183.72:3128
+2018-06-04 09:03:40,507 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 87.103.234.116:3128
+2018-06-04 09:03:40,507 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 122.183.137.190:8080
+2018-06-04 09:03:40,508 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 122.183.139.109:8080
+2018-06-04 09:03:40,508 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 122.183.139.101:8080
+2018-06-04 09:03:40,508 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 122.183.139.107:8080
+2018-06-04 09:03:40,508 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 203.128.68.242:53281
+2018-06-04 09:03:40,508 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 200.13.160.125:54314
+2018-06-04 09:03:40,508 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 66.82.144.29:8080
+2018-06-04 09:03:40,508 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 47.52.231.140:8080
+2018-06-04 09:03:40,508 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 31.25.141.46:53281
+2018-06-04 09:03:40,509 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 188.244.5.229:3128
+2018-06-04 09:03:40,509 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 116.212.137.235:52335
+2018-06-04 09:03:40,509 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 136.24.133.49:52225
+2018-06-04 09:03:40,509 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 79.175.15.38:3128
+2018-06-04 09:03:40,509 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 104.236.48.178:8080
+2018-06-04 09:03:40,509 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 202.43.160.142:63909
+2018-06-04 09:03:40,510 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 218.50.2.102:8080
+2018-06-04 09:03:40,510 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 197.250.8.162:65103
+2018-06-04 09:03:40,510 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 170.84.93.130:65103
+2018-06-04 09:03:40,510 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 103.206.254.170:65103
+2018-06-04 09:03:40,510 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 203.189.141.162:65103
+2018-06-04 09:03:40,656 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:03:40 2018 start validProxy
+2018-06-04 09:03:40,662 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:03:40 2018 start validProxy
+2018-06-04 09:03:40,663 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:03:40 2018 start validProxy
+2018-06-04 09:03:40,663 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:03:40 2018 start validProxy
+2018-06-04 09:03:40,677 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:03:40 2018 start validProxy
+2018-06-04 09:03:40,678 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:03:40 2018 start validProxy
+2018-06-04 09:03:40,678 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:03:40 2018 start validProxy
+2018-06-04 09:03:40,679 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:03:40 2018 start validProxy
+2018-06-04 09:03:40,679 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:03:40 2018 start validProxy
+2018-06-04 09:03:40,698 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:03:40 2018 start validProxy
+2018-06-04 09:03:40,809 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 153.35.185.71:80 validation fail
+2018-06-04 09:03:40,854 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 111.3.108.44:8118 validation fail
+2018-06-04 09:03:41,276 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 118.114.77.47:8080 validation pass
+2018-06-04 09:03:41,363 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 117.127.0.196:80 validation pass
+2018-06-04 09:03:41,385 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 124.133.230.254:80 validation pass
+2018-06-04 09:03:41,406 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 117.127.0.205:8080 validation pass
+2018-06-04 09:03:41,424 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 124.238.235.135:8000 validation pass
+2018-06-04 09:03:41,548 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 66.82.144.29:8080 validation pass
+2018-06-04 09:03:42,468 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 79.175.15.38:3128 validation pass
+2018-06-04 09:03:42,589 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 122.183.139.109:8080 validation pass
+2018-06-04 09:03:42,611 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 31.25.141.46:53281 validation pass
+2018-06-04 09:03:42,617 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 136.24.133.49:52225 validation pass
+2018-06-04 09:03:43,292 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 188.244.5.229:3128 validation fail
+2018-06-04 09:03:44,228 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 185.85.21.6:53281 validation pass
+2018-06-04 09:03:47,008 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 222.33.192.238:8118 validation pass
+2018-06-04 09:03:47,535 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 119.28.50.37:82 validation pass
+2018-06-04 09:03:48,899 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 101.53.101.172:9999 validation pass
+2018-06-04 09:03:49,851 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 203.128.68.242:53281 validation pass
+2018-06-04 09:03:50,688 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 96.9.79.216:62225 validation fail
+2018-06-04 09:03:50,859 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 200.13.160.125:54314 validation fail
+2018-06-04 09:03:51,366 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 124.42.7.103:80 validation fail
+2018-06-04 09:03:51,410 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 170.84.93.130:65103 validation fail
+2018-06-04 09:03:51,432 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 113.140.25.4:81 validation fail
+2018-06-04 09:03:52,303 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 187.32.183.72:3128 validation pass
+2018-06-04 09:03:52,472 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 47.52.231.140:8080 validation fail
+2018-06-04 09:03:52,778 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 42.104.84.107:8080 validation pass
+2018-06-04 09:03:54,240 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 82.209.219.118:3128 validation pass
+2018-06-04 09:03:55,096 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 221.10.159.234:1337 validation fail
+2018-06-04 09:03:55,643 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 121.10.1.180:8080 validation fail
+2018-06-04 09:03:55,712 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 202.43.160.142:63909 validation pass
+2018-06-04 09:03:55,955 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 103.206.254.170:65103 validation pass
+2018-06-04 09:03:56,968 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 116.212.137.235:52335 validation pass
+2018-06-04 09:03:57,321 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 61.67.233.103:443 validation fail
+2018-06-04 09:03:58,262 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 122.183.139.107:8080 validation pass
+2018-06-04 09:03:58,903 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 96.80.89.69:8080 validation fail
+2018-06-04 09:03:59,249 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 87.103.234.116:3128 validation fail
+2018-06-04 09:03:59,337 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 203.189.141.162:65103 validation pass
+2018-06-04 09:03:59,803 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 104.236.48.178:8080 validation fail
+2018-06-04 09:03:59,805 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:03:59 2018 validProxy complete
+2018-06-04 09:04:01,415 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 121.10.1.181:8080 validation fail
+2018-06-04 09:04:01,417 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:04:01 2018 validProxy complete
+2018-06-04 09:04:01,722 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 122.183.139.101:8080 validation pass
+2018-06-04 09:04:01,733 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:04:01 2018 validProxy complete
+2018-06-04 09:04:02,308 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 121.10.1.179:8080 validation fail
+2018-06-04 09:04:02,311 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:04:02 2018 validProxy complete
+2018-06-04 09:04:02,833 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 61.234.123.16:82 validation fail
+2018-06-04 09:04:02,834 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:04:02 2018 validProxy complete
+2018-06-04 09:04:04,245 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 139.59.152.254:3128 validation fail
+2018-06-04 09:04:04,247 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:04:04 2018 validProxy complete
+2018-06-04 09:04:08,298 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 211.159.171.58:80 validation fail
+2018-06-04 09:04:08,300 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:04:08 2018 validProxy complete
+2018-06-04 09:04:08,908 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 122.183.137.190:8080 validation fail
+2018-06-04 09:04:08,910 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:04:08 2018 validProxy complete
+2018-06-04 09:04:09,253 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 218.50.2.102:8080 validation fail
+2018-06-04 09:04:09,254 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:04:09 2018 validProxy complete
+2018-06-04 09:04:11,230 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 197.250.8.162:65103 validation pass
+2018-06-04 09:04:11,232 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:04:11 2018 validProxy complete
+2018-06-04 09:04:17,379 ProxyManager.py[line:29] INFO -------------seaProxy: fetch proxy start --------
+2018-06-04 09:12:03,244 ProxyManager.py[line:29] INFO -------------fastProxy: fetch proxy start --------
+2018-06-04 09:13:07,140 ProxyManager.py[line:29] INFO -------------cloudProxy: fetch proxy start --------
+2018-06-04 09:13:07,305 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 222.185.160.115:6666
+2018-06-04 09:13:07,307 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 104.129.42.241:80
+2018-06-04 09:13:07,308 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 103.74.246.195:65301
+2018-06-04 09:13:07,358 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 223.245.46.228:63909
+2018-06-04 09:13:07,360 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 27.40.139.167:61234
+2018-06-04 09:13:07,361 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 123.206.14.34:80
+2018-06-04 09:13:07,362 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 47.52.238.112:8118
+2018-06-04 09:13:07,363 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 23.100.4.174:3128
+2018-06-04 09:13:07,364 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 36.48.39.142:8118
+2018-06-04 09:13:07,365 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 223.145.231.230:6666
+2018-06-04 09:13:07,365 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 49.79.193.187:61234
+2018-06-04 09:13:07,367 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 42.55.254.214:1133
+2018-06-04 09:13:07,367 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 27.40.156.119:61234
+2018-06-04 09:13:07,368 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 27.40.156.119:61234
+2018-06-04 09:13:07,370 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 59.66.12.8:8123
+2018-06-04 09:13:07,421 ProxyManager.py[line:29] INFO -------------seaProxy: fetch proxy start --------
+2018-06-04 09:13:23,359 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 124.238.235.135:8000
+2018-06-04 09:13:23,359 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 118.114.77.47:8080
+2018-06-04 09:13:23,361 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 211.159.171.58:80
+2018-06-04 09:13:23,362 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 111.3.108.44:8118
+2018-06-04 09:13:23,363 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 61.234.123.16:82
+2018-06-04 09:13:23,364 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 121.10.1.181:8080
+2018-06-04 09:13:23,366 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 222.33.192.238:8118
+2018-06-04 09:13:23,367 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 124.42.7.103:80
+2018-06-04 09:13:23,368 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 121.10.1.180:8080
+2018-06-04 09:13:23,369 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 121.10.1.179:8080
+2018-06-04 09:13:23,370 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 113.140.25.4:81
+2018-06-04 09:13:23,371 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 153.35.185.71:80
+2018-06-04 09:13:23,371 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 101.53.101.172:9999
+2018-06-04 09:13:23,373 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 124.133.230.254:80
+2018-06-04 09:13:23,374 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 221.10.159.234:1337
+2018-06-04 09:13:23,375 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 117.127.0.196:80
+2018-06-04 09:13:23,375 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 117.127.0.205:8080
+2018-06-04 09:13:23,376 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 39.137.69.8:8080
+2018-06-04 09:13:23,376 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 39.137.69.6:8080
+2018-06-04 09:13:23,376 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 106.104.12.222:80
+2018-06-04 09:13:23,377 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 103.241.205.66:8080
+2018-06-04 09:13:23,378 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 96.80.89.69:8080
+2018-06-04 09:13:23,379 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 82.209.219.118:3128
+2018-06-04 09:13:23,379 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 119.28.50.37:82
+2018-06-04 09:13:23,380 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 42.104.84.107:8080
+2018-06-04 09:13:23,380 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 139.59.152.254:3128
+2018-06-04 09:13:23,381 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 61.67.233.103:443
+2018-06-04 09:13:23,381 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 96.9.79.216:62225
+2018-06-04 09:13:23,382 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 185.85.21.6:53281
+2018-06-04 09:13:23,383 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 187.32.183.72:3128
+2018-06-04 09:13:23,386 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 87.103.234.116:3128
+2018-06-04 09:13:23,387 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 122.183.137.190:8080
+2018-06-04 09:13:23,389 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 122.183.139.109:8080
+2018-06-04 09:13:23,390 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 122.183.139.107:8080
+2018-06-04 09:13:23,390 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 122.183.139.101:8080
+2018-06-04 09:13:23,390 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 203.128.68.242:53281
+2018-06-04 09:13:23,390 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 200.13.160.125:54314
+2018-06-04 09:13:23,391 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 66.82.144.29:8080
+2018-06-04 09:13:23,392 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 47.52.231.140:8080
+2018-06-04 09:13:23,392 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 31.25.141.46:53281
+2018-06-04 09:13:23,393 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 188.244.5.229:3128
+2018-06-04 09:13:23,393 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 116.212.137.235:52335
+2018-06-04 09:13:23,394 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 136.24.133.49:52225
+2018-06-04 09:13:23,395 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 79.175.15.38:3128
+2018-06-04 09:13:23,395 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 104.236.48.178:8080
+2018-06-04 09:13:23,395 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 202.43.160.142:63909
+2018-06-04 09:13:23,396 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 218.50.2.102:8080
+2018-06-04 09:13:23,522 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:23 2018 start validProxy
+2018-06-04 09:13:23,522 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:23 2018 start validProxy
+2018-06-04 09:13:23,523 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:23 2018 start validProxy
+2018-06-04 09:13:23,524 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:23 2018 start validProxy
+2018-06-04 09:13:23,574 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:23 2018 start validProxy
+2018-06-04 09:13:23,574 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:23 2018 start validProxy
+2018-06-04 09:13:23,574 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:23 2018 start validProxy
+2018-06-04 09:13:23,574 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:23 2018 start validProxy
+2018-06-04 09:13:23,574 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:23 2018 start validProxy
+2018-06-04 09:13:23,574 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:23 2018 start validProxy
+2018-06-04 09:13:24,279 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 104.129.42.241:80 validation pass
+2018-06-04 09:13:24,285 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 104.129.42.241:80 validation pass
+2018-06-04 09:13:24,287 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 104.129.42.241:80 validation pass
+2018-06-04 09:13:24,394 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 27.40.156.119:61234 validation fail
+2018-06-04 09:13:25,479 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 188.244.5.229:3128 validation pass
+2018-06-04 09:13:33,533 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 23.100.4.174:3128 validation fail
+2018-06-04 09:13:33,536 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 23.100.4.174:3128 validation fail
+2018-06-04 09:13:33,539 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 200.13.160.125:54314 validation fail
+2018-06-04 09:13:33,559 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 113.140.25.4:81 validation fail
+2018-06-04 09:13:33,587 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 211.159.171.58:80 validation fail
+2018-06-04 09:13:33,587 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 61.234.123.16:82 validation fail
+2018-06-04 09:13:33,588 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 96.80.89.69:8080 validation fail
+2018-06-04 09:13:33,614 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 49.79.193.187:61234 validation fail
+2018-06-04 09:13:33,804 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 27.40.139.167:61234 validation fail
+2018-06-04 09:13:33,809 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 27.40.139.167:61234 validation fail
+2018-06-04 09:13:34,019 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 104.236.48.178:8080 validation fail
+2018-06-04 09:13:34,205 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 153.35.185.71:80 validation fail
+2018-06-04 09:13:34,234 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 39.137.69.6:8080 validation pass
+2018-06-04 09:13:34,279 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 111.3.108.44:8118 validation fail
+2018-06-04 09:13:34,286 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 47.52.231.140:8080 validation fail
+2018-06-04 09:13:34,401 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 121.10.1.179:8080 validation fail
+2018-06-04 09:13:34,671 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 221.10.159.234:1337 validation pass
+2018-06-04 09:13:34,968 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 106.104.12.222:80 validation fail
+2018-06-04 09:13:35,042 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 87.103.234.116:3128 validation pass
+2018-06-04 09:13:35,367 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 103.241.205.66:8080 validation pass
+2018-06-04 09:13:35,485 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 223.145.231.230:6666 validation fail
+2018-06-04 09:13:37,485 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 39.137.69.8:8080 validation pass
+2018-06-04 09:13:38,287 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 47.52.238.112:8118 validation fail
+2018-06-04 09:13:39,376 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 36.48.39.142:8118 validation fail
+2018-06-04 09:13:41,030 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 61.67.233.103:443 validation fail
+2018-06-04 09:13:42,108 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 124.42.7.103:80 validation pass
+2018-06-04 09:13:43,542 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 218.50.2.102:8080 validation fail
+2018-06-04 09:13:43,597 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 121.10.1.180:8080 validation fail
+2018-06-04 09:13:44,282 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 123.206.14.34:80 validation fail
+2018-06-04 09:13:44,284 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:44 2018 validProxy complete
+2018-06-04 09:13:44,405 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 223.245.46.228:63909 validation fail
+2018-06-04 09:13:44,407 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:44 2018 validProxy complete
+2018-06-04 09:13:44,820 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 96.9.79.216:62225 validation pass
+2018-06-04 09:13:44,821 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:44 2018 validProxy complete
+2018-06-04 09:13:44,972 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 103.74.246.195:65301 validation fail
+2018-06-04 09:13:44,974 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:44 2018 validProxy complete
+2018-06-04 09:13:45,046 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 222.185.160.115:6666 validation fail
+2018-06-04 09:13:45,048 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:45 2018 validProxy complete
+2018-06-04 09:13:45,371 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 122.183.137.190:8080 validation fail
+2018-06-04 09:13:45,373 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:45 2018 validProxy complete
+2018-06-04 09:13:51,036 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 59.66.12.8:8123 validation fail
+2018-06-04 09:13:51,038 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:51 2018 validProxy complete
+2018-06-04 09:13:52,111 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 139.59.152.254:3128 validation fail
+2018-06-04 09:13:52,113 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:52 2018 validProxy complete
+2018-06-04 09:13:52,839 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 121.10.1.181:8080 validation fail
+2018-06-04 09:13:52,842 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:52 2018 validProxy complete
+2018-06-04 09:13:53,548 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 42.55.254.214:1133 validation fail
+2018-06-04 09:13:53,551 ProxyRefreshSchedule.py[line:50] INFO ProxyRefreshSchedule: Mon Jun  4 09:13:53 2018 validProxy complete
+2018-06-04 09:36:32,069 ProxyManager.py[line:29] INFO -------------cloudProxy: fetch proxy start --------
+2018-06-04 09:36:32,189 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 222.185.160.35:6666
+2018-06-04 09:36:32,189 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 222.185.160.115:6666
+2018-06-04 09:36:32,189 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 104.129.42.241:80
+2018-06-04 09:36:32,189 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 103.74.246.195:65301
+2018-06-04 09:36:32,189 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 223.245.46.228:63909
+2018-06-04 09:36:32,189 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 27.40.139.167:61234
+2018-06-04 09:36:32,189 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 123.206.14.34:80
+2018-06-04 09:36:32,189 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 47.52.238.112:8118
+2018-06-04 09:36:32,189 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 23.100.4.174:3128
+2018-06-04 09:36:32,189 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 36.48.39.142:8118
+2018-06-04 09:36:32,190 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 223.145.231.230:6666
+2018-06-04 09:36:32,190 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 49.79.193.187:61234
+2018-06-04 09:36:32,190 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 42.55.254.214:1133
+2018-06-04 09:36:32,190 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 27.40.156.119:61234
+2018-06-04 09:36:32,190 ProxyManager.py[line:37] INFO cloudProxy: fetch proxy 27.40.156.119:61234
+2018-06-04 09:36:32,261 ProxyManager.py[line:29] INFO -------------seaProxy: fetch proxy start --------
+2018-06-04 09:36:33,165 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 124.238.235.135:8000
+2018-06-04 09:36:33,165 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 118.114.77.47:8080
+2018-06-04 09:36:33,165 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 211.159.171.58:80
+2018-06-04 09:36:33,165 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 111.3.108.44:8118
+2018-06-04 09:36:33,165 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 61.234.123.16:82
+2018-06-04 09:36:33,165 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 121.10.1.181:8080
+2018-06-04 09:36:33,166 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 222.33.192.238:8118
+2018-06-04 09:36:33,166 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 124.42.7.103:80
+2018-06-04 09:36:33,166 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 121.10.1.180:8080
+2018-06-04 09:36:33,166 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 121.10.1.179:8080
+2018-06-04 09:36:33,166 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 113.140.25.4:81
+2018-06-04 09:36:33,166 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 153.35.185.71:80
+2018-06-04 09:36:33,166 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 101.53.101.172:9999
+2018-06-04 09:36:33,166 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 124.133.230.254:80
+2018-06-04 09:36:33,166 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 221.10.159.234:1337
+2018-06-04 09:36:33,166 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 117.127.0.196:80
+2018-06-04 09:36:33,166 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 117.127.0.205:8080
+2018-06-04 09:36:33,166 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 39.137.69.8:8080
+2018-06-04 09:36:33,167 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 39.137.69.6:8080
+2018-06-04 09:36:33,167 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 106.104.12.222:80
+2018-06-04 09:36:33,167 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 103.241.205.66:8080
+2018-06-04 09:36:33,167 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 96.80.89.69:8080
+2018-06-04 09:36:33,167 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 82.209.219.118:3128
+2018-06-04 09:36:33,167 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 119.28.50.37:82
+2018-06-04 09:36:33,167 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 42.104.84.107:8080
+2018-06-04 09:36:33,167 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 139.59.152.254:3128
+2018-06-04 09:36:33,167 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 61.67.233.103:443
+2018-06-04 09:36:33,167 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 96.9.79.216:62225
+2018-06-04 09:36:33,167 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 185.85.21.6:53281
+2018-06-04 09:36:33,168 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 187.32.183.72:3128
+2018-06-04 09:36:33,168 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 87.103.234.116:3128
+2018-06-04 09:36:33,168 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 122.183.137.190:8080
+2018-06-04 09:36:33,168 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 122.183.139.109:8080
+2018-06-04 09:36:33,168 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 122.183.139.107:8080
+2018-06-04 09:36:33,168 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 122.183.139.101:8080
+2018-06-04 09:36:33,168 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 203.128.68.242:53281
+2018-06-04 09:36:33,168 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 200.13.160.125:54314
+2018-06-04 09:36:33,168 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 66.82.144.29:8080
+2018-06-04 09:36:33,169 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 47.52.231.140:8080
+2018-06-04 09:36:33,169 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 31.25.141.46:53281
+2018-06-04 09:36:33,169 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 188.244.5.229:3128
+2018-06-04 09:36:33,169 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 116.212.137.235:52335
+2018-06-04 09:36:33,169 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 136.24.133.49:52225
+2018-06-04 09:36:33,169 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 79.175.15.38:3128
+2018-06-04 09:36:33,169 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 104.236.48.178:8080
+2018-06-04 09:36:33,169 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 202.43.160.142:63909
+2018-06-04 09:36:33,170 ProxyManager.py[line:37] INFO seaProxy: fetch proxy 218.50.2.102:8080
+2018-06-04 09:36:33,273 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:36:33 2018 start validProxy
+2018-06-04 09:36:33,273 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:36:33 2018 start validProxy
+2018-06-04 09:36:33,277 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:36:33 2018 start validProxy
+2018-06-04 09:36:33,282 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:36:33 2018 start validProxy
+2018-06-04 09:36:33,285 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:36:33 2018 start validProxy
+2018-06-04 09:36:33,291 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:36:33 2018 start validProxy
+2018-06-04 09:36:33,320 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:36:33 2018 start validProxy
+2018-06-04 09:36:33,321 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:36:33 2018 start validProxy
+2018-06-04 09:36:33,322 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:36:33 2018 start validProxy
+2018-06-04 09:36:33,322 ProxyRefreshSchedule.py[line:32] INFO ProxyRefreshSchedule: Mon Jun  4 09:36:33 2018 start validProxy
+2018-06-04 09:36:33,889 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 117.127.0.196:80 validation pass
+2018-06-04 09:36:34,064 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 87.103.234.116:3128 validation pass
+2018-06-04 09:36:34,359 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 222.185.160.35:6666 validation fail
+2018-06-04 09:36:34,654 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 118.114.77.47:8080 validation pass
+2018-06-04 09:36:34,917 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 202.43.160.142:63909 validation pass
+2018-06-04 09:36:34,928 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 61.67.233.103:443 validation fail
+2018-06-04 09:36:36,007 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 222.185.160.115:6666 validation fail
+2018-06-04 09:36:36,092 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 101.53.101.172:9999 validation pass
+2018-06-04 09:36:36,187 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 185.85.21.6:53281 validation pass
+2018-06-04 09:36:36,782 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 124.238.235.135:8000 validation pass
+2018-06-04 09:36:36,798 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 124.133.230.254:80 validation pass
+2018-06-04 09:36:37,448 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 122.183.137.190:8080 validation pass
+2018-06-04 09:36:38,743 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 122.183.139.107:8080 validation pass
+2018-06-04 09:36:39,841 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 104.236.48.178:8080 validation pass
+2018-06-04 09:36:40,859 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 103.74.246.195:65301 validation pass
+2018-06-04 09:36:40,967 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 27.40.139.167:61234 validation fail
+2018-06-04 09:36:41,537 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 119.28.50.37:82 validation pass
+2018-06-04 09:36:43,280 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 200.13.160.125:54314 validation fail
+2018-06-04 09:36:43,291 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 47.52.231.140:8080 validation fail
+2018-06-04 09:36:43,700 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 122.183.139.101:8080 validation pass
+2018-06-04 09:36:43,734 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 42.104.84.107:8080 validation pass
+2018-06-04 09:36:43,893 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 121.10.1.181:8080 validation fail
+2018-06-04 09:36:44,362 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 96.80.89.69:8080 validation fail
+2018-06-04 09:36:45,230 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 222.33.192.238:8118 validation pass
+2018-06-04 09:36:45,312 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 27.40.156.119:61234 validation fail
+2018-06-04 09:36:45,468 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 188.244.5.229:3128 validation pass
+2018-06-04 09:36:45,869 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 117.127.0.205:8080 validation pass
+2018-06-04 09:36:46,757 ProxyRefreshSchedule.py[line:44] INFO ProxyRefreshSchedule: 79.175.15.38:3128 validation pass
+2018-06-04 09:36:46,786 ProxyRefreshSchedule.py[line:46] INFO ProxyRefreshSchedule: 96.9.79.216:62225 validation fail

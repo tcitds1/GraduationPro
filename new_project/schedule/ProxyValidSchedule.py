@@ -40,11 +40,11 @@ class ProxyValidSchedule(ProxyManager, object):
         self.putQueue()
         while True:
             if not self.queue.empty():
-                self.log.info("Start valid useful proxy")
+                self.log.info("验证可用代理池进程开始")
                 self.__validProxy()
 
             else:
-                self.log.info('Valid Complete! sleep 40 seconds.')
+                self.log.info('验证可用代理池进程结束，等待40s后重新验证')
                 time.sleep(40)
                 self.putQueue()
 

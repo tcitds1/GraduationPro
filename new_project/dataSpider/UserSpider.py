@@ -21,7 +21,7 @@ from threading import Thread
 class UserSpider():
 
     def __init__(self, type):
-        self.log = LogHandler('getUerUrl',file=False)
+        self.log = LogHandler('user_spider',file=False)
         # self.db = MongoDb('localhost', 27017, 'douban_user')
         self.db = MongoDb('localhost', 27017, 'douban_user')
         self.webRequests = WebRequests(type)
@@ -248,7 +248,6 @@ class UserSpider():
         self.log.info('UserSpider : {}--{}-{}评论-第{}页数据已爬取，存入{}条用户数据----'.format(time.ctime(), from_, marks ,start, count))
 
 
-
     def analyse_user_page(self, user_data):
         url = user_data['user_page']
 
@@ -346,7 +345,7 @@ class UserSpider():
         self.log.info('UserSpider : {}--用户{}--数据爬取成功，更新[douban_user]数据表---------'.format(time.ctime(), url.replace('https://www.douban.com/people/','')))
 
 def run():
-    print('进程已开始')
+    print('获取用户url进程已开始')
     db = MongoDbMovie('localhost', 27017)
     db.changeTable('movie_backup')
     data = db.pop()
@@ -354,22 +353,19 @@ def run():
     while data:
         us.spider_movie_comment(data['movie_id'])
         data = db.pop()
-    print('进程已经结束')
-
-
+    print('获取用户url进程已经结束')
 
 def run1():
     # 爬取用户数据进程
     print('爬取用户数据进程已开始')
-    us = UserSpider()
-    db = MongoDb('localhost', 27017, 'wait_user')
-    # # db.changeTable('user_backup')
-    # db.changeTable('user_backup')
+    us = UserSpider('user')
+    db = MongoDb('localhost', 27017, 'user_test1')
+
     data = db.pop()
     while data:
         us.analyse_user_page(data)
         data = db.pop()
-    print('进程已经结束')
+    print('爬取用户数据进程已经结束')
 
 def main(run_name):
     # 需要修改的三个参数
@@ -377,7 +373,7 @@ def main(run_name):
     # 存入哪里 在analyse里面修改
     # 未成功爬取的存到哪里
     pl = []
-    for i in range(10):
+    for i in range(5):
         Proc = Process(target=run_name)
         pl.append(Proc)
 
@@ -389,7 +385,7 @@ def main(run_name):
         item.join()
 
 if __name__ == '__main__':
-    main(run)
+    main(run1)
 
     # main(run)
     # main()

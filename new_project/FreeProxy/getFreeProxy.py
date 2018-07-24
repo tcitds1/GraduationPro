@@ -66,7 +66,7 @@ class GetFreeProxy(object):
         #                 {"port": "30917", "ip": "115.215.56.150"},
         #                 {"port": "28380", "ip": "117.69.97.134"}]
         #     }
-        url = 'http://piping.mogumiao.com/proxy/api/get_ip_bs?appKey=e207185fe2a04b6a95a4f185860022f1&count=10&expiryDate=0&format=1&newLine=2'
+        url = 'http://piping.mogumiao.com/proxy/api/get_ip_bs?appKey=744676010f8148a3a2890a184b0f013e&count=10&expiryDate=0&format=1&newLine=2'
         data = requests.get(url=url).json()
         while True:
             if(data['code']=='3001'):

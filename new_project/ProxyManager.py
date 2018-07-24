@@ -20,13 +20,12 @@ class ProxyManager(object):
         :return:
         """
         methods = self.freeProxyMethods
-        print(methods)
 
         for proxyGetter in methods:
             # fetch
             proxy_set = set()
             try:
-                self.log.info("-------------{func}: fetch proxy start --------".format(func=proxyGetter))
+                self.log.info("-------------{func}: 获取代理IP爬虫进程开启 --------".format(func=proxyGetter))
                 proxy_iter = [_ for _ in getattr(GetFreeProxy, proxyGetter.strip())()]
             except Exception as e:
                 self.log.error("{func}: fetch proxy fail".format(func=proxyGetter))

@@ -29,7 +29,7 @@ class ProxyRefreshSchedule(ProxyManager):
         """
         self.db.changeTable(self.raw_proxy_queue)
         raw_proxy_item = self.db.pop()
-        self.log.info('ProxyRefreshSchedule: %s start validProxy' % time.ctime())
+        self.log.info('ProxyRefreshSchedule: %s 开启验证线程' % time.ctime())
         # 计算剩余代理，用来减少重复计算
         remaining_proxies = self.getAll()
         while raw_proxy_item:
@@ -47,13 +47,13 @@ class ProxyRefreshSchedule(ProxyManager):
             self.db.changeTable(self.raw_proxy_queue)
             raw_proxy_item = self.db.pop()
             remaining_proxies = self.getAll()
-        self.log.info('ProxyRefreshSchedule: %s validProxy complete' % time.ctime())
+        self.log.info('ProxyRefreshSchedule: %s 当前线程验证完毕' % time.ctime())
 
 def refreshPool():
     pp = ProxyRefreshSchedule()
     pp.validProxy()
 
-def main(process_num=10):
+def main(process_num=5):
     p = ProxyRefreshSchedule()
     # 获取新代理
     p.refresh()
@@ -74,10 +74,11 @@ def main(process_num=10):
 
     for num in range(process_num):
         pl[num].join()
+    print('当前代理IP爬取进程结束，请等待下一次爬取')
 def run():
     main()
     sch = BlockingScheduler()
-    sch.add_job(main, 'interval', seconds=4)  # 每5s抓取一次
+    sch.add_job(main, 'interval', seconds=6)  # 每5s抓取一次
     sch.start()
 
 if __name__ == '__main__':
